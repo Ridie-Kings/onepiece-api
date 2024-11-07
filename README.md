@@ -129,5 +129,13 @@ If you'd like to contribute to the project, please follow these steps:
 5. Push the changes: `git push origin feature/my-new-feature`
 6. Open a Pull Request for review.
 
+## Authors
+
+- **Fran Salvatierra** - *Lead Developer* - [Ridie-Kings](https://github.com/Ridie-Kings)
+- **Juanan** - *Backend Developer* - [juanandub](https://github.com/juanandub)
+
+See also the list of [contributors](https://github.com/Ridie-Kings/onepiece-api/contributors) who participated in this project.
+
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
