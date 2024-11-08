@@ -1,8 +1,8 @@
 import express from "express";
-import charactersRoutes from './src/routes/charactersRoutes.js';
+import apiRoutes from './src/routes/apiRoutes.js';
 
 const app = express();
 
 app.use(express.json());
-app.use('/api/', charactersRoutes);
+app.use('/api/', apiRoutes);
 export default app;
