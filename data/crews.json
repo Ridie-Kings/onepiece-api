@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Straw Hat Pirates",
+      "captain": "Monkey D. Luffy",
+      "ship": "Thousand Sunny",
+      "description": "Piratas liderados por Luffy, famosos por sus aventuras y su búsqueda del One Piece."
+    },
+    {
+      "id": 2,
+      "name": "Red-Haired Pirates",
+      "captain": "Shanks",
+      "ship": "Red Force",
+      "description": "Tripulación liderada por Shanks, uno de los Cuatro Emperadores."
+    }
+]
+  

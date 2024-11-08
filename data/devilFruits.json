@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "name": "Hito Hito no Mi, Model: Nika",
+        "type": "Mythical Zoan",
+        "description": "Allows the user to gain elastic and unique abilities."
+    },
+    {
+        "id": 2,
+        "name": "Gomu Gomu no Mi",
+        "type": "Paramecia",
+        "description": "Grants the user a rubber body."
+    }
+  ]
+  

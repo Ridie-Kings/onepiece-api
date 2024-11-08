@@ -1,0 +1,14 @@
+[
+    { "id": 1, "name": "Human" },
+    { "id": 2, "name": "Gyojin" },
+    { "id": 3, "name": "Giant" },
+    { "id": 4, "name": "Mink" },
+    { "id": 5, "name": "Skypiean" },
+    { "id": 6, "name": "Lunarian" },
+    { "id": 7, "name": "Tontatta" },    
+    { "id": 8, "name": "Kuja" },
+    { "id": 9, "name": "Longarm Tribe" },
+    { "id": 10, "name": "Longleg Tribe" },
+    { "id": 11, "name": "Three-Eye Tribe" },
+    { "id": 12, "name": "Snake Neck Tribe" }
+]

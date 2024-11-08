@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "East Blue",
+      "description": "Conocido por ser una región pacífica en el mundo de One Piece.",
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 2,
+      "name": "Shimotsuki Village",
+      "description": "Lugar de origen de Roronoa Zoro, conocido por sus espadachines.",
+      "image": "http://imagenorigenzoro.webp"
+    }
+]
+  

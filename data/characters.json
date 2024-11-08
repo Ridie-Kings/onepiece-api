@@ -2,14 +2,24 @@
   {
     "id": 1,
     "name": "Monkey D. Luffy",
-    "race": "Human",
-    "gender": "Male",
+    "race": {
+      "id": 1,
+      "name": "Human"
+    },
+    "gender": {
+      "id": 1,
+      "name": "Male"
+    },
     "bounty": "1,500,000,000",
     "crew": {
       "id": 1,
-      "name": "Straw Hat Pirates"
+      "name": "Straw Hat Pirates",
+      "captain": "Monkey D. Luffy",
+      "ship": "Thousand Sunny",
+      "description": "The Straw Hat Pirates are a group of pirates led by Monkey D. Luffy. They are known for their adventures and their quest to find the One Piece."
     },
     "devil_fruit": {
+      "id": 1,
       "name": "Hito Hito no Mi, Model: Nika",
       "type": "Mythical Zoan"
     },
@@ -206,5 +216,193 @@
             "image": "http://imagenkabuto.webp"
         }
     ]
+  },
+  {
+    "id": 5,
+    "name": "Usopp",
+    "race": "Human",
+    "gender": "Male",
+    "bounty": "500,000,000",
+    "crew": {
+      "id": 1,
+      "name": "Straw Hat Pirates"
+    },
+    "devil_fruit": null,
+    "haki": ["Observation"],
+    "description": "El francotirador de los Piratas del Sombrero de Paja, conocido por su puntería y valentía.",
+    "image": "http://imagenusopp.webp",
+    "alive": true,
+    "origin": {
+      "id": 105,
+      "name": "Syrup Village",
+      "isAffiliated": false,
+      "isDestroyed": false,
+      "description": "Lugar de origen de Usopp, un pueblo pacífico.",
+      "image": "http://imagenorigenusopp.webp"
+    },
+    "transformations": [],
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Kabuto",
+        "description": "Tirachinas gigante que utiliza para lanzar proyectiles especiales.",
+        "image": "http://imagenkabuto.webp"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tony Tony Chopper",
+    "race": "Reindeer",
+    "gender": "Male",
+    "bounty": "1,000",
+    "crew": {
+      "id": 1,
+      "name": "Straw Hat Pirates"
+    },
+    "devil_fruit": {
+      "name": "Hito Hito no Mi",
+      "type": "Zoan"
+    },
+    "haki": [],
+    "description": "El doctor de los Piratas del Sombrero de Paja, es un reno que comió la Hito Hito no Mi, otorgándole habilidades humanas.",
+    "image": "http://imagenchopper.webp",
+    "alive": true,
+    "origin": {
+      "id": 106,
+      "name": "Drum Island",
+      "isAffiliated": false,
+      "isDestroyed": false,
+      "description": "Una isla nevada conocida por su medicina avanzada.",
+      "image": "http://imagenorigenchopper.webp"
+    },
+    "transformations": [
+      {
+        "id": 1,
+        "name": "Heavy Point",
+        "description": "Transformación que aumenta el tamaño y la fuerza de Chopper.",
+        "image": "http://imagenheavypoint.webp"
+      },
+      {
+        "id": 2,
+        "name": "Monster Point",
+        "description": "Transformación gigante que le otorga una fuerza increíble.",
+        "image": "http://imagenmonsterpoint.webp"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Nico Robin",
+    "race": "Human",
+    "gender": "Female",
+    "bounty": "930,000,000",
+    "crew": {
+      "id": 1,
+      "name": "Straw Hat Pirates"
+    },
+    "devil_fruit": {
+      "name": "Hana Hana no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "description": "La arqueóloga de los Piratas del Sombrero de Paja, capaz de hacer florecer partes de su cuerpo en cualquier superficie.",
+    "image": "http://imagenrobin.webp",
+    "alive": true,
+    "origin": {
+      "id": 107,
+      "name": "Ohara",
+      "isAffiliated": false,
+      "isDestroyed": true,
+      "description": "Lugar destruido por el Gobierno Mundial debido a sus estudios de los Poneglyphs.",
+      "image": "http://imagenorigenrobin.webp"
+    },
+    "transformations": []
+  },
+  {
+    "id": 8,
+    "name": "Franky",
+    "race": "Cyborg",
+    "gender": "Male",
+    "bounty": "394,000,000",
+    "crew": {
+      "id": 1,
+      "name": "Straw Hat Pirates"
+    },
+    "devil_fruit": null,
+    "haki": [],
+    "description": "El carpintero de los Piratas del Sombrero de Paja, un cyborg con habilidades mecánicas increíbles.",
+    "image": "http://imagenfranky.webp",
+    "alive": true,
+    "origin": {
+      "id": 108,
+      "name": "Water 7",
+      "isAffiliated": true,
+      "isDestroyed": false,
+      "description": "Una ciudad conocida por sus astilleros y constructores navales.",
+      "image": "http://imagenorigenfranky.webp"
+    },
+    "transformations": [],
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Franky Shogun",
+        "description": "Un mecha gigante creado por Franky.",
+        "image": "http://imagenfrankyshogun.webp"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Brook",
+    "race": "Skeleton",
+    "gender": "Male",
+    "bounty": "383,000,000",
+    "crew": {
+      "id": 1,
+      "name": "Straw Hat Pirates"
+    },
+    "devil_fruit": {
+      "name": "Yomi Yomi no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "description": "El músico de los Piratas del Sombrero de Paja, resucitado gracias a su Fruta del Diablo.",
+    "image": "http://imagenbrook.webp",
+    "alive": true,
+    "origin": {
+      "id": 109,
+      "name": "West Blue",
+      "isAffiliated": false,
+      "isDestroyed": false,
+      "description": "Región de origen de Brook.",
+      "image": "http://imagenorigenbrook.webp"
+    },
+    "transformations": []
+  },
+  {
+    "id": 10,
+    "name": "Jinbe",
+    "race": "Gyojin",
+    "gender": "Male",
+    "bounty": "1,100,000,000",
+    "crew": {
+      "id": 1,
+      "name": "Straw Hat Pirates"
+    },
+    "devil_fruit": null,
+    "haki": ["Armament", "Observation"],
+    "description": "El timonel de los Piratas del Sombrero de Paja y un maestro del Fishman Karate.",
+    "image": "http://imagenjinbe.webp",
+    "alive": true,
+    "origin": {
+      "id": 110,
+      "name": "Fishman Island",
+      "isAffiliated": true,
+      "isDestroyed": false,
+      "description": "Una isla submarina habitada por hombres pez.",
+      "image": "http://imagenorigenjinbe.webp"
+    },
+    "transformations": []
   }
 ]
