@@ -61,15 +61,6 @@ An API to retrieve detailed information about characters, crews, devil fruits, a
 - **Example**: `/origins/4`
 - **Method**: GET
 
-### `/transformations`
-- **Description**: Retrieves a list of all character transformations or special modes.
-- **Example**: Gear Second, Gear Fourth, Gear Fifth.
-- **Method**: GET
-
-### `/transformations/:id`
-- **Description**: Retrieves details of a specific transformation by its ID.
-- **Example**: `/transformations/2`
-- **Method**: GET
 
 ## Technologies
 - **Backend**: Node.js, Express
