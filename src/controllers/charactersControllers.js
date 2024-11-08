@@ -12,7 +12,6 @@ export const getAllCharacters = (req, res) => {
 export const getCharacterById = (req, res) => {
     try {
         const id = parseInt(req.params.id);
-        console.log(id);
         if (isNaN(id)) {
             res.status(400).send("ID is not a number");
             return;
