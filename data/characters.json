@@ -1,4 +1,5 @@
-{
+[
+  {
     "id": 1,
     "name": "Monkey D. Luffy",
     "race": "Human",
@@ -59,4 +60,136 @@
         "image": "http://imagentransformacion6.webp"
       }
     ]
-}
+  },
+  {
+    "id": 2,
+    "name": "Roronoa Zoro",
+    "race": "Human",
+    "gender": "Male",
+    "bounty": "1,111,000,000",
+    "crew": "Straw Hat Pirates",
+    "devil_fruit": null,
+    "haki": ["Armament", "Observation"],
+    "description": "Roronoa Zoro es el espadachín de los Piratas del Sombrero de Paja y uno de los espadachines más fuertes del mundo. Su meta es convertirse en el mejor espadachín del mundo.",
+    "image": "http://imagenzoro.webp",
+    "alive": true,
+    "origin": {
+        "id": 102,
+        "name": "Shimotsuki Village",
+        "isAffiliated": false,
+        "isDestroyed": false,
+        "description": "El lugar de origen de Zoro, conocido por sus espadachines legendarios.",
+        "image": "http://imagenorigenzoro.webp"
+    },
+    "transformations": [],
+    "swords": [
+        {
+            "id": 1,
+            "name": "Wado Ichimonji",
+            "description": "Una de las 21 espadas O Wazamono, conocida por su gran filo y durabilidad.",
+            "image": "http://imagendewadoichimonji.webp"
+        },
+        {
+            "id": 2,
+            "name": "Enma",
+            "description": "Una de las espadas legendarias que puede absorber el Haki de su portador.",
+            "image": "http://imagendeenma.webp"
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Nami",
+    "race": "Human",
+    "gender": "Female",
+    "bounty": "366,000,000",
+    "crew": "Straw Hat Pirates",
+    "devil_fruit": null,
+    "haki": [],
+    "description": "Nami es la navegante de los Piratas del Sombrero de Paja. Es conocida por su habilidad para predecir el clima y por su manejo del Clima-Tact.",
+    "image": "http://imagennami.webp",
+    "alive": true,
+    "origin": {
+        "id": 103,
+        "name": "Cocoyasi Village",
+        "isAffiliated": false,
+        "isDestroyed": false,
+        "description": "El pueblo natal de Nami, conocido por sus plantaciones de mandarinas.",
+        "image": "http://imagenorigen.webp"
+    },
+    "transformations": [],
+    "weapons": [
+        {
+            "id": 1,
+            "name": "Clima-Tact",
+            "description": "Un bastón que permite a Nami manipular el clima para realizar ataques poderosos.",
+            "image": "http://imagenclimatact.webp"
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Vinsmoke Sanji",
+    "race": "Human",
+    "gender": "Male",
+    "bounty": "1,032,000,000",
+    "crew": "Straw Hat Pirates",
+    "devil_fruit": null,
+    "haki": ["Armament", "Observation"],
+    "description": "Sanji es el cocinero de los Piratas del Sombrero de Paja. Es un maestro del combate con piernas y un experto culinario.",
+    "image": "http://imagensanji.webp",
+    "alive": true,
+    "origin": {
+        "id": 104,
+        "name": "North Blue",
+        "isAffiliated": false,
+        "isDestroyed": false,
+        "description": "Región de origen de Sanji y de la familia Vinsmoke.",
+        "image": "http://imagenorigen.webp"
+    },
+    "transformations": [
+        {
+            "id": 1,
+            "name": "Diable Jambe",
+            "description": "Sanji enciende sus piernas para realizar ataques poderosos de fuego.",
+            "image": "http://imagendiablejambe.webp"
+        },
+        {
+            "id": 2,
+            "name": "Ifrit Jambe",
+            "description": "Una versión mejorada del Diable Jambe con llamas azuladas más intensas.",
+            "image": "http://imagenifritjambe.webp"
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Usopp",
+    "race": "Human",
+    "gender": "Male",
+    "bounty": "500,000,000",
+    "crew": "Straw Hat Pirates",
+    "devil_fruit": null,
+    "haki": ["Observation"],
+    "description": "Usopp es el francotirador de los Piratas del Sombrero de Paja, conocido por su gran habilidad para la puntería y su creatividad.",
+    "image": "http://imagenusopp.webp",
+    "alive": true,
+    "origin": {
+        "id": 105,
+        "name": "Syrup Village",
+        "isAffiliated": false,
+        "isDestroyed": false,
+        "description": "El lugar de origen de Usopp, conocido por ser pacífico y rural.",
+        "image": "http://imagenorigenusopp.webp"
+    },
+    "transformations": [],
+    "weapons": [
+        {
+            "id": 1,
+            "name": "Kabuto",
+            "description": "Un tirachinas gigante que Usopp utiliza para disparar proyectiles especiales.",
+            "image": "http://imagenkabuto.webp"
+        }
+    ]
+  }
+]
