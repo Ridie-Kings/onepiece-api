@@ -1,40 +1,17 @@
 [
   {
-    "id": 1,
-    "name": "Monkey D. Luffy",
-    "race": {
-      "id": 1,
-      "name": "Human"
-    },
-    "gender": {
-      "id": 1,
-      "name": "Male"
-    },
-    "bounty": "1,500,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates",
-      "captain": "Monkey D. Luffy",
-      "ship": "Thousand Sunny",
-      "description": "The Straw Hat Pirates are a group of pirates led by Monkey D. Luffy. They are known for their adventures and their quest to find the One Piece."
-    },
-    "devil_fruit": {
-      "id": 1,
-      "name": "Hito Hito no Mi, Model: Nika",
-      "type": "Mythical Zoan"
-    },
-    "haki": ["Conqueror", "Armament", "Observation"],
-    "description": "Monkey D. Luffy es el capitán de los Piratas del Sombrero de Paja y uno de los piratas más reconocidos de los mares. Posee la Hito Hito no Mi, Model: Nika, que le otorga habilidades elásticas y poderes únicos al despertar. Su sueño es encontrar el One Piece y convertirse en el Rey de los Piratas.",
-    "image": "http://imagendeluffy.webp",
     "alive": true,
-    "origin": {
-      "id": 101,
-      "name": "East Blue",
-      "isAffiliated": false,
-      "isDestroyed": false,
-      "description": "Lugar de origen de Luffy, conocido por ser una región pacífica en el mundo de One Piece.",
-      "image": "http://imagenorigen.webp"
-    },
+    "bounty": "1,500,000,000",
+    "crew": 1,
+    "description": "Monkey D. Luffy es el capitán de los Piratas del Sombrero de Paja y uno de los piratas más reconocidos de los mares. Posee la Hito Hito no Mi, Model: Nika, que le otorga habilidades elásticas y poderes únicos al despertar. Su sueño es encontrar el One Piece y convertirse en el Rey de los Piratas.",
+    "devil_fruit": 1,
+    "gender": 1,
+    "haki": [1, 2, 3],
+    "id": 1,
+    "image": "http://imagendeluffy.webp",
+    "name": "Monkey D. Luffy",
+    "origin": 1,
+    "race": 1,
     "transformations": [
       {
         "id": 1,

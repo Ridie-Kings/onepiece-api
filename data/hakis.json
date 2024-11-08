@@ -10,7 +10,7 @@
         "description": "Allows the user to create invisible armor for defense and increased attack power, bypassing Devil Fruit defenses."
     },
     {
-        "id": 2.1,
+        "id": 21,
         "name": "Advanced Armament Haki",
         "description": "Allows the user to emit Armament Haki a short distance from their body, causing internal damage to targets."
     },
@@ -20,7 +20,7 @@
         "description": "Allows the user to sense the presence, strength, emotions, and movements of others."
     },
     {
-        "id": 3.1,
+        "id": 31,
         "name": "Advanced Observation Haki",
         "description": "Allows the user to see a short distance into the future, providing a significant advantage in combat."
     }

@@ -1,17 +1,84 @@
 [
     {
-      "id": 1,
-      "name": "Straw Hat Pirates",
-      "captain": "Monkey D. Luffy",
-      "ship": "Thousand Sunny",
-      "description": "Piratas liderados por Luffy, famosos por sus aventuras y su búsqueda del One Piece."
+        "id": 1,
+        "name": "Straw Hat Pirates",
+        "captain": "Monkey D. Luffy",
+        "ship": "Thousand Sunny",
+        "description": "Pirates led by Luffy, known for their adventures and pursuit of the One Piece. The crew members each have unique talents and powerful abilities."
     },
     {
-      "id": 2,
-      "name": "Red-Haired Pirates",
-      "captain": "Shanks",
-      "ship": "Red Force",
-      "description": "Tripulación liderada por Shanks, uno de los Cuatro Emperadores."
+        "id": 2,
+        "name": "Red-Haired Pirates",
+        "captain": "Shanks",
+        "ship": "Red Force",
+        "description": "Crew led by Shanks, one of the Four Emperors. Known for their high combat skills and Shanks' immense Haki."
+    },
+    {
+        "id": 3,
+        "name": "Blackbeard Pirates",
+        "captain": "Marshall D. Teach (Blackbeard)",
+        "ship": "Saber of Xebec",
+        "description": "Notorious and dangerous crew led by Blackbeard, the only pirate known to possess two Devil Fruit powers."
+    },
+    {
+        "id": 4,
+        "name": "Big Mom Pirates",
+        "captain": "Charlotte Linlin (Big Mom)",
+        "ship": "Queen Mama Chanter",
+        "description": "Powerful crew led by Big Mom, one of the Four Emperors, with many members who are her own children."
+    },
+    {
+        "id": 5,
+        "name": "Beast Pirates",
+        "captain": "Kaido",
+        "ship": "The Onigashima Fortress",
+        "description": "Crew led by Kaido, another of the Four Emperors, known for their army of Zoan Devil Fruit users and formidable strength."
+    },
+    {
+        "id": 6,
+        "name": "Whitebeard Pirates",
+        "captain": "Edward Newgate (Whitebeard)",
+        "ship": "Moby Dick",
+        "description": "Once led by Whitebeard, one of the most powerful pirates, known for protecting territories and powerful allies."
+    },
+    {
+        "id": 7,
+        "name": "Heart Pirates",
+        "captain": "Trafalgar D. Water Law",
+        "ship": "Polar Tang",
+        "description": "A crew of pirate doctors led by Law, known for his tactical skills and the use of the Ope Ope no Mi."
+    },
+    {
+        "id": 8,
+        "name": "Kid Pirates",
+        "captain": "Eustass Kid",
+        "ship": "Victoria Punk",
+        "description": "Crew led by the ruthless pirate Kid, known for his ambition and rivalry with the Straw Hat Pirates."
+    },
+    {
+        "id": 9,
+        "name": "Sun Pirates",
+        "captain": "Jinbe (formerly Fisher Tiger)",
+        "ship": "Unnamed",
+        "description": "Crew composed of Fish-Men, originally formed by Fisher Tiger to fight against human oppression, later led by Jinbe."
+    },
+    {
+        "id": 10,
+        "name": "Roger Pirates",
+        "captain": "Gol D. Roger",
+        "ship": "Oro Jackson",
+        "description": "The legendary crew that reached the last island, Raftel, and discovered the One Piece. Disbanded after Roger’s execution."
+    },
+    {
+        "id": 11,
+        "name": "Marines",
+        "leader": "Fleet Admiral Sakazuki (Akainu)",
+        "description": "The World Government's military force tasked with enforcing law and order. Known for their strict justice, they possess powerful fighters including Admirals."
+    },
+    {
+        "id": 12,
+        "name": "Revolutionary Army",
+        "leader": "Monkey D. Dragon",
+        "description": "An army led by Dragon, Luffy's father, aiming to overthrow the World Government. Known for its secrecy and strong, loyal members."
     }
 ]
-  
