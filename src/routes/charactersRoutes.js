@@ -1,9 +1,11 @@
 import express from "express";
-import { getAllCharacters, getCharacterById } from '../controllers/charactersControllers.js';
+import { getAllCharacters, getCharacterById, getAllCrews, getCrewById } from '../controllers/charactersControllers.js';
 
 const router = express.Router();
 
-router.get("/", getAllCharacters);
-router.get("/:id", getCharacterById);
+router.get("/characters", getAllCharacters);
+router.get("/characters/:id", getCharacterById);
+router.get("/crews", getAllCrews);
+router.get("/crews/:id", getCrewById);
 
 export default router;
