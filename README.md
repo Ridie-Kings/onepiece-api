@@ -9,9 +9,9 @@ An API to retrieve detailed information about characters, crews, devil fruits, a
 - **Description**: Retrieves a list of all characters from One Piece.
 - **Method**: GET
 
-### `/characters/:name`
-- **Description**: Retrieves detailed information of a specific character by their name.
-- **Example**: `/characters/Monkey D. Luffy`
+### `/characters/:id`
+- **Description**: Retrieves detailed information of a specific character by their id.
+- **Example**: `/characters/1`
 - **Method**: GET
 
 ### `/crews`
