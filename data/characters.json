@@ -1,0 +1,62 @@
+{
+    "id": 1,
+    "name": "Monkey D. Luffy",
+    "race": "Human",
+    "gender": "Male",
+    "bounty": "1,500,000,000",
+    "crew": "Straw Hat Pirates",
+    "devil_fruit": {
+      "name": "Hito Hito no Mi, Model: Nika",
+      "type": "Mythical Zoan"
+    },
+    "haki": ["Conqueror", "Armament", "Observation"],
+    "description": "Monkey D. Luffy es el capitán de los Piratas del Sombrero de Paja y uno de los piratas más reconocidos de los mares. Posee la Hito Hito no Mi, Model: Nika, que le otorga habilidades elásticas y poderes únicos al despertar. Su sueño es encontrar el One Piece y convertirse en el Rey de los Piratas.",
+    "image": "http://imagendeluffy.webp",
+    "alive": true,
+    "origin": {
+      "id": 101,
+      "name": "East Blue",
+      "isAffiliated": false,
+      "isDestroyed": false,
+      "description": "Lugar de origen de Luffy, conocido por ser una región pacífica en el mundo de One Piece.",
+      "image": "http://imagenorigen.webp"
+    },
+    "transformations": [
+      {
+        "id": 1,
+        "name": "Gear Second",
+        "description": "Una técnica en la que Luffy aumenta su velocidad y poder al bombear sangre más rápido en su cuerpo.",
+        "image": "http://imagentransformacion1.webp"
+      },
+      {
+        "id": 2,
+        "name": "Gear Third",
+        "description": "Luffy infla partes de su cuerpo para aumentar su tamaño y fuerza, resultando en poderosos ataques.",
+        "image": "http://imagentransformacion2.webp"
+      },
+      {
+        "id": 3,
+        "name": "Gear Fourth - Boundman",
+        "description": "Luffy utiliza su Haki de Armamento para inflar partes de su cuerpo, obteniendo una forma robusta y poderosa con habilidades de rebote. Esta transformación aumenta su velocidad, fuerza y resistencia.",
+        "image": "http://imagentransformacion3.webp"
+      },
+      {
+        "id": 4,
+        "name": "Gear Fourth - Tankman",
+        "description": "Una versión de Gear Fourth donde Luffy infla aún más su cuerpo para incrementar su defensa y fuerza, ideal para absorber y devolver ataques.",
+        "image": "http://imagentransformacion4.webp"
+      },
+      {
+        "id": 5,
+        "name": "Gear Fourth - Snakeman",
+        "description": "Otra variación de Gear Fourth que prioriza la velocidad y flexibilidad, permitiéndole a Luffy atacar desde múltiples ángulos con golpes de alta velocidad.",
+        "image": "http://imagentransformacion5.webp"
+      },
+      {
+        "id": 6,
+        "name": "Gear Fifth - Nika",
+        "description": "La forma 'liberada' de Luffy tras el despertar de su Fruta del Diablo. En esta transformación, puede manipular su cuerpo y el entorno con habilidades altamente flexibles y cómicas, como la personificación del 'Dios del Sol' Nika.",
+        "image": "http://imagentransformacion6.webp"
+      }
+    ]
+}
