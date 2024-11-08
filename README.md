@@ -28,11 +28,6 @@ An API to retrieve detailed information about characters, crews, devil fruits, a
 - **Example**: Human, Gyojin, Mink, Giant.
 - **Method**: GET
 
-### `/races/:id`
-- **Description**: Retrieves details of a specific race by its ID.
-- **Example**: `/races/2`
-- **Method**: GET
-
 ### `/devil-fruits`
 - **Description**: Retrieves a list of all devil fruits.
 - **Method**: GET
@@ -47,13 +42,13 @@ An API to retrieve detailed information about characters, crews, devil fruits, a
 - **Example**: Paramecia, Zoan, Logia.
 - **Method**: GET
 
-### `/abilities`
+### `/hakis`
 - **Description**: Retrieves a list of all abilities and haki types.
 - **Method**: GET
 
-### `/abilities/:id`
+### `/hakis/:id`
 - **Description**: Retrieves details of a specific ability by its ID.
-- **Example**: `/abilities/1` (Conqueror’s Haki, Armament Haki, Observation Haki).
+- **Example**: `/hakis/1` (Conqueror’s Haki, Armament Haki, Observation Haki).
 - **Method**: GET
 
 ### `/origins`
@@ -79,7 +74,6 @@ An API to retrieve detailed information about characters, crews, devil fruits, a
 ## Technologies
 - **Backend**: Node.js, Express
 - **Frontend**: React
-- **Database**: [Specify if any database is used such as MongoDB, MySQL, etc.]
 
 ## Installation
 
