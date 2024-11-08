@@ -53,3 +53,30 @@ export const getCrewById = (req, res) => {
         res.status(400).send("Invalid ID supplied");
     }
 }
+
+export const getAllRaces = (req, res) => {
+    try {
+        const races = charactersServices.getAllRaces();
+        res.json(races)
+    } catch (error) {
+        res.status(500).send("Error retrieving races")
+    }
+}
+
+export const getRaceById = (req, res) => {
+    try {
+        const id = parseInt(req.params.id);
+        if (isNaN(id)) {
+            res.status(400).send("ID is not a number");
+            return;
+        }
+        const race = charactersServices.getRaceById(id);
+        if (!race) {
+            res.status(404).send("Crew not found")
+            return;
+        }
+        res.json(race)
+    } catch (error) {
+        res.status(400).send("Invalid ID supplied")
+    }
+}
