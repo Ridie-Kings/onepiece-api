@@ -4,15 +4,111 @@
         "name": "Hito Hito no Mi, Model: Nika",
         "type": "Mythical Zoan",
         "meaning": "Rubber; Human; Nika",
-        "description": "Allows the user to gain elastic and unique abilities.",
+        "description": "Allows the user to gain elastic and unique abilities, embodying the 'Warrior of Liberation'.",
         "owner": "Monkey D. Luffy"
     },
     {
         "id": 2,
         "name": "Gomu Gomu no Mi",
         "type": "Paramecia",
-        "description": "Grants the user a rubber body.",
+        "meaning": "Rubber",
+        "description": "Grants the user a rubber body, allowing for stretching and resilience.",
         "owner": "Monkey D. Luffy"
+    },
+    {
+        "id": 3,
+        "name": "Mera Mera no Mi",
+        "type": "Logia",
+        "meaning": "Flame",
+        "description": "Grants the user the ability to create, control, and transform into fire.",
+        "owner": "Sabo"
+    },
+    {
+        "id": 4,
+        "name": "Yami Yami no Mi",
+        "type": "Logia",
+        "meaning": "Darkness",
+        "description": "Gives the user the ability to create and manipulate darkness and absorb anything.",
+        "owner": "Marshall D. Teach (Blackbeard)"
+    },
+    {
+        "id": 5,
+        "name": "Gura Gura no Mi",
+        "type": "Paramecia",
+        "meaning": "Tremor",
+        "description": "Allows the user to create powerful shockwaves, capable of causing earthquakes.",
+        "owner": "Marshall D. Teach (Blackbeard)"
+    },
+    {
+        "id": 6,
+        "name": "Ope Ope no Mi",
+        "type": "Paramecia",
+        "meaning": "Operation",
+        "description": "Grants the user the ability to create a 'Room' in which they can manipulate objects freely.",
+        "owner": "Trafalgar D. Water Law"
+    },
+    {
+        "id": 7,
+        "name": "Hie Hie no Mi",
+        "type": "Logia",
+        "meaning": "Ice",
+        "description": "Grants the user the ability to create, control, and transform into ice.",
+        "owner": "Kuzan (Aokiji)"
+    },
+    {
+        "id": 8,
+        "name": "Pika Pika no Mi",
+        "type": "Logia",
+        "meaning": "Light",
+        "description": "Gives the user the ability to move and attack at the speed of light.",
+        "owner": "Borsalino (Kizaru)"
+    },
+    {
+        "id": 9,
+        "name": "Magu Magu no Mi",
+        "type": "Logia",
+        "meaning": "Magma",
+        "description": "Grants the user the ability to create, control, and transform into magma.",
+        "owner": "Sakazuki (Akainu)"
+    },
+    {
+        "id": 10,
+        "name": "Soru Soru no Mi",
+        "type": "Paramecia",
+        "meaning": "Soul",
+        "description": "Allows the user to manipulate souls, granting control over lifeless objects.",
+        "owner": "Charlotte Linlin (Big Mom)"
+    },
+    {
+        "id": 11,
+        "name": "Uo Uo no Mi, Model: Seiryu",
+        "type": "Mythical Zoan",
+        "meaning": "Fish; Azure Dragon",
+        "description": "Allows the user to transform into a massive azure dragon with abilities related to fire and flight.",
+        "owner": "Kaido"
+    },
+    {
+        "id": 12,
+        "name": "Tori Tori no Mi, Model: Phoenix",
+        "type": "Mythical Zoan",
+        "meaning": "Bird; Phoenix",
+        "description": "Allows the user to transform into a phoenix, gaining regenerative abilities.",
+        "owner": "Marco"
+    },
+    {
+        "id": 13,
+        "name": "Ito Ito no Mi",
+        "type": "Paramecia",
+        "meaning": "String",
+        "description": "Gives the user the ability to create and manipulate strings, capable of controlling others like puppets.",
+        "owner": "Donquixote Doflamingo"
+    },
+    {
+        "id": 14,
+        "name": "Mochi Mochi no Mi",
+        "type": "Special Paramecia",
+        "meaning": "Mochi",
+        "description": "Allows the user to create, control, and transform into mochi, a sticky and pliable substance.",
+        "owner": "Charlotte Katakuri"
     }
-  ]
-  
+]
