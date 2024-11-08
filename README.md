@@ -93,13 +93,13 @@ An API to retrieve detailed information about characters, crews, devil fruits, a
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/one-piece-api.git
+git clone https://github.com/Ridie-Kings/onepiece-api.git
 ```
 
 2. Go into the project directory:
 
 ```bash
-cd one-piece-api
+cd onepiece-api
 ```
 
 3. Install dependencies:
