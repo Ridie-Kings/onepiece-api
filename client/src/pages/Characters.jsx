@@ -30,15 +30,15 @@ const CharactersPage = () => {
     if (error) return <div>Error: {error}</div>;
 
     return (
-        <>
+        <main className="bg-gray-800">
             <Navbar />
-            <h1 className="flex justify-center p-8">Lista de Personajes</h1>
-            <section className="bg-gray-500 flex flex-wrap gap-5 justify-center p-5">
+            <h1 className="flex justify-center p-8 text-white">The One Piece API</h1>
+            <section className="flex flex-wrap gap-5 justify-center p-5">
                 {characters.map((character) => (
                     <Card key={character.id} character={character} />
                 ))}
             </section>
-        </>
+        </main>
     );
 };
 
