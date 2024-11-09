@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Card } from "../components/Card";
 import { Navbar } from "../components/Navbar";
+import { LoaderSpinner } from "../components/Loader-Spinner";
 
 
 const CharactersPage = () => {
@@ -26,11 +27,11 @@ const CharactersPage = () => {
         fetchCharacters();
     }, []);
 
-    if (loading) return <div>Cargando...</div>;
+    if (loading) return <LoaderSpinner />;
     if (error) return <div>Error: {error}</div>;
 
     return (
-        <main className="bg-gray-800">
+        <main className="bg-yellow-950">
             <Navbar />
             <h1 className="flex justify-center p-8 text-white">The One Piece API</h1>
             <section className="flex flex-wrap gap-5 justify-center p-5">
