@@ -6,9 +6,9 @@
     "description": "Monkey D. Luffy es el capitán de los Piratas del Sombrero de Paja y uno de los piratas más reconocidos de los mares. Posee la Hito Hito no Mi, Model: Nika, que le otorga habilidades elásticas y poderes únicos al despertar. Su sueño es encontrar el One Piece y convertirse en el Rey de los Piratas.",
     "devil_fruit": 1,
     "gender": 1,
-    "haki": [1, 2, 3],
+    "haki": [1, 2, 21, 3, 31],
     "id": 1,
-    "image": "http://imagendeluffy.webp",
+    "image": "https://res.cloudinary.com/dgyqcyqty/image/upload/v1731169277/luffy_g8orja.png",
     "name": "Monkey D. Luffy",
     "origin": 1,
     "race": 1,
@@ -64,7 +64,7 @@
     "devil_fruit": null,
     "haki": ["Armament", "Observation"],
     "description": "Roronoa Zoro es el espadachín de los Piratas del Sombrero de Paja y uno de los espadachines más fuertes del mundo. Su meta es convertirse en el mejor espadachín del mundo.",
-    "image": "http://imagenzoro.webp",
+    "image": "https://res.cloudinary.com/dgyqcyqty/image/upload/v1731169570/zoro_ardzif.webp",
     "alive": true,
     "origin": {
         "id": 102,
@@ -158,39 +158,6 @@
             "name": "Ifrit Jambe",
             "description": "Una versión mejorada del Diable Jambe con llamas azuladas más intensas.",
             "image": "http://imagenifritjambe.webp"
-        }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Usopp",
-    "race": "Human",
-    "gender": "Male",
-    "bounty": "500,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
-    "devil_fruit": null,
-    "haki": ["Observation"],
-    "description": "Usopp es el francotirador de los Piratas del Sombrero de Paja, conocido por su gran habilidad para la puntería y su creatividad.",
-    "image": "http://imagenusopp.webp",
-    "alive": true,
-    "origin": {
-        "id": 105,
-        "name": "Syrup Village",
-        "isAffiliated": false,
-        "isDestroyed": false,
-        "description": "El lugar de origen de Usopp, conocido por ser pacífico y rural.",
-        "image": "http://imagenorigenusopp.webp"
-    },
-    "transformations": [],
-    "weapons": [
-        {
-            "id": 1,
-            "name": "Kabuto",
-            "description": "Un tirachinas gigante que Usopp utiliza para disparar proyectiles especiales.",
-            "image": "http://imagenkabuto.webp"
         }
     ]
   },
