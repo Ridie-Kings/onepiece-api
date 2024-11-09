@@ -1,35 +1,58 @@
 [
     {
+        "id": 0,
+        "name": "Unknown",
+        "description": "",
+        "famousUsers": []
+    },
+    {
         "id": 1,
         "name": "Conqueror's Haki",
         "description": "Allows the user to overpower the will of others. Advanced users can channel this Haki into their attacks, greatly enhancing their power.",
         "famousUsers": [
-            "Gol D. Roger",
-            "Edward Newgate",
-            "Charlotte Linlin",
-            "Kaido",
+            "Monkey D. Luffy",
             "Shanks",
-            "Monkey D. Luffy"
+            "Silvers Rayleigh"
         ]
     },
     {
         "id": 2,
         "name": "Armament Haki",
-        "description": "Allows the user to create invisible armor for defense and increased attack power, bypassing Devil Fruit defenses."
+        "description": "Allows the user to create invisible armor for defense and increased attack power, bypassing Devil Fruit defenses.",
+        "famousUsers": [
+            "Sentomaru",
+            "Roronoa Zoro",
+            "Big Mom"
+        ]
     },
     {
         "id": 21,
         "name": "Advanced Armament Haki",
-        "description": "Allows the user to emit Armament Haki a short distance from their body, causing internal damage to targets."
+        "description": "Allows the user to emit Armament Haki a short distance from their body, causing internal damage to targets.",
+        "famousUsers": [
+            "Monkey D. Garp",
+            "Edward Newgate",
+            "Monkey D. Luffy"
+        ]
     },
     {
         "id": 3,
         "name": "Observation Haki",
-        "description": "Allows the user to sense the presence, strength, emotions, and movements of others."
+        "description": "Allows the user to sense the presence, strength, emotions, and movements of others.",
+        "famousUsers": [
+            "Usopp",
+            "Koby",
+            "Sabo"
+        ]
     },
     {
         "id": 31,
         "name": "Advanced Observation Haki",
-        "description": "Allows the user to see a short distance into the future, providing a significant advantage in combat."
+        "description": "Allows the user to see a short distance into the future, providing a significant advantage in combat.",
+        "famousUsers": [
+            "Charlotte Katakuri",
+            "Monkey D. Luffy",
+            "Shanks"
+        ]
     }
 ]
