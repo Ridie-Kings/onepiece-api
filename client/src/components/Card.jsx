@@ -1,6 +1,6 @@
 export const Card = ({ character }) => {
     return (
-        <article className="border border-solid border-x-amber-900 rounded-lg w-64 p-5 text-center ">
+        <article className="border rounded-lg w-64 p-5 text-center bg-orange-300">
             <div className="text-2xl">
                 <h2>WANTED</h2>
                 <h3>Dead or Alive</h3>
