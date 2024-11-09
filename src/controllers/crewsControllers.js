@@ -26,3 +26,23 @@ export const getCrewById = (req, res) => {
         res.status(400).send("Invalid ID supplied");
     }
 }
+
+export const getMembersByCrew = (req, res) => {
+    try {
+        const id = parseInt(req.params.id);
+        console.log(id);
+        if (isNaN(id)) {
+            res.status(400).send("ID is not a number");
+            return;
+        }
+        const members = crewsServices.getMembersByCrew(id);
+        if (!members) {
+            res.status(404).send("Members not found");
+            return;
+        }
+        res.json(members);
+    } catch (error) {
+        console.log(error);
+        res.status(400).send("Invalid ID supplied");
+    }
+}

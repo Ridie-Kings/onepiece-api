@@ -12,7 +12,7 @@ const getCrewById = (id) => {
 }
 
 const getMembersByCrew = (id) => {
-    const data = characters.find(character => character.crew === id);
+    const data = characters.filter(character => character.crew === id);
     return [... new Set(data)];
 }
 export default {
