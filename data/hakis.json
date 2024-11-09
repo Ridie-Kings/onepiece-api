@@ -2,7 +2,15 @@
     {
         "id": 1,
         "name": "Conqueror's Haki",
-        "description": "Allows the user to overpower the will of others. Advanced users can channel this Haki into their attacks, greatly enhancing their power."
+        "description": "Allows the user to overpower the will of others. Advanced users can channel this Haki into their attacks, greatly enhancing their power.",
+        "famousUsers": [
+            "Gol D. Roger",
+            "Edward Newgate",
+            "Charlotte Linlin",
+            "Kaido",
+            "Shanks",
+            "Monkey D. Luffy"
+        ]
     },
     {
         "id": 2,

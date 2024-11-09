@@ -4,7 +4,59 @@
         "name": "Straw Hat Pirates",
         "captain": "Monkey D. Luffy",
         "ship": "Thousand Sunny",
-        "description": "Pirates led by Luffy, known for their adventures and pursuit of the One Piece. The crew members each have unique talents and powerful abilities."
+        "description": "Pirates led by Luffy, known for their adventures and pursuit of the One Piece. The crew members each have unique talents and powerful abilities.",
+        "members": [
+            {
+                "name": "Monkey D. Luffy",
+                "position": "Captain",
+                "bounty": "1,500,000,000 Berries"
+            },
+            {
+                "name": "Roronoa Zoro",
+                "position": "Swordsman",
+                "bounty": "1,111,000,000 Berries"
+            },
+            {
+                "name": "Nami",
+                "position": "Navigator",
+                "bounty": "366,000,000 Berries"
+            },
+            {
+                "name": "Usopp",
+                "position": "Sniper",
+                "bounty": "500,000,000 Berries"
+            },
+            {
+                "name": "Sanji",
+                "position": "Cook",
+                "bounty": "1,032,000,000 Berries"
+            },
+            {
+                "name": "Tony Tony Chopper",
+                "position": "Doctor",
+                "bounty": "1000 Berries"
+            },
+            {
+                "name": "Nico Robin",
+                "position": "Archaeologist",
+                "bounty": "930,000,000 Berries"
+            },
+            {
+                "name": "Franky",
+                "position": "Shipwright",
+                "bounty": "394,000,000 Berries"
+            },
+            {
+                "name": "Brook",
+                "position": "Musician",
+                "bounty": "383,000,000 Berries"
+            },
+            {
+                "name": "Jinbe",
+                "position": "Helmsman",
+                "bounty": "1,100,000,000 Berries"
+            }
+        ]
     },
     {
         "id": 2,
