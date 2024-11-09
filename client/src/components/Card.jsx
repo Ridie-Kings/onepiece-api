@@ -1,17 +1,18 @@
+import { Anchor } from 'lucide-react';
 export const Card = ({ character }) => {
     return (
-        <article className="border rounded-lg w-64 p-5 text-center bg-orange-300">
+        <article className="relative border rounded-lg w-64 h-96 p-5 text-center bg-orange-300">
             <div className="text-2xl">
                 <h2>WANTED</h2>
                 <h3>Dead or Alive</h3>
             </div>
-            <div className="">
-                <img className='w-full h-80 rounded-lg border' src={character.image} alt={character.name} />
+            <div className="relative flex items-center justify-center border">
+                <img className="w-40 h-52 -mt-4 rounded-lg transition-transform duration-500 p-[10px] hover:p-0 hover:origin-rigth hover:skew-y-3 hover:scale-110 " src={character.image} alt={character.name} />
             </div>
             <div className="">
                 <h2 className="text-lg my-2">{character.name}</h2>
-                <p className="text-lg font-bold my-2">Bounty: {character.bounty}</p>
-                <p className='text-base my-1'><strong>Crew:</strong> {character.crew?.name || 'No Crew'}</p>
+                <div className="bg-red-800/90 text-yellow-500 rounded mb-2"><p className="text-lg font-bold my-2">Bounty: {character.bounty}</p></div>
+                <p className='flex justify-center items-center text-base my-1'> <Anchor className='size-4 mr-1' /><strong>Crew:</strong> {character.crew?.name || 'No Crew'}</p>
             </div>
         </article>
     );
