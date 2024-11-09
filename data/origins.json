@@ -1,14 +1,243 @@
 [
     {
+      "id": 0,
+      "name": "Unknown",
+      "description": "",
+      "ocean": "",
+      "locations": [],
+      "image": ""
+    },
+    {
       "id": 1,
-      "name": "East Blue",
-      "description": "Conocido por ser una región pacífica en el mundo de One Piece.",
+      "name": "Dawn Island",
+      "description": "Island located in the East Blue and where the Goa Kingdom is situated.",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "Foosha Village",
+          "description": "Village where Monkey D. Luffy was born and raised.",
+          "image": "http://imagenorigen.webp"
+        },
+        {
+          "name": "Gray Terminal",
+          "description": "Area where the poorest people of the island live.",
+          "image": "http://imagenorigen.webp"
+        },
+        {
+          "name": "Mt. Colubo",
+          "description": "Mountain where Ace and Luffy used to train.",
+          "image": "http://imagenorigen.webp"
+        },
+        {
+          "name": "Goa Kingdom",
+          "description": "Kingdom where the nobles of the island live.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
       "image": "http://imagenorigen.webp"
     },
     {
       "id": 2,
+      "name": "Goat Island",
+      "description": "Island where Luffy first met Koby and Alvida.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 3,
+      "name": "Shells Town",
+      "description": "It was the location of the Marine 153rd Branch, headed by Captain Morgan.",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "153rd Branch",
+          "description": "Is a Marine Base. Luffy and Zoro defeated Morgan here.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 4,
       "name": "Shimotsuki Village",
-      "description": "Lugar de origen de Roronoa Zoro, conocido por sus espadachines.",
-      "image": "http://imagenorigenzoro.webp"
+      "description": "Is a village located in the East Blue where Zoro was born.  It was founded by pirates, around 55 years ago.",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "Isshin Dojo",
+          "description": "Is a kenjutsu school where Zoro trained and meet Kuina. Owned by Koushirou.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 5,
+      "name": "Organ Islands",
+      "description": "Is the archipelago where Orange Town is located.",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "Orange Town",
+          "description": "Town where Buggy the Clown was defeated by Luffy.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 6,
+      "name": "Island of Rare Animals",
+      "description": "Island where Gaimon lives among bizarre 'hybrid' animals. Alternative known as Legendary Treasure Island.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 7,
+      "name": "Gecko Islands",
+      "description": "Island where Usopp was born and raised.",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "Syrup Village",
+          "description": "Village where Luffy meets Usopp and where lives Kaya.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 8,
+      "name": "Baratie",
+      "description": "Is a giant floating restaurant located in the middle of the sea.",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "Sister Anko's Baratie",
+          "description": "Dessert restaurant part of an expansion to Baratie.",
+          "image": "http://imagenorigen.webp"
+        },
+        {
+          "name": "Nasugasira",
+          "description": "Teppayanki ship which is part of an expansion to Baratie.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 9,
+      "name": "Kumate Island",
+      "description": "Home of the Kumate Tribe.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 10,
+      "name": "Conomi Islands",
+      "description": "Archipielago located in the northwestern region of the East Blue.",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "Arlong Park",
+          "description": "Headquarters of the Arlong Pirates.",
+          "image": "http://imagenorigen.webp"
+        },
+        {
+          "name": "Cocoyasi Village",
+          "description": "Nami's home village.",
+          "image": "http://imagenorigen.webp"
+        },
+        {
+          "name": "Gosa Village",
+          "description": "It was destroyed by the Arlong Pirates.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 11,
+      "name": "Oykot Kingdom",
+      "description": "Country where Bellemere found and adopted Nami and Nojiko.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 12,
+      "name": "16th Branch",
+      "description": "Marine Base where Nezumi was stationed.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 13,
+      "name": "Loguetown",
+      "description": "Town where Gol D. Roger was born and executed.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 14,
+      "name": "Mirrorball Island",
+      "description": "Island that appears in the 'Jango's Dance Paradise' cover story.",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "Doskoi Panda Headquarters",
+          "description": "Headquarters of the Doskoi Panda.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 15,
+      "name": "Tequila Wolf",
+      "description": "It's a country but it's not an island, it's a massive stone bridge where Kuma sent Robin.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 16,
+      "name": "Cozia",
+      "description": "Island that was attacked by the Germa 66 13 years ago.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 17,
+      "name": "Sixis",
+      "description": "Island where Ace stranded on during the start of his journey.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp"
+    },
+    {
+      "id": 18,
+      "name": "Nagagutsu Kingdom",
+      "description": "Is a World Government affiliated kingdom. Ruled by King Furarri",
+      "ocean": "East Blue",
+      "locations": [
+        {
+          "name": "Nyornyo Nyarmani Headquarters",
+          "description": "Headquarters of the Nyornyo Nyarmani.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp"
     }
+    
+
+
+
+
 ]
