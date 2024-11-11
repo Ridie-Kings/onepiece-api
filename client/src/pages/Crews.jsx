@@ -35,7 +35,7 @@ export const CrewsPage = () => {
                 <h1 className="text-6xl font-pirate text-center text-yellow-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Pirate Crews
                 </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {crews.map((crew) => (
                         <article
                             key={crew.id}
@@ -72,7 +72,7 @@ export const CrewsPage = () => {
                             </div>
                         </article>
                     ))}
-                </div>
+                </section>
             </div>
         </main>
     );

@@ -49,7 +49,7 @@ export const HakisPage = () => {
                 <h1 className="text-6xl font-pirate text-center text-white mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Haki Types
                 </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {hakis.map((haki) => (
                         <article
                             key={haki.id}
@@ -89,7 +89,7 @@ export const HakisPage = () => {
                             </div>
                         </article>
                     ))}
-                </div>
+                </section>
             </div>
         </main>
     )

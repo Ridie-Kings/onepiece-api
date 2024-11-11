@@ -34,7 +34,7 @@ export const RacesPage = () => {
                 <h1 className="text-6xl font-pirate text-center text-blue-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Races of One Piece
                 </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {races.map((race) => (
                         <article
                             key={race.id}
@@ -63,7 +63,7 @@ export const RacesPage = () => {
                             </div>
                         </article>
                     ))}
-                </div>
+                </section>
             </div>
         </main>
     )

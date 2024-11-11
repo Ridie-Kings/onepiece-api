@@ -34,7 +34,7 @@ export const DevilsFruitsPage = () => {
                 <h1 className="text-6xl font-pirate text-center text-yellow-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Devil Fruits
                 </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {fruits.map((fruit) => (
                         <article
                             key={fruit.id}
@@ -77,7 +77,7 @@ export const DevilsFruitsPage = () => {
                             </div>
                         </article>
                     ))}
-                </div>
+                </section>
             </div>
         </main>
     )
