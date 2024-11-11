@@ -4,79 +4,116 @@
         "name": "Straw Hat Pirates",
         "captain": "Monkey D. Luffy",
         "ship": "Thousand Sunny",
+        "image": "https://imgs.search.brave.com/urjzItU084qNTotrdFtw1sIWKjFnLgysRP3RYHMwUo4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLmNicmltYWdl/cy5jb20vd29yZHBy/ZXNzL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzEwL1Rob3Vz/YW5kLVN1bm55LUNy/b3BwZWQuanBn",
         "description": "Pirates led by Luffy, known for their adventures and pursuit of the One Piece. The crew members each have unique talents and powerful abilities.",
         "members": [
             {
                 "name": "Monkey D. Luffy",
-                "position": "Captain",
-                "bounty": "1,500,000,000 Berries"
+                "position": "Captain"
             },
             {
                 "name": "Roronoa Zoro",
-                "position": "Swordsman",
-                "bounty": "1,111,000,000 Berries"
+                "position": "Swordsman"
             },
             {
                 "name": "Nami",
-                "position": "Navigator",
-                "bounty": "366,000,000 Berries"
+                "position": "Navigator"
             },
             {
                 "name": "Usopp",
-                "position": "Sniper",
-                "bounty": "500,000,000 Berries"
+                "position": "Sniper"
             },
             {
                 "name": "Sanji",
-                "position": "Cook",
-                "bounty": "1,032,000,000 Berries"
+                "position": "Cook"
             },
             {
                 "name": "Tony Tony Chopper",
-                "position": "Doctor",
-                "bounty": "1000 Berries"
+                "position": "Doctor"
             },
             {
                 "name": "Nico Robin",
-                "position": "Archaeologist",
-                "bounty": "930,000,000 Berries"
+                "position": "Archaeologist"
             },
             {
                 "name": "Franky",
-                "position": "Shipwright",
-                "bounty": "394,000,000 Berries"
+                "position": "Shipwright"
             },
             {
                 "name": "Brook",
-                "position": "Musician",
-                "bounty": "383,000,000 Berries"
+                "position": "Musician"
             },
             {
                 "name": "Jinbe",
-                "position": "Helmsman",
-                "bounty": "1,100,000,000 Berries"
+                "position": "Helmsman"
             }
-        ]
+        ],
+        "totalBounty": "3,161,000,100 £B"
     },
     {
         "id": 2,
         "name": "Red-Haired Pirates",
         "captain": "Shanks",
         "ship": "Red Force",
-        "description": "Crew led by Shanks, one of the Four Emperors. Known for their high combat skills and Shanks' immense Haki."
+        "image": "https://i.postimg.cc/7PX48DMP/image.png",
+        "description": "Crew led by Shanks, one of the Four Emperors. Known for their high combat skills and Shanks' immense Haki.",
+        "members": [
+            {
+                "name": "Shanks",
+                "position": "Captain"
+            },
+            {
+                "name": "Benn Beckman",
+                "position": "First Mate"
+            },
+            {
+                "name": "Yasopp",
+                "position": "Sniper"
+            },
+            {
+                "name": "Lucky Roo",
+                "position": "Combatant"
+            }
+        ],
+        "totalBounty": "4,048,900,000 £B"
     },
     {
         "id": 3,
         "name": "Blackbeard Pirates",
         "captain": "Marshall D. Teach (Blackbeard)",
         "ship": "Saber of Xebec",
-        "description": "Notorious and dangerous crew led by Blackbeard, the only pirate known to possess two Devil Fruit powers."
+        "image": "https://i.postimg.cc/CxGJXMkm/image.png",
+        "description": "Notorious and dangerous crew led by Blackbeard, the only pirate known to possess two Devil Fruit powers.",
+        "members": [
+            {
+                "name": "Marshall D. Teach",
+                "position": "Captain"
+            },
+            {
+                "name": "Van Augur",
+                "position": "Sniper"
+            },
+            {
+                "name": "Jesus Burgess",
+                "position": "Combatant"
+            },
+            {
+                "name": "Doc Q",
+                "position": "Doctor"
+            },
+            {
+                "name": "Stronger",
+                "position": "Combatant"
+            }
+        ],
+        "totalBounty": "3,240,000,100 £B"
     },
     {
         "id": 4,
         "name": "Big Mom Pirates",
         "captain": "Charlotte Linlin (Big Mom)",
         "ship": "Queen Mama Chanter",
+        "image": "https://i.postimg.cc/sfLnZN39/image.png",
         "description": "Powerful crew led by Big Mom, one of the Four Emperors, with many members who are her own children."
     },
     {
@@ -84,13 +121,34 @@
         "name": "Beast Pirates",
         "captain": "Kaido",
         "ship": "The Onigashima Fortress",
-        "description": "Crew led by Kaido, another of the Four Emperors, known for their army of Zoan Devil Fruit users and formidable strength."
+        "image": "https://i.postimg.cc/8CqRzqRj/image.png",
+        "description": "Crew led by Kaido, another of the Four Emperors, known for their army of Zoan Devil Fruit users and formidable strength.",
+        "members": [
+            {
+                "name": "Kaido",
+                "position": "Captain"
+            },
+            {
+                "name": "King",
+                "position": "All-Star"
+            },
+            {
+                "name": "Queen",
+                "position": "All-Star"
+            },
+            {
+                "name": "Jack",
+                "position": "All-Star"
+            }
+        ],
+        "totalBounty": "4,611,100,000 £B"
     },
     {
         "id": 6,
         "name": "Whitebeard Pirates",
         "captain": "Edward Newgate (Whitebeard)",
         "ship": "Moby Dick",
+        "image": "https://i.postimg.cc/7L4tZJwF/image.png",
         "description": "Once led by Whitebeard, one of the most powerful pirates, known for protecting territories and powerful allies."
     },
     {
@@ -98,6 +156,7 @@
         "name": "Heart Pirates",
         "captain": "Trafalgar D. Water Law",
         "ship": "Polar Tang",
+        "image": "https://i.pinimg.com/736x/b1/31/2f/b1312f66a005e4bfafac8ef5e2175a93.jpg",
         "description": "A crew of pirate doctors led by Law, known for his tactical skills and the use of the Ope Ope no Mi."
     },
     {
@@ -105,6 +164,7 @@
         "name": "Kid Pirates",
         "captain": "Eustass Kid",
         "ship": "Victoria Punk",
+        "image": "",
         "description": "Crew led by the ruthless pirate Kid, known for his ambition and rivalry with the Straw Hat Pirates."
     },
     {
@@ -112,6 +172,7 @@
         "name": "Sun Pirates",
         "captain": "Jinbe (formerly Fisher Tiger)",
         "ship": "Unnamed",
+        "image": "",
         "description": "Crew composed of Fish-Men, originally formed by Fisher Tiger to fight against human oppression, later led by Jinbe."
     },
     {
@@ -119,6 +180,7 @@
         "name": "Roger Pirates",
         "captain": "Gol D. Roger",
         "ship": "Oro Jackson",
+        "image": "",
         "description": "The legendary crew that reached the last island, Raftel, and discovered the One Piece. Disbanded after Roger’s execution."
     },
     {

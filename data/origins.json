@@ -34,7 +34,12 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Monkey D. Luffy",
+        "Portgas D. Ace",
+        "Sabo"
+      ]
     },
     {
       "id": 2,
@@ -42,7 +47,12 @@
       "description": "Island where Luffy first met Koby and Alvida.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Koby",
+        "Alvida",
+        "Helmeppo"
+      ]
     },
     {
       "id": 3,
@@ -56,7 +66,12 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Rika",
+        "Ripper",
+        "Ririka"
+      ]
     },
     {
       "id": 4,
@@ -70,7 +85,12 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Roronoa Zoro",
+        "Kuina",
+        "Koushirou"
+      ]
     },
     {
       "id": 5,
@@ -84,7 +104,12 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Buggy",
+        "Mohji",
+        "Cabaji"
+      ]
     },
     {
       "id": 6,
@@ -92,7 +117,12 @@
       "description": "Island where Gaimon lives among bizarre 'hybrid' animals. Alternative known as Legendary Treasure Island.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Gaimon",
+        "Sarfunkel",
+        "Lucky Roux"
+      ]
     },
     {
       "id": 7,
@@ -106,7 +136,12 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Usopp",
+        "Kaya",
+        "Yasopp"
+      ]
     },
     {
       "id": 8,
@@ -125,7 +160,12 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Zeff",
+        "Sanji",
+        "Gin"
+      ]
     },
     {
       "id": 9,
@@ -133,7 +173,10 @@
       "description": "Home of the Kumate Tribe.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Kumate Tribe"
+      ]
     },
     {
       "id": 10,
@@ -157,7 +200,12 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Nami",
+        "Arlong",
+        "Genzo"
+      ]
     },
     {
       "id": 11,
@@ -165,7 +213,12 @@
       "description": "Country where Bellemere found and adopted Nami and Nojiko.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Nami",
+        "Nojiko",
+        "Bellemere"
+      ]
     },
     {
       "id": 12,
@@ -173,7 +226,12 @@
       "description": "Marine Base where Nezumi was stationed.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Nezumi",
+        "Purinpurin",
+        "Kitajima"
+      ]
     },
     {
       "id": 13,
@@ -181,7 +239,12 @@
       "description": "Town where Gol D. Roger was born and executed.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Gol D. Roger",
+        "Smoker",
+        "Tashigi"
+      ]
     },
     {
       "id": 14,
@@ -195,7 +258,12 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Jango",
+        "Fullbody",
+        "Purinpurin"
+      ]
     },
     {
       "id": 15,
@@ -203,7 +271,12 @@
       "description": "It's a country but it's not an island, it's a massive stone bridge where Kuma sent Robin.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Nico Robin",
+        "Kuma",
+        "Hattori"
+      ]
     },
     {
       "id": 16,
@@ -211,7 +284,12 @@
       "description": "Island that was attacked by the Germa 66 13 years ago.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Vinsmoke Judge",
+        "Vinsmoke Reiju",
+        "Vinsmoke Ichiji"
+      ]
     },
     {
       "id": 17,
@@ -219,7 +297,12 @@
       "description": "Island where Ace stranded on during the start of his journey.",
       "ocean": "East Blue",
       "locations": [],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Portgas D. Ace",
+        "Masked Deuce",
+        "Skull"
+      ]
     },
     {
       "id": 18,
@@ -233,6 +316,10 @@
           "image": "http://imagenorigen.webp"
         }
       ],
-      "image": "http://imagenorigen.webp"
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Furarri",
+        "Nyornyo Nyarmani"
+      ]
     }
 ]

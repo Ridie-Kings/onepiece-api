@@ -1,12 +1,14 @@
 [
     {
         "id": 0,
+        "type": "unknown",
         "name": "Unknown",
         "description": "",
         "famousUsers": []
     },
     {
         "id": 1,
+        "type": "conqueror",
         "name": "Conqueror's Haki",
         "description": "Allows the user to overpower the will of others. Advanced users can channel this Haki into their attacks, greatly enhancing their power.",
         "famousUsers": [
@@ -17,6 +19,7 @@
     },
     {
         "id": 2,
+        "type": "armament",
         "name": "Armament Haki",
         "description": "Allows the user to create invisible armor for defense and increased attack power, bypassing Devil Fruit defenses.",
         "famousUsers": [
@@ -27,6 +30,7 @@
     },
     {
         "id": 21,
+        "type": "armament",
         "name": "Advanced Armament Haki",
         "description": "Allows the user to emit Armament Haki a short distance from their body, causing internal damage to targets.",
         "famousUsers": [
@@ -37,6 +41,7 @@
     },
     {
         "id": 3,
+        "type": "observation",
         "name": "Observation Haki",
         "description": "Allows the user to sense the presence, strength, emotions, and movements of others.",
         "famousUsers": [
@@ -47,6 +52,7 @@
     },
     {
         "id": 31,
+        "type": "observation",
         "name": "Advanced Observation Haki",
         "description": "Allows the user to see a short distance into the future, providing a significant advantage in combat.",
         "famousUsers": [
