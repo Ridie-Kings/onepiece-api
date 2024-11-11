@@ -13,8 +13,8 @@ export const OriginsPage = () => {
             const response = await fetch('http://localhost:3000/api/locations');
             if (!response.ok) throw new Error('Error al obtener los origins');
             const data = await response.json();
-            console.log(data);
-            setOrigins(data);
+            const filteredData = data.filter(origin => origin.name !== "Unknown");
+            setOrigins(filteredData);
         } catch (error) {
             setError(error.message);
         } finally {

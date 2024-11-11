@@ -13,7 +13,8 @@ export const DevilsFruitsPage = () => {
             const response = await fetch('http://localhost:3000/api/devil-fruits');
             if (!response.ok) throw new Error('Error al obtener las frutas del diablo');
             const data = await response.json();
-            setFruits(data);
+            const filteredData = data.filter(fruit => fruit.name !== "Unknown" && fruit.name !== "None");
+            setFruits(filteredData);
         } catch (error) {
             setError(error.message);
         } finally {

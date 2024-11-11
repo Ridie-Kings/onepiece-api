@@ -13,7 +13,8 @@ export const RacesPage = () => {
             const response = await fetch('http://localhost:3000/api/races');
             if (!response.ok) throw new Error('Error al obtener las razas');
             const data = await response.json();
-            setRaces(data);
+            const filteredData = data.filter(data => data.name !== "Unknonw");
+            setRaces(filteredData);
         } catch (error) {
             setError(error.message);
         } finally {

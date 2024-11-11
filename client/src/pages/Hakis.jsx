@@ -13,8 +13,8 @@ export const HakisPage = () => {
             const response = await fetch('http://localhost:3000/api/hakis');
             if (!response.ok) throw new Error('Error al obtener los hakis');
             const data = await response.json();
-            console.log(data);
-            setHakis(data);
+            const filteredData = data.filter(haki => haki.type !== "unknown");
+            setHakis(filteredData);
         } catch (error) {
             setError(error.message);
         } finally {
