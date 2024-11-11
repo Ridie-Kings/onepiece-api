@@ -7,6 +7,7 @@ import { DevilsFruitsPage } from './pages/DevilsFruits'
 import { HakisPage } from './pages/Hakis'
 import { OriginsPage } from './pages/Origins'
 import { CharacterDetails } from './pages/CharacterDetails'
+import { DocumentationPage } from './pages/Documentation'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/devil-fruits" element={<DevilsFruitsPage />} />
         <Route path="/hakis" element={<HakisPage />} />
         <Route path="/origins" element={<OriginsPage />} />
+        <Route path="/documentation" element={<DocumentationPage />} />
       </Routes>
     </Router>
   )
