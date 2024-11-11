@@ -14,7 +14,6 @@ const CharactersPage = () => {
             const response = await fetch('http://localhost:3000/api/characters');
             if (!response.ok) throw new Error('Error al obtener los personajes');
             const data = await response.json();
-            console.log(data);
             setCharacters(data);
         } catch (error) {
             setError(error.message);
