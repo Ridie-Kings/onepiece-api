@@ -30,14 +30,16 @@ const CharactersPage = () => {
     if (error) return <div>Error: {error}</div>;
 
     return (
-        <main className="bg-yellow-950">
+        <main className="min-h-screen bg-gradient-to-b from-yellow-950 to-red-950">
             <Navbar />
-            <h1 className="flex justify-center p-8 text-white">The One Piece API</h1>
-            <section className="flex flex-wrap gap-5 justify-center p-5">
-                {characters.map((character) => (
-                    <Card key={character.id} character={character} />
-                ))}
-            </section>
+            <div className="max-w-7xl mx-auto px-4 py-12">
+                <h1 className="text-6xl font-pirate text-center text-yellow-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">The One Piece API</h1>
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {characters.map((character) => (
+                        <Card key={character.id} character={character} />
+                    ))}
+                </section>
+            </div>
         </main>
     );
 };
