@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Navbar } from "../components/Navbar"
 import { LoaderSpinner } from "../components/Loader-Spinner";
-import { Flame, Skull, Star } from 'lucide-react';
+import { Star, Skull } from 'lucide-react';
 
 export const DevilsFruitsPage = () => {
     const [fruits, setFruits] = useState([]);
@@ -28,48 +28,52 @@ export const DevilsFruitsPage = () => {
     if (loading) return <LoaderSpinner />;
     if (error) return <div>Error: {error}</div>;
     return (
-        <main className="min-h-screen bg-gradient-to-b from-purple-950 to-pink-950">
+        <main className="min-h-screen bg-gradient-to-b from-yellow-950 to-red-950">
             <Navbar />
             <div className="max-w-7xl mx-auto px-4 py-12">
-                <h1 className="text-6xl font-pirate text-center text-purple-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+                <h1 className="text-6xl font-pirate text-center text-yellow-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Devil Fruits
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {fruits.map((fruit) => (
                         <article
                             key={fruit.id}
-                            className="relative group bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                            className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
                         >
-                            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                            <div className="relative p-6">
-                                <div className="flex items-center justify-between mb-4">
-                                    <h2 className="text-2xl font-bold text-purple-900">{fruit.name}</h2>
-                                    <Flame className="w-6 h-6 text-purple-600" />
+                            <div className="relative h-48">
+                                <img
+                                    src={fruit.image || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
+                                    alt={`${fruit.name} ship`}
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                                    <h2 className="text-3xl font-bold text-white text-center px-4">
+                                        {fruit.name}
+                                    </h2>
                                 </div>
-                                <div className="space-y-4">
-                                    <div className="flex items-center gap-3">
-                                        <Star className="w-5 h-5 text-yellow-600" />
-                                        <span className="font-semibold">Type:</span>
-                                        <span className="text-purple-700">{fruit.type}</span>
-                                    </div>
-                                    <div className="flex items-center gap-3">
-                                        <Star className="w-5 h-5 text-yellow-600" />
-                                        <span className="font-semibold">Meaning:</span>
-                                        <span className="text-purple-700">{fruit.meaning}</span>
-                                    </div>
-                                    <div className="flex items-center gap-3">
-                                        <Star className="w-5 h-5 text-yellow-600" />
-                                        <span className="font-semibold">Awakening:</span>
-                                        <span className="text-purple-700">{fruit.awakened}</span>
-                                    </div>
-                                    <div className="flex items-center gap-3">
-                                        <Skull className="w-5 h-5 text-red-600" />
-                                        <span className="font-semibold">Current User:</span>
-                                        <span>{fruit.owner || "Unknown"}</span>
-                                    </div>
-                                    <p className="text-gray-700 mt-4"><strong>Description: </strong>{fruit.description}</p>
-
+                            </div>
+                            <div className="p-6">
+                                <div className="flex items-center gap-3">
+                                    <Star className="w-5 h-5 text-yellow-600" />
+                                    <span className="font-semibold">Type:</span>
+                                    <span className="text-purple-700">{fruit.type}</span>
                                 </div>
+                                <div className="flex items-center gap-3">
+                                    <Star className="w-5 h-5 text-yellow-600" />
+                                    <span className="font-semibold">Meaning:</span>
+                                    <span className="text-purple-700">{fruit.meaning}</span>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <Star className="w-5 h-5 text-yellow-600" />
+                                    <span className="font-semibold">Awakening:</span>
+                                    <span className="text-purple-700">{fruit.awakened}</span>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <Skull className="w-5 h-5 text-red-600" />
+                                    <span className="font-semibold">Current User:</span>
+                                    <span>{fruit.owner || "Unknown"}</span>
+                                </div>
+                                <p className="text-gray-700 mt-4"><strong>Description: </strong>{fruit.description}</p>
                             </div>
                         </article>
                     ))}
