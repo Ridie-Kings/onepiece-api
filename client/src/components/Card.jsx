@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Card = ({ character }) => {
     return (
         <Link to={`/characters/${character.id}`} relative='path' state={{ character }}>
-            <article className="w-80 p-8 text-center bg-[#fffef0] paper hover:shadow-2xl ease-in duration-300 ">
+            <article className="w-80 p-8 text-center bg-[#fffef0] paper">
                 <div className="text-3xl text-gray-800 font-serif mb-4">
                     <h2 className='text-6xl'>WANTED</h2>
                 </div>
