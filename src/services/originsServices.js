@@ -1,7 +1,7 @@
 import origins from '../../data/origins.json' with { type: "json" };
 
 const getAllOrigins = () => {
-    const data = origins.map(origin => origin.name);
+    const data = origins.filter(origin => origin.name);
     return [...new Set(data)];
 }
 

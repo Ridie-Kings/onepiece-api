@@ -1,7 +1,7 @@
 import devilFruits from '../../data/devilFruits.json' with { type: "json" };
 
 const getAllDevilFruits = () => {
-    const data = devilFruits.map(fruit => fruit.name);
+    const data = devilFruits.filter(fruit => fruit.name);
     return [...new Set(data)];
 }
 

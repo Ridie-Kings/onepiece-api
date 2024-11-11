@@ -1,7 +1,7 @@
 import races from '../../data/races.json' with { type: "json" };
 
 const getAllRaces = () => {
-    const data = races.map(race => race.name);
+    const data = races.filter(race => race.name);
     return [...new Set(data)];
 }
 

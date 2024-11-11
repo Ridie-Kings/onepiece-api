@@ -1,7 +1,7 @@
 import hakis from '../../data/hakis.json' with { type: "json" };
 
 const getAllHakis = () => {
-    const data = hakis.map(haki => haki.name);
+    const data = hakis.filter(haki => haki.name);
     return [...new Set(data)];
 }
 
