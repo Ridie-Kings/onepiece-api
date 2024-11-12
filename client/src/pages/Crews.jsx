@@ -43,12 +43,20 @@ export const CrewsPage = () => {
                                 key={crew.id}
                                 className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
                             >
-                                <div className="relative h-48">
-                                    <img
-                                        src={crew.image || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
-                                        alt={`${crew.name} ship`}
-                                        className="w-full h-full object-cover"
-                                    />
+                                <div className="relative h-48 group">
+                                    <div className="w-full h-full">
+                                        <img
+                                            src={crew.image || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
+                                            alt={`${crew.name} ship`}
+                                            className="w-full h-full object-cover absolute top-0 left-0"
+                                        />
+                                        <img
+                                            src='images/LUFFY-FLAG8.webp'
+                                            alt={`${crew.name} ship`}
+                                            className="w-full h-full object-cover absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                        />
+                                    </div>
+                                    
                                     <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                                         <h2 className="text-3xl font-bold text-white text-center px-4">
                                             {crew.name}
