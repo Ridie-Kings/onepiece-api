@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from 'prop-types';
 import { Navbar } from "../components/Navbar"
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Anchor, Users, Swords } from 'lucide-react';
@@ -38,9 +39,8 @@ export const CrewsPage = () => {
                 </h1>
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {crews.map((crew) => (
-                        <Link to={`/crews/${crew.id}`} relative='path' state={{ crew }}>
+                        <Link key={crew.id} to={`/crews/${crew.id}`} relative='path' state={{ crew }}>
                             <article
-                                key={crew.id}
                                 className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
                             >
                                 <div className="relative h-48 group">
@@ -56,7 +56,7 @@ export const CrewsPage = () => {
                                             className="w-full h-full object-cover absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                         />
                                     </div>
-                                    
+
                                     <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                                         <h2 className="text-3xl font-bold text-white text-center px-4">
                                             {crew.name}
@@ -88,4 +88,19 @@ export const CrewsPage = () => {
         </main>
     );
 
+}
+
+CrewsPage.propTypes = {
+    crew: PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        name: PropTypes.string.isRequired,
+        ship: PropTypes.string.isRequired,
+        members: PropTypes.arrayOf(
+            PropTypes.shape({
+                name: PropTypes.string.isRequired,
+                bounty: PropTypes.string.isRequired
+            })
+        ),
+        totalBounty: PropTypes.string.isRequired
+    }).isRequired
 }

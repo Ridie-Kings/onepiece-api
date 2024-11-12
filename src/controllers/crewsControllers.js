@@ -5,6 +5,7 @@ export const getAllCrews = (req, res) => {
         const crews = crewsServices.getAllCrews();
         res.json(crews);
     } catch (error) {
+        console.log(error);
         res.status(500).send("Error retrieving crews");
     }
 }

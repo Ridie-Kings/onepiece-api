@@ -8,43 +8,43 @@
         "description": "Pirates led by Luffy, known for their adventures and pursuit of the One Piece. The crew members each have unique talents and powerful abilities.",
         "members": [
             {
-                "name": "Monkey D. Luffy",
+                "id": 1,
                 "position": "Captain"
             },
             {
-                "name": "Roronoa Zoro",
+                "id": 2,
                 "position": "Swordsman"
             },
             {
-                "name": "Nami",
+                "id": 3,
                 "position": "Navigator"
             },
             {
-                "name": "Usopp",
+                "id": 5,
                 "position": "Sniper"
             },
             {
-                "name": "Sanji",
+                "id": 4,
                 "position": "Cook"
             },
             {
-                "name": "Tony Tony Chopper",
+                "id": 6,
                 "position": "Doctor"
             },
             {
-                "name": "Nico Robin",
+                "id": 7,
                 "position": "Archaeologist"
             },
             {
-                "name": "Franky",
+                "id": 8,
                 "position": "Shipwright"
             },
             {
-                "name": "Brook",
+                "id": 9,
                 "position": "Musician"
             },
             {
-                "name": "Jinbe",
+                "id": 10,
                 "position": "Helmsman"
             }
         ],

@@ -57,10 +57,7 @@
     "race": "Human",
     "gender": "Male",
     "bounty": "1,111,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": null,
     "haki": [2, 3],
     "description": "Roronoa Zoro es el espadachín de los Piratas del Sombrero de Paja y uno de los espadachines más fuertes del mundo. Su meta es convertirse en el mejor espadachín del mundo.",

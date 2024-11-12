@@ -1,9 +1,16 @@
 import crews from '../../data/crews.json' with { type: "json" };
 import characters from '../../data/characters.json' with { type: "json" };
 
+const fillCrewInfo = (crew) => {
+    const data = crews.map(crew => {
+        const members = characters.filter(character => character.crew === crew.id);
+        return { ...crew, members }
+    });
+    return data;
+}
 const getAllCrews = () => {
-    const data = crews.filter(crew => crew.name);
-    return [...new Set(data)];
+    return fillCrewInfo();
+
 }
 
 const getCrewById = (id) => {

@@ -1,10 +1,11 @@
-import { Anchor } from 'lucide-react';
-import { Link } from "react-router-dom";
+import './carrusel.css';
 export const Carrusel = ({ crew }) => {
   return (
     <section>
-      {crew.members.map((member) => (
-        
+      {crew.members.map((member, index) => (
+        <div key={index}>
+          <img src={member.img}></img>
+        </div>
       ))}
     </section>
   );

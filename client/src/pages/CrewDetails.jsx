@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { Navbar } from "../components/Navbar";
+import { Carrusel } from "../components/Carrusel";
 
 export const CrewDetails = () => {
     const location = useLocation();
@@ -15,6 +16,7 @@ export const CrewDetails = () => {
             <p>{crew.totalBounty} Berris</p>
             <p>{crew.description}</p>
             <p>{crew.ship}</p>
+            <Carrusel crew={crew}/>
         </main>
     )
 }
