@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar } from "../components/Navbar"
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Anchor, Users, Swords } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const CrewsPage = () => {
     const [crews, setCrews] = useState([]);
@@ -37,40 +38,42 @@ export const CrewsPage = () => {
                 </h1>
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {crews.map((crew) => (
-                        <article
-                            key={crew.id}
-                            className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
-                        >
-                            <div className="relative h-48">
-                                <img
-                                    src={crew.image || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
-                                    alt={`${crew.name} ship`}
-                                    className="w-full h-full object-cover"
-                                />
-                                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-                                    <h2 className="text-3xl font-bold text-white text-center px-4">
-                                        {crew.name}
-                                    </h2>
+                        <Link to={`/crews/${crew.id}`} relative='path' state={{ crew }}>
+                            <article
+                                key={crew.id}
+                                className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
+                            >
+                                <div className="relative h-48">
+                                    <img
+                                        src={crew.image || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
+                                        alt={`${crew.name} ship`}
+                                        className="w-full h-full object-cover"
+                                    />
+                                    <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                                        <h2 className="text-3xl font-bold text-white text-center px-4">
+                                            {crew.name}
+                                        </h2>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="p-6">
-                                <div className="flex items-center gap-3 mb-4">
-                                    <Anchor className="w-5 h-5 text-red-800" />
-                                    <span className="font-semibold">Ship:</span>
-                                    <span>{crew.ship || "Unknown"}</span>
+                                <div className="p-6">
+                                    <div className="flex items-center gap-3 mb-4">
+                                        <Anchor className="w-5 h-5 text-red-800" />
+                                        <span className="font-semibold">Ship:</span>
+                                        <span>{crew.ship || "Unknown"}</span>
+                                    </div>
+                                    <div className="flex items-center gap-3 mb-4">
+                                        <Users className="w-5 h-5 text-red-800" />
+                                        <span className="font-semibold">Members:</span>
+                                        <span>{crew.members ? crew.members.length : "Unknown"}</span>
+                                    </div>
+                                    <div className="flex items-center gap-3">
+                                        <Swords className="w-5 h-5 text-red-800" />
+                                        <span className="font-semibold">Total Bounty:</span>
+                                        <span>{crew.totalBounty || "Unknown"}</span>
+                                    </div>
                                 </div>
-                                <div className="flex items-center gap-3 mb-4">
-                                    <Users className="w-5 h-5 text-red-800" />
-                                    <span className="font-semibold">Members:</span>
-                                    <span>{crew.members ? crew.members.length : "Unknown"}</span>
-                                </div>
-                                <div className="flex items-center gap-3">
-                                    <Swords className="w-5 h-5 text-red-800" />
-                                    <span className="font-semibold">Total Bounty:</span>
-                                    <span>{crew.totalBounty || "Unknown"}</span>
-                                </div>
-                            </div>
-                        </article>
+                            </article>
+                        </Link>
                     ))}
                 </section>
             </div>

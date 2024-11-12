@@ -8,6 +8,7 @@ import { HakisPage } from './pages/Hakis'
 import { OriginsPage } from './pages/Origins'
 import { CharacterDetails } from './pages/CharacterDetails'
 import { DocumentationPage } from './pages/Documentation'
+import { CrewDetails } from './pages/CrewDetails'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/characters" element={<CharactersPage />} />
         <Route path="/characters/:id" element={<CharacterDetails />} />
         <Route path="/crews" element={<CrewsPage />} />
+        <Route path="/crews/:id" element={<CrewDetails />} />
         <Route path="/races" element={<RacesPage />} />
         <Route path="/devil-fruits" element={<DevilsFruitsPage />} />
         <Route path="/hakis" element={<HakisPage />} />
