@@ -86,10 +86,7 @@
     "race": "Human",
     "gender": "Female",
     "bounty": "366,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": null,
     "haki": [3],
     "description": "Nami es la navegante de los Piratas del Sombrero de Paja. Es conocida por su habilidad para predecir el clima y por su manejo del Clima-Tact.",
@@ -112,10 +109,7 @@
     "race": "Human",
     "gender": "Male",
     "bounty": "1,032,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": null,
     "haki": [2, 3],
     "description": "Sanji es el cocinero de los Piratas del Sombrero de Paja. Es un maestro del combate con piernas y un experto culinario.",
@@ -143,10 +137,7 @@
     "race": "Human",
     "gender": "Male",
     "bounty": "500,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": null,
     "haki": [3],
     "description": "El francotirador de los Piratas del Sombrero de Paja, conocido por su puntería y valentía.",
@@ -169,10 +160,7 @@
     "race": "Reindeer",
     "gender": "Male",
     "bounty": "1,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": {
       "name": "Hito Hito no Mi",
       "type": "Zoan"
@@ -203,10 +191,7 @@
     "race": "Human",
     "gender": "Female",
     "bounty": "930,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": {
       "name": "Hana Hana no Mi",
       "type": "Paramecia"
@@ -224,10 +209,7 @@
     "race": "Cyborg",
     "gender": "Male",
     "bounty": "394,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": null,
     "haki": [3],
     "description": "El carpintero de los Piratas del Sombrero de Paja, un cyborg con habilidades mecánicas increíbles.",
@@ -250,10 +232,7 @@
     "race": "Skeleton",
     "gender": "Male",
     "bounty": "383,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": {
       "name": "Yomi Yomi no Mi",
       "type": "Paramecia"
@@ -271,10 +250,7 @@
     "race": "Gyojin",
     "gender": "Male",
     "bounty": "1,100,000,000",
-    "crew": {
-      "id": 1,
-      "name": "Straw Hat Pirates"
-    },
+    "crew": 1,
     "devil_fruit": null,
     "haki": [1, 2],
     "description": "El timonel de los Piratas del Sombrero de Paja y un maestro del Fishman Karate.",
