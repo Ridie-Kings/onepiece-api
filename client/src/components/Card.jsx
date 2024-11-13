@@ -7,9 +7,9 @@ export const Card = ({ character }) => {
                 <div className="text-3xl text-gray-800 font-serif mb-4">
                     <h2 className='text-6xl'>WANTED</h2>
                 </div>
-                <div className="flex items-center justify-center mb-4">
+                <div className="flex items-center justify-center mb-4 border bg-yellow-900">
                     <img
-                        className="w-40 h-52 rounded-lg transition-transform duration-500 transform  hover:scale-150"
+                        className="w-full h-full rounded-lg transition-transform duration-500 transform hover:skew-x-3 hover:scale-110"
                         src={character.image}
                         alt={character.name}
                     />
