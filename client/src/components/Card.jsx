@@ -7,11 +7,16 @@ export const Card = ({ character }) => {
                 <div className="text-3xl text-gray-800 font-serif mb-4">
                     <h2 className='text-6xl'>WANTED</h2>
                 </div>
-                <div className="flex items-center justify-center mb-4 border bg-yellow-900">
+                <div className="flex items-center justify-center mb-4 group">
                     <img
-                        className="w-full h-full rounded-lg transition-transform duration-500 transform hover:skew-x-3 hover:scale-110"
+                        src={character.imagebg || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
+                        alt={character.name}
+                        className="w-full h-full object-cover top-0 left-0"
+                    />
+                    <img
                         src={character.image}
                         alt={character.name}
+                        className="w-full h-full object-cover top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                     />
                 </div>
                 <div>
@@ -38,6 +43,7 @@ Card.propTypes = {
     character: PropTypes.shape({
         id: PropTypes.number.isRequired,
         image: PropTypes.string.isRequired,
+        imagebg: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         bounty: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,

@@ -41,7 +41,7 @@ export const CrewsPage = () => {
                     {crews.map((crew) => (
                         <Link key={crew.id} to={`/crews/${crew.id}`} relative='path' state={{ crew }}>
                             <article
-                                className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
+                                className="bg-[#fffef0] rounded-lg overflow-hidden"
                             >
                                 <div className="relative h-48 group">
                                     <div className="w-full h-full">
