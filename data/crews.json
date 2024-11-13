@@ -114,7 +114,25 @@
         "captain": "Charlotte Linlin (Big Mom)",
         "ship": "Queen Mama Chanter",
         "image": "https://i.postimg.cc/sfLnZN39/image.png",
-        "description": "Powerful crew led by Big Mom, one of the Four Emperors, with many members who are her own children."
+        "description": "Powerful crew led by Big Mom, one of the Four Emperors, with many members who are her own children.",
+        "members": [
+            {
+                "name": "Charlotte Linlin",
+                "position": "Captain"
+            },
+            {
+                "name": "Charlotte Katakuri",
+                "position": "Sweet Commander"
+            },
+            {
+                "name": "Charlotte Cracker",
+                "position": "Sweet Commander"
+            },
+            {
+                "name": "Charlotte Smoothie",
+                "position": "Sweet Commander"
+            }
+        ]
     },
     {
         "id": 5,
@@ -149,7 +167,8 @@
         "captain": "Edward Newgate (Whitebeard)",
         "ship": "Moby Dick",
         "image": "https://i.postimg.cc/7L4tZJwF/image.png",
-        "description": "Once led by Whitebeard, one of the most powerful pirates, known for protecting territories and powerful allies."
+        "description": "Once led by Whitebeard, one of the most powerful pirates, known for protecting territories and powerful allies.",
+        "members": []
     },
     {
         "id": 7,
@@ -157,7 +176,8 @@
         "captain": "Trafalgar D. Water Law",
         "ship": "Polar Tang",
         "image": "https://i.pinimg.com/736x/b1/31/2f/b1312f66a005e4bfafac8ef5e2175a93.jpg",
-        "description": "A crew of pirate doctors led by Law, known for his tactical skills and the use of the Ope Ope no Mi."
+        "description": "A crew of pirate doctors led by Law, known for his tactical skills and the use of the Ope Ope no Mi.",
+        "members": []
     },
     {
         "id": 8,
@@ -165,7 +185,8 @@
         "captain": "Eustass Kid",
         "ship": "Victoria Punk",
         "image": "",
-        "description": "Crew led by the ruthless pirate Kid, known for his ambition and rivalry with the Straw Hat Pirates."
+        "description": "Crew led by the ruthless pirate Kid, known for his ambition and rivalry with the Straw Hat Pirates.",
+        "members": []
     },
     {
         "id": 9,
@@ -173,7 +194,8 @@
         "captain": "Jinbe (formerly Fisher Tiger)",
         "ship": "Unnamed",
         "image": "",
-        "description": "Crew composed of Fish-Men, originally formed by Fisher Tiger to fight against human oppression, later led by Jinbe."
+        "description": "Crew composed of Fish-Men, originally formed by Fisher Tiger to fight against human oppression, later led by Jinbe.",
+        "members": []
     },
     {
         "id": 10,
@@ -181,18 +203,21 @@
         "captain": "Gol D. Roger",
         "ship": "Oro Jackson",
         "image": "",
-        "description": "The legendary crew that reached the last island, Raftel, and discovered the One Piece. Disbanded after Roger’s execution."
+        "description": "The legendary crew that reached the last island, Raftel, and discovered the One Piece. Disbanded after Roger’s execution.",
+        "members": []
     },
     {
         "id": 11,
         "name": "Marines",
         "leader": "Fleet Admiral Sakazuki (Akainu)",
-        "description": "The World Government's military force tasked with enforcing law and order. Known for their strict justice, they possess powerful fighters including Admirals."
+        "description": "The World Government's military force tasked with enforcing law and order. Known for their strict justice, they possess powerful fighters including Admirals.",
+        "members": []
     },
     {
         "id": 12,
         "name": "Revolutionary Army",
         "leader": "Monkey D. Dragon",
-        "description": "An army led by Dragon, Luffy's father, aiming to overthrow the World Government. Known for its secrecy and strong, loyal members."
+        "description": "An army led by Dragon, Luffy's father, aiming to overthrow the World Government. Known for its secrecy and strong, loyal members.",
+        "members": []
     }
 ]
