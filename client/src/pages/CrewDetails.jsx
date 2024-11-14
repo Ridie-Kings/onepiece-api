@@ -9,10 +9,9 @@ export const CrewDetails = () => {
     if (!crew) return <div>Crew not found</div>;
 
     return (
-        <>
-            <main className="w-screen h-screen bg-yellow-950 text-white min-h-screen bg-gradient-to-b from-yellow-950 to-red-950">
+            <main className="min-h-screen bg-gradient-to-b from-yellow-950 to-red-950">
                 <Navbar />
-                <div className="max-w-7xl mx-auto px-4 py-12">
+                <div className="max-w-7xl mx-auto px-4 py-12 gap-y-4">
                     <div className="flex items-center justify-center mb-4">
                         <img src='../images/LUFFY-FLAG8.webp' className="h-16 mr-4" alt="Luffy Flag" />
                         <h1 className="text-6xl font-pirate text-center text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
@@ -20,12 +19,11 @@ export const CrewDetails = () => {
                         </h1>
                         <img src='../images/LUFFY-FLAG8.webp' className="h-16 ml-4" alt="Luffy Flag" />
                     </div>
+                    <img src={crew.image} alt={crew.name} className="w-full h-96 object-cover rounded-lg shadow-lg" />
                     <p>{crew.totalBounty} Berris</p>
-                    <p>{crew.description}</p>
-                    <p>{crew.ship}</p>
                     <Carrusel crew={crew} />
+                    <p>{crew.description}</p>
                 </div>
             </main>
-        </>
     )
 }
