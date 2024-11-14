@@ -321,5 +321,141 @@
         "Furarri",
         "Nyornyo Nyarmani"
       ]
+    },
+    {
+      "id": 19,
+      "name": "Satsuruzo Kingdom",
+      "description": "A nation somewhere in the East Blue.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Koby"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Minion Island",
+      "description": "Island where Trafalgar D. Water Law obtained the Ope Ope no Mi and Donquixote Rosinante died.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Diez Barrels",
+        "Donquixote Rosinante"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Swallow Island",
+      "description": "It is found on the south of Minion Island and Rubeck Island.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Trafalgar D. Water Law",
+        "Bepo",
+        "Penguin",
+        "Shachi"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Rubeck Island",
+      "description": "Island where Diez Barrels was goint to sell the Ope Ope no Mi to the marines.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 23,
+      "name": "Lvneel Kingdom",
+      "description": "Kingdom where Mont Blanc Noland was born and where he was executed.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Mont Blanc Noland",
+        "Mont Blanc Cricket"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Downs",
+      "description": "Donquixote Doflamingo founded here the gang that preceded the Donquixote Pirates.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Donquixote Doflamingo",
+        "Trebol",
+        "Pica",
+        "Diamante"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Spider Miles",
+      "description": "Port town within the North Blue region.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Donquixote Doflamingo",
+        "Trebol",
+        "Pica",
+        "Diamante"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Flevance",
+      "description": "Country where Trafalgar D. Water Law was born and where the Amber Lead disease broke out.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Trafalgar D. Water Law"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Notice",
+      "description": "Wealthy town in the North Blue and hometown of the Bellamy pirates.",
+      "ocean": "East Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Bellamy"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Kuen Village",
+      "description": "Village in the North Blue where Baby 5 was born.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Baby 5"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Whiteland Kingdom",
+      "description": "Kingdom of the North Blue that takes part in the Reverie.",
+      "ocean": "North Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Iwatobi"
+      ]
     }
+
+
+
+    
+
+
 ]
