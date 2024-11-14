@@ -102,5 +102,5 @@ CrewsPage.propTypes = {
             })
         ),
         totalBounty: PropTypes.string.isRequired
-    }).isRequired
+    })
 }

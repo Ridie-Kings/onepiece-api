@@ -6,7 +6,8 @@
         "ship": "Thousand Sunny",
         "image": "https://imgs.search.brave.com/urjzItU084qNTotrdFtw1sIWKjFnLgysRP3RYHMwUo4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLmNicmltYWdl/cy5jb20vd29yZHBy/ZXNzL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzEwL1Rob3Vz/YW5kLVN1bm55LUNy/b3BwZWQuanBn",
         "description": "Pirates led by Luffy, known for their adventures and pursuit of the One Piece. The crew members each have unique talents and powerful abilities.",
-        "flag": "",
+        "flag": "https://res.cloudinary.com/dgyqcyqty/image/upload/v1731583658/strawhat_gkw3bx.webp",
+        "flagnobg": "https://res.cloudinary.com/dgyqcyqty/image/upload/v1731583658/strawhat-nobg_hah2xx.webp",
         "members": [
             {
                 "id": 1,

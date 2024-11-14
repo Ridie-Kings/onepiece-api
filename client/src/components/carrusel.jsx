@@ -1,5 +1,4 @@
 export const Carrusel = ({ crew }) => {
-  console.log(crew);
   return (
     <section className="flex w-full h-[600px] overflow-x-auto py-8 px-4 scrollbar-hide">
       {crew.members.map((member) => (
@@ -30,11 +29,11 @@ Carrusel.propTypes = {
   crew: PropTypes.shape({
     members: PropTypes.arrayOf(
       PropTypes.shape({
-        id: PropTypes.string.isRequired,
+        id: PropTypes.number.isRequired,
         image: PropTypes.string,
         name: PropTypes.string.isRequired,
-        role: PropTypes.string.isRequired,
-        bounty: PropTypes.number.isRequired,
+        position: PropTypes.string.isRequired,
+        bounty: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
       })
     ).isRequired,

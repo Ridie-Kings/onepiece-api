@@ -43,7 +43,7 @@ Card.propTypes = {
     character: PropTypes.shape({
         id: PropTypes.number.isRequired,
         image: PropTypes.string.isRequired,
-        imagebg: PropTypes.string.isRequired,
+        imagebg: PropTypes.string,
         name: PropTypes.string.isRequired,
         bounty: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
