@@ -3,6 +3,7 @@ import crewsServices from "../services/crewsServices.js";
 export const getAllCrews = (req, res) => {
     try {
         const crews = crewsServices.getAllCrews();
+        res.set('Cache-Control', 'public, max-age=86400');
         res.json(crews);
     } catch (error) {
         console.log(error);
@@ -18,6 +19,7 @@ export const getCrewById = (req, res) => {
             return;
         }
         const crew = crewsServices.getCrewById(id);
+        res.set('Cache-Control', 'public, max-age=86400');
         if (!crew) {
             res.status(404).send("Crew not found");
             return;
@@ -37,6 +39,7 @@ export const getMembersByCrew = (req, res) => {
             return;
         }
         const members = crewsServices.getMembersByCrew(id);
+        res.set('Cache-Control', 'public, max-age=86400');
         if (!members) {
             res.status(404).send("Members not found");
             return;

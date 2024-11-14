@@ -3,6 +3,7 @@ import originsServices from "../services/originsServices.js";
 export const getAllOrigins = (req, res) => {
     try {
         const origins = originsServices.getAllOrigins();
+        res.set('Cache-Control', 'public, max-age=86400');
         res.json(origins)
     } catch (error) {
         res.status(500).send("Error retrieving origins")
@@ -17,6 +18,7 @@ export const getOriginsById = (req, res) => {
             return;
         }
         const origin = originsServices.getOriginsById(id);
+        res.set('Cache-Control', 'public, max-age=86400');
         if (!origin) {
             res.status(404).send("Crew not found")
             return;

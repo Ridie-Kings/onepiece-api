@@ -3,6 +3,7 @@ import devilFruitsServices from "../services/devilFruitsServices.js";
 export const getAllDevilFruits = (req, res) => {
     try {
         const fruits = devilFruitsServices.getAllDevilFruits();
+        res.set('Cache-Control', 'public, max-age=86400');
         res.json(fruits);
     } catch (error) {
         res.status(500).send("Error retrieving devil's fruits");
@@ -17,6 +18,7 @@ export const getDevilFruitById = (req, res) => {
             return;
         }
         const fruits = devilFruitsServices.getDevilFruitById(id);
+        res.set('Cache-Control', 'public, max-age=86400');
         if (!fruits) {
             res.status(404).send("Devil fruit not found");
             return;

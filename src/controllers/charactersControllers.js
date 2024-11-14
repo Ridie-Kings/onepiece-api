@@ -3,6 +3,7 @@ import charactersServices from "../services/charactersServices.js";
 export const getAllCharacters = (req, res) => {
     try {
         const characters = charactersServices.getAllCharacters();
+        res.set('Cache-Control', 'public, max-age=86400');
         res.json(characters);
     } catch (error) {
         res.status(500).send("Error retrieving characters");
@@ -17,6 +18,7 @@ export const getCharacterById = (req, res) => {
             return;
         }
         const character = charactersServices.getCharacterById(id);
+        res.set('Cache-Control', 'public, max-age=86400');
         if (!character) {
             res.status(404).send("Character not found");
             return;

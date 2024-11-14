@@ -3,6 +3,7 @@ import hakisServices from "../services/hakisServices.js";
 export const getAllHakis = (req, res) => {
     try {
         const hakis = hakisServices.getAllHakis();
+        res.set('Cache-Control', 'public, max-age=86400');
         res.json(hakis);
     } catch (error) {
         res.status(500).send("Error retrieving hakis");
@@ -17,6 +18,7 @@ export const getHakisById = (req, res) => {
             return;
         }
         const hakis = hakisServices.getHakisById(id);
+        res.set('Cache-Control', 'public, max-age=86400');
         if (!hakis) {
             res.status(404).send("Haki not found");
             return;
