@@ -11,7 +11,7 @@ export const Card = ({ character }) => {
                     <img
                         src={character.imagebg || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
                         alt={character.name}
-                        className="w-full h-full object-cover top-0 left-0"
+                        className="w-full h-full object-cover top-0 left-0 group-hover:opacity-0 transition-opacity duration-300"
                     />
                     <img
                         src={character.image}

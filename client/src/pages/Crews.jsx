@@ -51,7 +51,7 @@ export const CrewsPage = () => {
                                             className="w-full h-full object-cover absolute top-0 left-0"
                                         />
                                         <img
-                                            src='images/LUFFY-FLAG8.webp'
+                                            src='https://res.cloudinary.com/dgyqcyqty/image/upload/v1731583658/strawhat_gkw3bx.webp'
                                             alt={`${crew.name} ship`}
                                             className="w-full h-full object-cover absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                         />
