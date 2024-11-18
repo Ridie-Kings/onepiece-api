@@ -50,7 +50,7 @@
                 "position": "Helmsman"
             }
         ],
-        "totalBounty": "3,161,000,100 £B"
+        "totalBounty": "3,161,000,100"
     },
     {
         "id": 2,
@@ -105,7 +105,7 @@
                 "position": "Combatant"
             }
         ],
-        "totalBounty": "4,048,900,000 £B"
+        "totalBounty": "4,048,900,000"
     },
     {
         "id": 3,
@@ -160,7 +160,7 @@
                 "position": "Combatant"
             }
         ],
-        "totalBounty": "3,240,000,100 £B"
+        "totalBounty": "3,240,000,100"
     },
     {
         "id": 4,
@@ -213,7 +213,7 @@
                 "position": "All-Star"
             }
         ],
-        "totalBounty": "4,611,100,000 £B"
+        "totalBounty": "4,611,100,000"
     },
     {
         "id": 6,

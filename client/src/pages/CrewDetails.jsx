@@ -22,7 +22,16 @@ export const CrewDetails = () => {
                         <img src='../images/LUFFY-FLAG8.webp' className="h-16 ml-4" alt="Luffy Flag" />
                     </div> 
                 <img src={crew.image} alt={crew.name} className="w-full h-96 object-cover rounded-lg shadow-lg" />*/}
-                <p>{crew.totalBounty} Berris</p>
+                <div className="relative flex items-center justify-center w-full h-full text-center gap-2 pointer-events-none">
+                    
+                    <img
+                        src={'../images/Berry-removebg-preview.png'}
+                        alt={"berry"}
+                        className="w-16 h-16 object-contain"
+                    />
+                    <h2 className="text-9xl font-bold italic bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-red-900 drop-shadow-lg pointer-events-none">{crew.totalBounty}</h2>
+                    
+                </div>
                 <Carrusel crew={crew} />
                 <p>{crew.description}</p>
             </div>
