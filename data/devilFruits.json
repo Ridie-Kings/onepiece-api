@@ -994,7 +994,7 @@
     },
     {
         "id": 71,
-        "name": "Beta Beta",
+        "name": "Beta Beta no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1008,7 +1008,7 @@
     },
     {
         "id": 72,
-        "name": "Bisu Bisu",
+        "name": "Bisu Bisu no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1022,7 +1022,7 @@
     },
     {
         "id": 73,
-        "name": "Bomu Bomu",
+        "name": "Bomu Bomu no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1078,7 +1078,7 @@
     },
     {
         "id": 77,
-        "name": "Deka Deka",
+        "name": "Deka Deka no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1176,7 +1176,7 @@
     },
     {
         "id": 84,
-        "name": "Gabu Gabu",
+        "name": "Gabu Gabu no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1190,7 +1190,7 @@
     },
     {
         "id": 85,
-        "name": "Giro Giro",
+        "name": "Giro Giro no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1204,7 +1204,7 @@
     },
     {
         "id": 86,
-        "name": "Gocha Gocha",
+        "name": "Gocha Gocha no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1232,7 +1232,7 @@
     },
     {
         "id": 89,
-        "name": "Hana Hana",
+        "name": "Hana Hana no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1554,7 +1554,7 @@
     },
     {
         "id": 112,
-        "name": "Mochi Mochi",
+        "name": "Mochi Mochi no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1792,7 +1792,7 @@
     },
     {
         "id": 129,
-        "name": "Shari Shari",
+        "name": "Shari Shari no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1806,7 +1806,7 @@
     },   
     {
         "id": 130,
-        "name": "Shibu Shibu",
+        "name": "Shibu Shibu no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1820,7 +1820,7 @@
     },
     {
         "id": 131,
-        "name": "Shiku Shiku",
+        "name": "Shiku Shiku no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1834,7 +1834,7 @@
     },
     {
         "id": 132,
-        "name": "Shima Shima",
+        "name": "Shima Shima no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1848,7 +1848,7 @@
     },
     {
         "id": 133,
-        "name": "Shiro Shiro",
+        "name": "Shiro Shiro no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1862,7 +1862,7 @@
     },
     {
         "id": 134,
-        "name": "Soru Soru",
+        "name": "Soru Soru no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1904,7 +1904,7 @@
     },
     {
         "id": 137,
-        "name": "Suke Suke",
+        "name": "Suke Suke no Mi",
         "type": "Paramecia",
         "growth": "Natural",
         "superior": "Not available",
@@ -1912,7 +1912,7 @@
         "awakened": "Not available",
         "meaning": "Invisible",
         "description": "Grants the user the ability to become invisible and make objects they touch invisible as well.",
-        "owner": "Absalom (former), Shiryu (current)",
+        "owner": "Shiryu",
         "secondName": "Invisible",
         "image": "https://res.cloudinary.com/dgyqcyqty/image/upload/v1731417190/Fruta_Suke_Suke_zbeohy.webp"
     },

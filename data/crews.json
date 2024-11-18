@@ -61,19 +61,47 @@
         "description": "Crew led by Shanks, one of the Four Emperors. Known for their high combat skills and Shanks' immense Haki.",
         "members": [
             {
-                "name": "Shanks",
+                "id": 11,
                 "position": "Captain"
             },
             {
-                "name": "Benn Beckman",
+                "id": 12,
                 "position": "First Mate"
             },
             {
-                "name": "Yasopp",
+                "id": 18,
+                "position": "Cook"
+            },
+            {
+                "id": 14,
                 "position": "Sniper"
             },
             {
-                "name": "Lucky Roo",
+                "id": 15,
+                "position": "Doctor"
+            },
+            {
+                "id": 16,
+                "position": "Musician"
+            },
+            {
+                "id": 17,
+                "position": "Musician"
+            },
+            {
+                "id": 18,
+                "position": "Combatant"
+            },
+            {
+                "id": 19,
+                "position": "Navigator"
+            },
+            {
+                "id": 20,
+                "position": "Combatant"
+            },
+            {
+                "id": 21,
                 "position": "Combatant"
             }
         ],
@@ -88,23 +116,47 @@
         "description": "Notorious and dangerous crew led by Blackbeard, the only pirate known to possess two Devil Fruit powers.",
         "members": [
             {
-                "name": "Marshall D. Teach",
+                "id": 23,
                 "position": "Captain"
             },
             {
-                "name": "Van Augur",
-                "position": "Sniper"
+                "id": 24,
+                "position": "Helmsman"
             },
             {
-                "name": "Jesus Burgess",
+                "id": 25,
                 "position": "Combatant"
             },
             {
-                "name": "Doc Q",
+                "id": 26,
+                "position": "Sniper"
+            },
+            {
+                "id": 27,
+                "position": "Combatant"
+            },
+            {
+                "id": 28,
+                "position": "Navigator"
+            },
+            {
+                "id": 29,
+                "position": "Combatant"
+            },
+            {
+                "id": 30,
+                "position": "Combatant"
+            },
+            {
+                "id": 31,
+                "position": "Combatant"
+            },
+            {
+                "id": 32,
                 "position": "Doctor"
             },
             {
-                "name": "Stronger",
+                "id": 33,
                 "position": "Combatant"
             }
         ],
