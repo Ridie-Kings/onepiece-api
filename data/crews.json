@@ -171,20 +171,60 @@
         "description": "Powerful crew led by Big Mom, one of the Four Emperors, with many members who are her own children.",
         "members": [
             {
-                "name": "Charlotte Linlin",
+                "id": 34,
                 "position": "Captain"
             },
             {
-                "name": "Charlotte Katakuri",
+                "id": 35,
                 "position": "Sweet Commander"
             },
             {
-                "name": "Charlotte Cracker",
+                "id": 36,
                 "position": "Sweet Commander"
             },
             {
-                "name": "Charlotte Smoothie",
+                "id": 37,
                 "position": "Sweet Commander"
+            },
+            {
+                "id": 38,
+                "position": "Combatant"
+            },
+            {
+                "id": 39,
+                "position": "Combatant"
+            },
+            {
+                "id": 40,
+                "position": "Combatant"
+            },
+            {
+                "id": 41,
+                "position": "Combatant"
+            },
+            {
+                "id": 42,
+                "position": "Combatant"
+            },
+            {
+                "id": 43,
+                "position": "Combatant"
+            },
+            {
+                "id": 44,
+                "position": "Combatant"
+            },
+            {
+                "id": 45,
+                "position": "Combatant"
+            },
+            {
+                "id": 46,
+                "position": "Combatant"
+            },
+            {
+                "id": 47,
+                "position": "Combatant"
             }
         ]
     },
