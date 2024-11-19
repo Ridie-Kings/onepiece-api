@@ -2,26 +2,35 @@ import { Anchor } from 'lucide-react';
 import { Link } from "react-router-dom";
 export const Card = ({ character }) => {
     return (
-        <Link to={`/characters/${character.id}`} relative='path' state={{ character }}>
+        <Link
+            to={`/characters/${character.id}`}
+            relative="path"
+            state={{ character }}
+        >
             <article className="w-80 p-8 text-center bg-[#fffef0] paper">
                 <div className="text-3xl text-gray-800 font-serif mb-4">
-                    <h2 className='text-6xl'>WANTED</h2>
+                    <h2 className="text-6xl">WANTED</h2>
                 </div>
-                <div className="flex items-center justify-center mb-4 group">
+                <div className="flex items-center justify-center mb-4 group relative aspect-[4/3]">
                     <img
-                        src={character.imagebg || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
+                        src={
+                            character.imagebg ||
+                            "https://images.unsplash.com/photo-1534447677768-be436bb09401"
+                        }
                         alt={character.name}
-                        className="w-full h-full object-cover top-0 left-0 group-hover:opacity-0 transition-opacity duration-300"
+                        className="w-full h-full object-cover absolute group-hover:opacity-0 transition-opacity duration-500"
                     />
                     <img
                         src={character.image}
                         alt={character.name}
-                        className="w-full h-full object-cover top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        className="w-full h-full object-contain absolute opacity-0 group-hover:opacity-100 transition-opacity hover:scale-150  duration-500"
                     />
                 </div>
                 <div>
-                    <h3 className='text-3xl tracking-wider'>DEAD OR ALIVE</h3>
-                    <h2 className="text-2xl font-bold mb-2 tracking-wider uppercase">{character.name.toUpperCase()}</h2>
+                    <h3 className="text-3xl tracking-wider">DEAD OR ALIVE</h3>
+                    <h2 className="text-2xl font-bold mb-2 tracking-wider uppercase">
+                        {character.name.toUpperCase()}
+                    </h2>
                     <div className="bg-red-800/90 text-yellow-500 rounded-lg p-2 mb-4">
                         <div className="text-lg font-bold">
                             Bounty: {character.bounty}
