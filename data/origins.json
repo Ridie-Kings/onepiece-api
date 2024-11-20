@@ -451,6 +451,114 @@
       "famousPeople": [
         "Iwatobi"
       ]
+    },
+    {
+      "id": 30,
+      "name": "Ilisia Kingdom",
+      "description": "Kingdom of the West Blue affiliated with the World Government that takes part in the Reverie.",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 31,
+      "name": "Ohara",
+      "description": "Island located in the West Blue and home of the Ohara Archaeological Society. It was destroyed by the World Government.",
+      "ocean": "West Blue",
+      "locations": [
+        {
+          "name": "Tree of Knowledge",
+          "description": "Library where the Ohara Archaeological Society kept their books.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Nico Robin",
+        "Clou D. Clover",
+        "Olvia"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Thriller Bark",
+      "description": "Island located in the West Blue and where Gecko Moria resides. It is a massive ship that serves as an island.",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Gecko Moria"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Toroa",
+      "description": "Island located in the West Blue",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 34,
+      "name": "Las Camp",
+      "description": "Sea in the West Blue, nothing more is known about it.",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 35,
+      "name": "80th Branch",
+      "description": "Marine Base in the West Blue.",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 35,
+      "name": "Kano Country",
+      "description": "Country in the West Blue where Chinjao Family came from",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Chinjao",
+        "Sai",
+        "Boo"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Ballywood Kingdom",
+      "description": "Kingdom ruled by King Ham Burger",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 37,
+      "name": "God Valley",
+      "description": "It was and island unaffiliated with the World Government, where the so-called God Valley incident took place. The island has since disappeared.",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 38,
+      "name": "Soja Island",
+      "description": "It is a World Government-affiliated island in the West Blue.",
+      "ocean": "West Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Issho"
+      ]
     }
 
 

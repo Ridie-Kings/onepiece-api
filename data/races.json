@@ -1,5 +1,5 @@
 [
-    { "id": 0, "name": "Unknonw", "type": "", "image": "https://i.postimg.cc/ZnrtQtc3/image.png"},
+    { "id": 0, "name": "Unknonw", "type": "", "image": ""},
     { "id": 1, "name": "Human", "type": "Land-based", "image": "https://i.postimg.cc/7bvd1sr6/image.png" },
     { "id": 2, "name": "Gyojin", "type": "Sea-based", "image": "https://i.postimg.cc/fW6RgMw3/image.png" },
     { "id": 3, "name": "Giant", "type": "Land-based", "image": "https://i.postimg.cc/dVFtwnZw/image.png" },

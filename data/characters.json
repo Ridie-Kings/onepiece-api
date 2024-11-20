@@ -2070,5 +2070,23 @@
     "origin": 0,
     "transformations": [],
     "weapons": []
+  },
+  {
+    "id": 116,
+    "name": "Edward Newgate (Whitebeard)",
+    "race": 1,
+    "gender": 1,
+    "bounty": "5,046,000,000",
+    "crew": 4,
+    "devil_fruit": 15,
+    "haki": [1, 2, 21, 3, 31],
+    "description": "Edward Newgate, also known as Whitebeard, was the captain of the Whitebeard Pirates and one of the Four Emperors. He possessed the Gura Gura no Mi, a Paramecia-type Devil Fruit that allowed him to create powerful shockwaves and earthquakes. Whitebeard was known for his immense physical strength, durability, and leadership skills, earning him the title",
+    "image": "https://example.com/Whitebeard.png",
+    "imagebg": "https://example.com/whitebeard_bg.png",
+    "alive": false,
+    "origin": 0,
+    "transformations": [],
+    "weapons": []
   }
+
 ]
