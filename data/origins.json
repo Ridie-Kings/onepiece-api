@@ -559,9 +559,141 @@
       "famousPeople": [
         "Issho"
       ]
+    },
+    {
+      "id": 39,
+      "name": "Briss Kingdom",
+      "description": "Kingdom located in the South Blue and where St.Briss had come from. ",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "St. Briss"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Karate Island",
+      "description": "Island where people can master many types of martial arts.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Centaurea",
+      "description": "It is located in South Blue.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Torino Kingdom",
+      "description": "It is an island that some call Treasure Island.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Baterilla",
+      "description": "Island where Portgas D. Ace was born",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Portgas D. Ace",
+        "Portgas D. Rouge"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Evil Black Drum Kingdom",
+      "description": "Kingdom where Wapol rules with his wife Kinderella and his dog Hakowan.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Wapol",
+        "Kinderella",
+        "Hakowan"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Sorbet Kingdom",
+      "description": "Nation that was once ruled by the revolutionary turned Warlord, Bartholomew Kuma.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Bartholomew Kuma",
+        "Jewelry Bonney",
+        "Ginny"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Samba Kingdom",
+      "description": "Kingdom that takes part of the reverie.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Tumi",
+      "description": "It was conquered by the Revolutionary Army.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    },
+    {
+      "id": 48,
+      "name": "kutsukku Island",
+      "description": "Island unaffiliated with the World Goverment and where Eustass Kid, Killer and Heat came from.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Eustass Kid",
+        "Killer",
+        "Heat"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Taya Kingdom",
+      "description": "World Goverment-affiliated nation where Aramaki(Ryokugyu) was born.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Aramaki"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Vespa Kingdom",
+      "description": "Nation somewhere located in the South Blue.",
+      "ocean": "South Blue",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+
+      ]
     }
-
-
 
     
 
