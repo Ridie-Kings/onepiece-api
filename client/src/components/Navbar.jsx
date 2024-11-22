@@ -4,7 +4,7 @@ import { NavLink } from './NavLink';
 export const Navbar = () => {
 
     return (
-        <nav className="bg-gradient-to-r from-red-800 to-red-900 shadow-lg">
+        <nav className="fixed w-full bg-gradient-to-r from-red-800 to-red-900 shadow-lg z-50">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex items-center justify-end h-16">
                     {/* logo de la api */}

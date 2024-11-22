@@ -3,10 +3,11 @@ import { Navbar } from './Navbar';
 
 export const Container = ({ children }) => {
     return (
-        <main className="w-screen h-screen bg-yellow-950">
+        
+        <body className="w-screen min-h-screen bg-yellow-950 flex flex-col">
             <Navbar />
             {children}
-        </main>
+        </body>
     );
 };
 
