@@ -10,6 +10,7 @@ import { CharacterDetails } from './pages/CharacterDetails'
 import { DocumentationPage } from './pages/Documentation'
 import { CrewDetails } from './pages/CrewDetails'
 import { HomePage } from './pages/HomePage'
+import { NotFound } from './pages/NotFound'
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Route path="/hakis" element={<HakisPage />} />
         <Route path="/origins" element={<OriginsPage />} />
         <Route path="/documentation" element={<DocumentationPage />} />
+        <Route path="*" element={<NotFound />} />
+
       </Routes>
     </Router>
   )
