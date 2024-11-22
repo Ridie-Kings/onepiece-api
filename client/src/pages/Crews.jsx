@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
-import { Navbar } from "../components/Navbar"
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Anchor, Users, Swords } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Container } from "../components/Container";
 
 export const CrewsPage = () => {
     const [crews, setCrews] = useState([]);
@@ -31,11 +31,10 @@ export const CrewsPage = () => {
     if (loading) return <LoaderSpinner />;
     if (error) return <div>Error: {error}</div>;
     return (
-        <main className="min-h-screen bg-gradient-to-b from-yellow-950 to-red-950">
-            <Navbar />
+        <Container>
             <div className="max-w-7xl mx-auto px-4 py-12">
                 <h1 className="text-6xl font-pirate text-center text-yellow-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
-                    Pirate Crews
+                    Crews
                 </h1>
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {crews.map((crew) => (
@@ -46,12 +45,12 @@ export const CrewsPage = () => {
                                 <div className="relative h-48 group">
                                     <div className="w-full h-full">
                                         <img
-                                            src={crew.image || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
+                                            src={"https://images.unsplash.com/photo-1534447677768-be436bb09401"}
                                             alt={`${crew.name} ship`}
                                             className="w-full h-full object-cover absolute top-0 left-0"
                                         />
                                         <img
-                                            src={crew.flag || 'https://res.cloudinary.com/dgyqcyqty/image/upload/v1731583658/strawhat_gkw3bx.webp'}
+                                            src={'https://images.unsplash.com/photo-1516912481808-3406841bd33c'}
                                             alt={`${crew.name} ship`}
                                             className="w-full h-full object-cover absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                         />
@@ -85,7 +84,7 @@ export const CrewsPage = () => {
                     ))}
                 </section>
             </div>
-        </main>
+        </Container>
     );
 
 }

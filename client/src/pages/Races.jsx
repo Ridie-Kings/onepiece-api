@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Navbar } from "../components/Navbar"
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Swords } from 'lucide-react';
+import { Container } from "../components/Container";
 
 export const RacesPage = () => {
     const [races, setRaces] = useState([]);
@@ -29,8 +29,7 @@ export const RacesPage = () => {
     if (loading) return <LoaderSpinner />;
     if (error) return <div>Error: {error}</div>;
     return (
-        <main className="min-h-screen bg-gradient-to-b from-blue-950 to-indigo-950">
-            <Navbar />
+        <Container>
             <div className="max-w-7xl mx-auto px-4 py-12">
                 <h1 className="text-6xl font-pirate text-center text-blue-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Races of One Piece
@@ -43,7 +42,7 @@ export const RacesPage = () => {
                         >
                             <div className="h-48 relative overflow-hidden">
                                 <img
-                                    src={race.image || "https://images.unsplash.com/photo-1516912481808-3406841bd33c"}
+                                    src={"https://images.unsplash.com/photo-1516912481808-3406841bd33c"}
                                     alt={race.name}
                                     className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                                 />
@@ -66,6 +65,6 @@ export const RacesPage = () => {
                     ))}
                 </section>
             </div>
-        </main>
+        </Container>
     )
 }

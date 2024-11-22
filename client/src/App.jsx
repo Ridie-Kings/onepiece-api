@@ -9,12 +9,13 @@ import { OriginsPage } from './pages/Origins'
 import { CharacterDetails } from './pages/CharacterDetails'
 import { DocumentationPage } from './pages/Documentation'
 import { CrewDetails } from './pages/CrewDetails'
+import { HomePage } from './pages/HomePage'
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<CharactersPage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/characters" element={<CharactersPage />} />
         <Route path="/characters/:id" element={<CharacterDetails />} />
         <Route path="/crews" element={<CrewsPage />} />

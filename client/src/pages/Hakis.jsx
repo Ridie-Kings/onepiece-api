@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Navbar } from "../components/Navbar"
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Eye, Shield, Zap } from 'lucide-react';
+import { Container } from "../components/Container";
 
 export const HakisPage = () => {
     const [hakis, setHakis] = useState([]);
@@ -43,8 +43,7 @@ export const HakisPage = () => {
     };
 
     return (
-        <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black">
-            <Navbar />
+        <Container>
             <div className="max-w-7xl mx-auto px-4 py-12">
                 <h1 className="text-6xl font-pirate text-center text-white mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Haki Types
@@ -91,6 +90,6 @@ export const HakisPage = () => {
                     ))}
                 </section>
             </div>
-        </main>
+        </Container>
     )
 }

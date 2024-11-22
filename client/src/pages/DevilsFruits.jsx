@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Navbar } from "../components/Navbar"
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Star, Skull } from 'lucide-react';
+import { Container } from "../components/Container";
 
 export const DevilsFruitsPage = () => {
     const [fruits, setFruits] = useState([]);
@@ -29,8 +29,7 @@ export const DevilsFruitsPage = () => {
     if (loading) return <LoaderSpinner />;
     if (error) return <div>Error: {error}</div>;
     return (
-        <main className="min-h-screen bg-gradient-to-b from-yellow-950 to-red-950">
-            <Navbar />
+        <Container>
             <div className="max-w-7xl mx-auto px-4 py-12">
                 <h1 className="text-6xl font-pirate text-center text-yellow-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Devil Fruits
@@ -43,7 +42,7 @@ export const DevilsFruitsPage = () => {
                         >
                             <div className="relative h-48">
                                 <img
-                                    src={fruit.image || "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
+                                    src={"https://images.unsplash.com/photo-1534447677768-be436bb09401"}
                                     alt={`${fruit.name} ship`}
                                     className="w-full h-full object-cover"
                                 />
@@ -80,6 +79,6 @@ export const DevilsFruitsPage = () => {
                     ))}
                 </section>
             </div>
-        </main>
+        </Container>
     )
 }

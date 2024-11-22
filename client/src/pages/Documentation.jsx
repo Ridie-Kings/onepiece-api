@@ -1,10 +1,9 @@
 import { Code, Database, Server } from "lucide-react";
-import { Navbar } from "../components/Navbar";
+import { Container } from "../components/Container";
 
 export const DocumentationPage = () => {
     return (
-        <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
-            <Navbar />
+        <Container>
             <div className="max-w-7xl mx-auto px-4 py-12">
                 <div className="text-center mb-12">
                     <h1 className="text-6xl font-pirate text-white mb-4">
@@ -125,6 +124,6 @@ export const DocumentationPage = () => {
                     ))}
                 </div>
             </div>
-        </main>
+        </Container>
     )
 }

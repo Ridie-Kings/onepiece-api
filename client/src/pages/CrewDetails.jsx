@@ -1,17 +1,15 @@
 import { useLocation } from "react-router-dom";
-import { Navbar } from "../components/Navbar";
 import { Carrusel } from "../components/Carrusel";
 import { ImageTitle } from "../components/ImageTitle";
+import { Container } from "../components/Container";
 
 export const CrewDetails = () => {
     const location = useLocation();
     const crew = location.state.crew;
-    console.log(crew);
     if (!crew) return <div>Crew not found</div>;
 
     return (
-        <main className="min-h-screen bg-gradient-to-b from-yellow-950 to-red-950">
-            <Navbar />
+        <Container>
             <div className="max-w-7xl mx-auto px-4 py-12 gap-y-4">
                 <ImageTitle flag={crew.flagnobg} crewImage={crew.image} text={crew.name} crewName={crew.name} />
                 {/* <div className="flex items-center justify-center mb-4">
@@ -27,7 +25,7 @@ export const CrewDetails = () => {
 
                 <article className="w-full p-8 text-center bg-[#fffef0] paper">
                     <div className="relative flex items-center justify-center w-full h-full text-center gap-1 pointer-events">
-                        
+
                         <img
                             src={'../images/Berry-removebg-preview.png'}
                             alt={"berry"}
@@ -40,10 +38,10 @@ export const CrewDetails = () => {
                             className="w-16 h-16 object-contain"
                         />
                     </div>
-                    
+
                     <div>
-                        <p className="flex justify-center items-center text-base text-gray-800 gap-1 text-4xl italic py-5">
-                            "{crew.description}"
+                        <p className="flex justify-center items-center text-gray-800 gap-1 text-4xl italic py-5">
+                            &quot;{crew.description}&quot;
                         </p>
                     </div>
 
@@ -64,7 +62,7 @@ export const CrewDetails = () => {
                     />
                 </div> */}
                 {/* <Carrusel crew={crew} /> */}
-                
+
                 {/* <article className="w-full p-8 text-center bg-[#fffef0] paper">
                     <div>
                         <p className="flex justify-center items-center text-base text-gray-800 gap-1 text-4xl italic">
@@ -73,6 +71,6 @@ export const CrewDetails = () => {
                     </div>
                 </article> */}
             </div>
-        </main>
+        </Container>
     )
 }

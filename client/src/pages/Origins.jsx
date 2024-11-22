@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Navbar } from "../components/Navbar"
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Building, Compass, Map } from 'lucide-react';
+import { Container } from "../components/Container";
 
 export const OriginsPage = () => {
     const [origins, setOrigins] = useState([]);
@@ -29,10 +29,9 @@ export const OriginsPage = () => {
     if (loading) return <LoaderSpinner />;
     if (error) return <div>Error: {error}</div>;
     return (
-        <main className="min-h-screen bg-gradient-to-b from-blue-900 to-green-900">
-            <Navbar />
+        <Container>
             <div className="max-w-7xl mx-auto px-4 py-12">
-                <h1 className="text-6xl font-pirate text-center text-blue-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+                <h1 className="text-6xl font-pirate text-center text-yellow-500 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Origins & Locations
                 </h1>
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -43,7 +42,7 @@ export const OriginsPage = () => {
                         >
                             <div className="h-48 relative overflow-hidden">
                                 <img
-                                    src={origin.image || "https://images.unsplash.com/photo-1516912481808-3406841bd33c"}
+                                    src={"https://images.unsplash.com/photo-1516912481808-3406841bd33c"}
                                     alt={origin.name}
                                     className="w-full h-full object-cover"
                                 />
@@ -85,6 +84,6 @@ export const OriginsPage = () => {
                     ))}
                 </section>
             </div>
-        </main>
+        </Container>
     )
 }

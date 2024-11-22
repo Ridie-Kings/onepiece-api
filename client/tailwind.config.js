@@ -18,6 +18,9 @@ export default {
       backface: {
         hidden: 'hidden',
       },
+      backgroundImage: {
+        'character-card': "url('./images/poster.png')",
+      },
     },
   },
   plugins: [

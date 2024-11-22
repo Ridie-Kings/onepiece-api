@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { Navbar } from "../components/Navbar";
+import { Container } from "../components/Container";
 
 export const CharacterDetails = () => {
     const location = useLocation();
@@ -9,12 +9,11 @@ export const CharacterDetails = () => {
     if (!character) return <div>Character not found</div>;
 
     return (
-        <main className="w-screen h-screen bg-yellow-950 text-white">
-            <Navbar />
+        <Container>
             <h1>{character.name}</h1>
             <p>{character.bounty} Berris</p>
             <p>{character.description}</p>
             <p>{character.origin.name}, {character.origin.ocean}: {character.origin.description}</p>
-        </main>
+        </Container>
     )
 }
