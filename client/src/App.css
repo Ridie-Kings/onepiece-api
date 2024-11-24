@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    background-color: #8f5922;
-}
 
 .paper {
     box-shadow: 0px 0px 0px black, 0 0 125px #8f5922 inset;
