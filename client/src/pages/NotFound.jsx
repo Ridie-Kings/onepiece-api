@@ -1,8 +1,9 @@
 
-import { Link } from "react-router-dom";
 import { Container } from "../components/Container";
+import { useNavigate } from "react-router-dom";
 
 export const NotFound = () => {
+    const navigate = useNavigate();
     return (
         <Container>
             <div className="min-h-screen bg-[url('/ocean-background.jpg')] bg-cover bg-center flex items-center justify-center">
@@ -21,10 +22,7 @@ export const NotFound = () => {
                     <p className="text-lg text-gray-600 mb-8">
                         Incluso con el Haki de Observación, no podemos encontrar esta página. ¡Volvamos a los mares conocidos!
                     </p>
-                    <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">
-                        <Link href="/">
-                            Volver a la tripulación
-                        </Link>
+                    <button onClick={() => navigate(-1)} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"> Return               
                     </button>
                 </div>
             </div>

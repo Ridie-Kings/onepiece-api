@@ -1,14 +1,15 @@
 import { useLocation } from "react-router-dom";
 import { Container } from "../components/Container";
 import { useState } from "react";
+import { NotFound } from "./NotFound.jsx";
 
 export const CharacterDetails = () => {
   const location = useLocation();
-  const character = location.state?.character; // Gère les cas où character est absent
+  const character = location.state?.character;
 
   const [showDetails, setShowDetails] = useState(false);
 
-  if (!character) return <div>Character not found</div>;
+  if (!character) return <NotFound />;
 
 
   const handleShowDetail = () => {
