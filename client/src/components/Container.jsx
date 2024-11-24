@@ -1,16 +1,19 @@
 import PropTypes from 'prop-types';
 import { Navbar } from './Navbar';
 
-export const Container = ({ children }) => {
+export const Container = ({ children, className }) => {
     return (
-        
-        <body className="w-screen min-h-screen bg-yellow-950 flex flex-col">
+        <>
             <Navbar />
-            {children}
-        </body>
+            <main className={`w-screen h-screen flex flex-col items-center bg-yellow-950 ${className}`}>
+                {children}
+            </main>
+
+        </>
     );
 };
 
 Container.propTypes = {
-    children: PropTypes.node.isRequired
+    children: PropTypes.node.isRequired,
+    className: PropTypes.string,
 }
