@@ -31,14 +31,12 @@ const CharactersPage = () => {
 
     return (
         <Container>
-            <main className="w-full h-full flex flex-col items-center gap-5">
                 <h1 className="text-6xl font-pirate text-center text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">The One Piece API</h1>
-                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
                     {characters.map((character) => (
                         <Card key={character.id} character={character} />
                     ))}
                 </section>
-            </main>
         </Container>
     );
 };

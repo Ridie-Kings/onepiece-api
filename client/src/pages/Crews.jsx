@@ -32,11 +32,10 @@ export const CrewsPage = () => {
     if (error) return <div>Error: {error}</div>;
     return (
         <Container>
-            <div className="max-w-7xl mx-auto px-4 py-12">
-                <h1 className="text-6xl font-pirate text-center text-yellow-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+                <h1 className="text-6xl font-pirate text-center text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Crews
                 </h1>
-                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
                     {crews.map((crew) => (
                         <Link key={crew.id} to={`/crews/${crew.id}`} relative='path' state={{ crew }}>
                             <article
@@ -83,7 +82,6 @@ export const CrewsPage = () => {
                         </Link>
                     ))}
                 </section>
-            </div>
         </Container>
     );
 

@@ -2,11 +2,13 @@ import { useLocation } from "react-router-dom";
 import { Carrusel } from "../components/Carrusel";
 import { ImageTitle } from "../components/ImageTitle";
 import { Container } from "../components/Container";
+import { NotFound } from "./NotFound.jsx";
 
 export const CrewDetails = () => {
     const location = useLocation();
     const crew = location.state.crew;
-    if (!crew) return <div>Crew not found</div>;
+
+    if (!crew) return <NotFound />;
 
     return (
         <Container>

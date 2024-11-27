@@ -5,7 +5,7 @@ export const Container = ({ children, className }) => {
     return (
         <>
             <Navbar />
-            <main className={`w-screen h-screen flex flex-col items-center bg-yellow-950 ${className}`}>
+            <main className={`w-full grow relative flex flex-col items-center bg-yellow-950 px-4 py-12 ${className}`}>
                 {children}
             </main>
 

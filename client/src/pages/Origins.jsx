@@ -30,11 +30,10 @@ export const OriginsPage = () => {
     if (error) return <div>Error: {error}</div>;
     return (
         <Container>
-            <div className="max-w-7xl mx-auto px-4 py-12">
-                <h1 className="text-6xl font-pirate text-center text-yellow-500 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+                <h1 className="text-6xl font-pirate text-center text-yellow-500 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Origins & Locations
                 </h1>
-                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
                     {origins.map((origin) => (
                         <article
                             key={origin.id}
@@ -83,7 +82,7 @@ export const OriginsPage = () => {
                         </article>
                     ))}
                 </section>
-            </div>
+
         </Container>
     )
 }

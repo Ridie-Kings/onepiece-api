@@ -30,11 +30,11 @@ export const DevilsFruitsPage = () => {
     if (error) return <div>Error: {error}</div>;
     return (
         <Container>
-            <div className="max-w-7xl mx-auto px-4 py-12">
-                <h1 className="text-6xl font-pirate text-center text-yellow-400 mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+
+                <h1 className="text-6xl font-pirate text-center text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Devil Fruits
                 </h1>
-                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
                     {fruits.map((fruit) => (
                         <article
                             key={fruit.id}
@@ -78,7 +78,7 @@ export const DevilsFruitsPage = () => {
                         </article>
                     ))}
                 </section>
-            </div>
+ 
         </Container>
     )
 }

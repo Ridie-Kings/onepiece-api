@@ -10,4 +10,9 @@
     
 }
   
-  
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    width: 100vw;
+}

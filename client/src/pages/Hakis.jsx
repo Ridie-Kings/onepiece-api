@@ -44,11 +44,10 @@ export const HakisPage = () => {
 
     return (
         <Container>
-            <div className="max-w-7xl mx-auto px-4 py-12">
-                <h1 className="text-6xl font-pirate text-center text-white mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+                <h1 className="text-6xl font-pirate text-center text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Haki Types
                 </h1>
-                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
                     {hakis.map((haki) => (
                         <article
                             key={haki.id}
@@ -89,7 +88,6 @@ export const HakisPage = () => {
                         </article>
                     ))}
                 </section>
-            </div>
         </Container>
     )
 }

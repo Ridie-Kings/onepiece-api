@@ -4,16 +4,15 @@ import { Container } from "../components/Container";
 export const DocumentationPage = () => {
     return (
         <Container>
-            <div className="max-w-7xl mx-auto px-4 py-12">
-                <div className="text-center mb-12">
-                    <h1 className="text-6xl font-pirate text-white mb-4">
+                <div className="text-center">
+                    <h1 className="text-6xl font-pirate text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                         API Documentation
                     </h1>
                     <p className="text-gray-400 max-w-2xl mx-auto">
                         Welcome to the One Piece API documentation. Here you&apos;ll find all the information needed to interact with our API endpoints.
                     </p>
                 </div>
-
+            <section className="max-w-7xl mx-auto px-4 py-12 ">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                     <div className="bg-gray-800 p-6 rounded-xl">
                         <div className="flex items-center gap-3 mb-4">
@@ -123,7 +122,7 @@ export const DocumentationPage = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+            </section>
         </Container>
     )
 }
