@@ -38,9 +38,9 @@ export const RacesPage = () => {
                     {races.map((race) => (
                         <article
                             key={race.id}
-                            className="bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300"
+                            className="bg-[#fffef0] rounded-lg overflow-hidden shadow-xl"
                         >
-                            <div className="h-48 relative overflow-hidden">
+                            <div className="h-48 relative overflow-hidden transform hover:scale-105 transition-transform duration-300">
                                 <img
                                     src={"https://images.unsplash.com/photo-1516912481808-3406841bd33c"}
                                     alt={race.name}

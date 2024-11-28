@@ -34,7 +34,7 @@ export const HomePage = () => {
         }
     ]
     return (
-        <Container>
+        <Container className={""}>
             <h1 className="text-4xl text-yellow-400 flex flex-col items-center">FEATURED SECTIONS</h1>
             <p>Select the section to discover</p>
 

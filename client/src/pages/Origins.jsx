@@ -30,14 +30,14 @@ export const OriginsPage = () => {
     if (error) return <div>Error: {error}</div>;
     return (
         <Container>
-                <h1 className="text-6xl font-pirate text-center text-yellow-500 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+                <h1 className="text-6xl font-pirate text-center text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
                     Origins & Locations
                 </h1>
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
                     {origins.map((origin) => (
                         <article
                             key={origin.id}
-                            className="bg-gradient-to-br from-blue-100 to-green-100 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
+                            className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
                         >
                             <div className="h-48 relative overflow-hidden">
                                 <img
