@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Swords } from 'lucide-react';
 import { Container } from "../components/Container";
+import { SecondCard } from "../components/SecondCard";
 
 export const RacesPage = () => {
     const [races, setRaces] = useState([]);
@@ -30,40 +31,26 @@ export const RacesPage = () => {
     if (error) return <div>Error: {error}</div>;
     return (
         <Container>
+            <h1 className="text-6xl font-pirate text-center text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+                Races of One Piece
+            </h1>
+            <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl px-4 py-12">
+                {races.map((race) => (
+                    <SecondCard item={race} key={race.id} >
+                        <div className="p-6">
+                            <div className="space-y-4">
 
-                <h1 className="text-6xl font-pirate text-center text-yellow-400 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
-                    Races of One Piece
-                </h1>
-                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
-                    {races.map((race) => (
-                        <article
-                            key={race.id}
-                            className="bg-[#fffef0] rounded-lg overflow-hidden shadow-xl group cursor-pointer"
-                        >
-                            <div className="h-48 relative overflow-hidden">
-                                <img
-                                    src={"https://images.unsplash.com/photo-1516912481808-3406841bd33c"}
-                                    alt={race.name}
-                                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 ease-out"
-                                />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-                                    <h2 className="text-2xl font-bold text-white p-4">{race.name}</h2>
+                                <div className="flex items-center gap-3">
+                                    <Swords className="w-5 h-5 text-purple-600" />
+                                    <span className="font-semibold">Special Traits:</span>
+                                    <span>{race.type || "Various"}</span>
                                 </div>
+                                <p className="text-gray-600 mt-4">{race.description}</p>
                             </div>
-                            <div className="p-6">
-                                <div className="space-y-4">
-
-                                    <div className="flex items-center gap-3">
-                                        <Swords className="w-5 h-5 text-purple-600" />
-                                        <span className="font-semibold">Special Traits:</span>
-                                        <span>{race.type || "Various"}</span>
-                                    </div>
-                                    <p className="text-gray-600 mt-4">{race.description}</p>
-                                </div>
-                            </div>
-                        </article>
-                    ))}
-                </section>
+                        </div>
+                    </SecondCard>
+                ))}
+            </section>
 
         </Container>
     )
