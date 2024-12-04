@@ -8,7 +8,7 @@ export const DevilsFruitsPage = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    const fetchRaces = async () => {
+    const fetchDevilFruits = async () => {
         try {
             const response = await fetch('http://localhost:3000/api/devil-fruits');
             if (!response.ok) throw new Error('Error al obtener las frutas del diablo');
@@ -23,7 +23,7 @@ export const DevilsFruitsPage = () => {
     };
 
     useEffect(() => {
-        fetchRaces();
+        fetchDevilFruits();
     }, []);
 
     if (loading) return <LoaderSpinner />;
@@ -38,13 +38,13 @@ export const DevilsFruitsPage = () => {
                     {fruits.map((fruit) => (
                         <article
                             key={fruit.id}
-                            className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
+                            className="bg-[#fffef0] rounded-lg overflow-hidden group cursor-pointer shadow-xl"
                         >
-                            <div className="relative h-48">
+                            <div className="relative h-48 overflow-hidden">
                                 <img
                                     src={"https://images.unsplash.com/photo-1534447677768-be436bb09401"}
                                     alt={`${fruit.name} ship`}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300 ease-out"
                                 />
                                 <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                                     <h2 className="text-3xl font-bold text-white text-center px-4">

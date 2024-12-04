@@ -8,7 +8,7 @@ export const OriginsPage = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    const fetchRaces = async () => {
+    const fetchOrigins = async () => {
         try {
             const response = await fetch('http://localhost:3000/api/locations');
             if (!response.ok) throw new Error('Error al obtener los origins');
@@ -23,7 +23,7 @@ export const OriginsPage = () => {
     };
 
     useEffect(() => {
-        fetchRaces();
+        fetchOrigins();
     }, []);
 
     if (loading) return <LoaderSpinner />;
@@ -37,34 +37,29 @@ export const OriginsPage = () => {
                     {origins.map((origin) => (
                         <article
                             key={origin.id}
-                            className="bg-[#fffef0] rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 shadow-xl"
+                            className="bg-[#fffef0] rounded-lg overflow-hidden shadow-xl group cursor-pointer"
                         >
                             <div className="h-48 relative overflow-hidden">
                                 <img
                                     src={"https://images.unsplash.com/photo-1516912481808-3406841bd33c"}
                                     alt={origin.name}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300 ease-out"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
                                     <div className="p-4">
                                         <h2 className="text-2xl font-bold text-white">{origin.name}</h2>
                                         <div className="flex items-center gap-2 text-blue-300">
                                             <Map className="w-4 h-4" />
-                                            <span>{origin.region || "Unknown Region"}</span>
+                                            <span>{origin.ocean || "Unknown Region"}</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="p-6">
-                                <div className="grid grid-cols-2 gap-4 mb-6">
-                                    <div className="flex items-center gap-2">
-                                        <Compass className="w-5 h-5 text-blue-600" />
-                                        <span className="text-sm">Ocean: {origin.ocean || "Unknown"}</span>
-                                    </div>
+                                <div className="grid gap-4 mb-6">
                                     <div className="flex items-center gap-2">
                                         <Building className="w-5 h-5 text-blue-600" />
-                                        <span className="text-sm">Locations: {origin.locations.length || "Unknown"}</span>
-                                    </div>
+                                        <span className="text-sm"> {origin.locations.length > 0 ? origin.locations.slice(0, 2).map(location => location.name).join(', ') + (origin.locations.length > 2 ? '...' : '') : "Unknown"}</span>                                    </div>
                                 </div>
                                 <p className="text-gray-700 mb-4">{origin.description}</p>
                                 <h3 className="font-semibold mb-2">Notable Residents:</h3>

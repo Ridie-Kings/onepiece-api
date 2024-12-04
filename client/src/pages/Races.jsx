@@ -38,13 +38,13 @@ export const RacesPage = () => {
                     {races.map((race) => (
                         <article
                             key={race.id}
-                            className="bg-[#fffef0] rounded-lg overflow-hidden shadow-xl"
+                            className="bg-[#fffef0] rounded-lg overflow-hidden shadow-xl group cursor-pointer"
                         >
-                            <div className="h-48 relative overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                            <div className="h-48 relative overflow-hidden">
                                 <img
                                     src={"https://images.unsplash.com/photo-1516912481808-3406841bd33c"}
                                     alt={race.name}
-                                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 ease-out"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
                                     <h2 className="text-2xl font-bold text-white p-4">{race.name}</h2>

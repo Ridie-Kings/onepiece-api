@@ -26,7 +26,7 @@ export const CharacterDetails = () => {
 
   return (
     <Container>
-      <div className="bg-gray-800 text-white rounded-lg shadow-2xl overflow-hidden h-full">
+      <div className="bg-gray-800 text-white rounded-lg shadow-2xl overflow-hidden">
         <div className="relative h-96">
           <img
             src={character.imagebg}

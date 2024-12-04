@@ -8,7 +8,7 @@ export const HakisPage = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    const fetchRaces = async () => {
+    const fetchHakis = async () => {
         try {
             const response = await fetch('http://localhost:3000/api/hakis');
             if (!response.ok) throw new Error('Error al obtener los hakis');
@@ -23,7 +23,7 @@ export const HakisPage = () => {
     };
 
     useEffect(() => {
-        fetchRaces();
+        fetchHakis();
     }, []);
 
     if (loading) return <LoaderSpinner />;
