@@ -3,13 +3,13 @@ import { motion, useMotionValue } from "framer-motion";
 import { Container } from "../components/Container";
 
 const imgs = [
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401",
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401",
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401",
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401",
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401",
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401",
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+    { src: "https://images.unsplash.com/photo-1534447677768-be436bb09401", name: "Characters" },
+    { src: "https://images.unsplash.com/photo-1534447677768-be436bb09401", name: "Crews" },
+    { src: "https://images.unsplash.com/photo-1534447677768-be436bb09401", name: "Races" },
+    { src: "https://images.unsplash.com/photo-1534447677768-be436bb09401", name: "Devil Fruits" },
+    { src: "https://images.unsplash.com/photo-1534447677768-be436bb09401", name: "Hakis" },
+    { src: "/bobo.webp", name: "Origins" },
+    { src: "https://images.unsplash.com/photo-1534447677768-be436bb09401", name: "Docs" },
 ];
 
 const ONE_SECOND = 1000;
@@ -126,12 +126,12 @@ export const HomePage = () => {
 const Images = ({ imgIndex }) => {
     return (
         <>
-            {[...imgs, ...imgs, ...imgs].map((imgSrc, idx) => {
+            {[...imgs, ...imgs, ...imgs].map(({ src, name }, idx) => {
                 return (
                     <motion.div
                         key={idx}
                         style={{
-                            backgroundImage: `url(${imgSrc})`,
+                            backgroundImage: `url(${src})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                         }}
@@ -147,8 +147,16 @@ const Images = ({ imgIndex }) => {
 
                         }}
                         transition={{ SPRING_OPTIONS }}
-                        className="aspect-video w-[500px] h-[500px] shrink-0 rounded-full bg-neutral-800 object-cover"
-                    />
+                        className="w-[500px] h-[500px] shrink-0 rounded-full bg-neutral-800 object-cover flex items-center justify-center text-6xl font-bold text-white overflow-hidden"
+                    >
+                        <motion.p
+                            initial={{ opacity: 0, y: 227.57 }}
+                            animate={{ opacity: imgIndex === idx ? 1 : 0, y: imgIndex === idx ? 0 : 227.57 }}
+                            transition={{ delay: 0.2, duration: 0.3, ease: "easeIn" }}
+                        >
+                            {name}
+                        </motion.p>
+                    </motion.div>
                 );
             })}
         </>
