@@ -36,18 +36,7 @@ export const RacesPage = () => {
             </h1>
             <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl px-4 py-12">
                 {races.map((race) => (
-                    <SecondCard item={race} key={race.id} >
-                        <div className="p-6">
-                            <div className="space-y-4">
-
-                                <div className="flex items-center gap-3">
-                                    <Swords className="w-5 h-5 text-purple-600" />
-                                    <span className="font-semibold">Special Traits:</span>
-                                    <span>{race.type || "Various"}</span>
-                                </div>
-                                <p className="text-gray-600 mt-4">{race.description}</p>
-                            </div>
-                        </div>
+                    <SecondCard item={race} key={race.id} height={false}>
                     </SecondCard>
                 ))}
             </section>

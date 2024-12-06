@@ -5,9 +5,9 @@ export const SecondCard = ({ item, children, height, link }) => {
     return (
         <article
             key={item.id}
-            className={`bg-[#fffef0] relative rounded-lg overflow-hidden group cursor-pointer shadow-xl ${height ? "h-[22rem]" : ""} hover:h-max transition-all duration-500 ease`}
+            className={`bg-[#fffef0] relative rounded-lg overflow-hidden group cursor-pointer shadow-xl ${height ? "h-[22rem]" : ""} hover:h-auto transition-all duration-500 ease`}
         >
-            <div className="relative h-48 overflow-hidden">
+            <div className="relative overflow-hidden" style={{height: children?"12rem":"100%"}}>
                 <img
                     src={item.src ?? "https://images.unsplash.com/photo-1534447677768-be436bb09401"}
                     alt={`${item.name} ship`}
