@@ -64,7 +64,7 @@ export const Card = ({ character }) => {
                     transform: "translateZ(75px)",
                     transformStyle: "preserve-3d",
                 }}
-                className="absolute inset-4 grid gap-[4.5rem] place-content-center rounded-xl shadow-lg"
+                className="absolute inset-4 grid place-content-center rounded-xl shadow-lg"
             >
                 <img
                     src="./images/poster.png"
@@ -92,8 +92,8 @@ export const Card = ({ character }) => {
                     }}
                     className="w-full h-full object-contain absolute -top-10 left-0 transition-all  duration-500 z-20"
                 />
-                <div
-                    style={{ transform: 'translateZ(75px)' }}
+                <motion.div
+                    style={{ transform: 'translateZ(75px) translateY(35px)' }}
                     className='relative flex flex-col gap-2 text-[#4d2a24] z-10 opacity-85'
                 >
                     <h2
@@ -105,7 +105,7 @@ export const Card = ({ character }) => {
                     <p className="text-red-900 flex flex-row justify-center items-center text-3xl tracking-wider font-bold z-20">
                         {character.bounty}
                     </p>
-                </div>
+                </motion.div>
             </div>
         </motion.a>
 
