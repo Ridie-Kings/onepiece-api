@@ -11,7 +11,7 @@
       "id": 1,
       "name": "Dawn Island",
       "description": "Island located in the East Blue and where the Goa Kingdom is situated.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "Foosha Village",
@@ -45,7 +45,7 @@
       "id": 2,
       "name": "Goat Island",
       "description": "Island where Luffy first met Koby and Alvida.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -58,7 +58,7 @@
       "id": 3,
       "name": "Shells Town",
       "description": "It was the location of the Marine 153rd Branch, headed by Captain Morgan.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "153rd Branch",
@@ -77,7 +77,7 @@
       "id": 4,
       "name": "Shimotsuki Village",
       "description": "Is a village located in the East Blue where Zoro was born.  It was founded by pirates, around 55 years ago.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "Isshin Dojo",
@@ -96,7 +96,7 @@
       "id": 5,
       "name": "Organ Islands",
       "description": "Is the archipelago where Orange Town is located.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "Orange Town",
@@ -115,7 +115,7 @@
       "id": 6,
       "name": "Island of Rare Animals",
       "description": "Island where Gaimon lives among bizarre 'hybrid' animals. Alternative known as Legendary Treasure Island.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -128,7 +128,7 @@
       "id": 7,
       "name": "Gecko Islands",
       "description": "Island where Usopp was born and raised.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "Syrup Village",
@@ -147,7 +147,7 @@
       "id": 8,
       "name": "Baratie",
       "description": "Is a giant floating restaurant located in the middle of the sea.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "Sister Anko's Baratie",
@@ -171,7 +171,7 @@
       "id": 9,
       "name": "Kumate Island",
       "description": "Home of the Kumate Tribe.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -182,7 +182,7 @@
       "id": 10,
       "name": "Conomi Islands",
       "description": "Archipielago located in the northwestern region of the East Blue.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "Arlong Park",
@@ -211,7 +211,7 @@
       "id": 11,
       "name": "Oykot Kingdom",
       "description": "Country where Bellemere found and adopted Nami and Nojiko.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -224,7 +224,7 @@
       "id": 12,
       "name": "16th Branch",
       "description": "Marine Base where Nezumi was stationed.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -237,7 +237,7 @@
       "id": 13,
       "name": "Loguetown",
       "description": "Town where Gol D. Roger was born and executed.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -250,7 +250,7 @@
       "id": 14,
       "name": "Mirrorball Island",
       "description": "Island that appears in the 'Jango's Dance Paradise' cover story.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "Doskoi Panda Headquarters",
@@ -269,7 +269,7 @@
       "id": 15,
       "name": "Tequila Wolf",
       "description": "It's a country but it's not an island, it's a massive stone bridge where Kuma sent Robin.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -282,7 +282,7 @@
       "id": 16,
       "name": "Cozia",
       "description": "Island that was attacked by the Germa 66 13 years ago.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -295,7 +295,7 @@
       "id": 17,
       "name": "Sixis",
       "description": "Island where Ace stranded on during the start of his journey.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -308,7 +308,7 @@
       "id": 18,
       "name": "Nagagutsu Kingdom",
       "description": "Is a World Government affiliated kingdom. Ruled by King Furarri",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [
         {
           "name": "Nyornyo Nyarmani Headquarters",
@@ -326,7 +326,7 @@
       "id": 19,
       "name": "Satsuruzo Kingdom",
       "description": "A nation somewhere in the East Blue.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -337,7 +337,7 @@
       "id": 20,
       "name": "Minion Island",
       "description": "Island where Trafalgar D. Water Law obtained the Ope Ope no Mi and Donquixote Rosinante died.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -349,7 +349,7 @@
       "id": 21,
       "name": "Swallow Island",
       "description": "It is found on the south of Minion Island and Rubeck Island.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -363,7 +363,7 @@
       "id": 22,
       "name": "Rubeck Island",
       "description": "Island where Diez Barrels was goint to sell the Ope Ope no Mi to the marines.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
@@ -372,7 +372,7 @@
       "id": 23,
       "name": "Lvneel Kingdom",
       "description": "Kingdom where Mont Blanc Noland was born and where he was executed.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -384,7 +384,7 @@
       "id": 24,
       "name": "Downs",
       "description": "Donquixote Doflamingo founded here the gang that preceded the Donquixote Pirates.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -398,7 +398,7 @@
       "id": 25,
       "name": "Spider Miles",
       "description": "Port town within the North Blue region.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -412,7 +412,7 @@
       "id": 26,
       "name": "Flevance",
       "description": "Country where Trafalgar D. Water Law was born and where the Amber Lead disease broke out.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -423,7 +423,7 @@
       "id": 27,
       "name": "Notice",
       "description": "Wealthy town in the North Blue and hometown of the Bellamy pirates.",
-      "ocean": "East Blue",
+      "ocean": "East Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -434,7 +434,7 @@
       "id": 28,
       "name": "Kuen Village",
       "description": "Village in the North Blue where Baby 5 was born.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -445,7 +445,7 @@
       "id": 29,
       "name": "Whiteland Kingdom",
       "description": "Kingdom of the North Blue that takes part in the Reverie.",
-      "ocean": "North Blue",
+      "ocean": "North Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -456,7 +456,7 @@
       "id": 30,
       "name": "Ilisia Kingdom",
       "description": "Kingdom of the West Blue affiliated with the World Government that takes part in the Reverie.",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
@@ -465,7 +465,7 @@
       "id": 31,
       "name": "Ohara",
       "description": "Island located in the West Blue and home of the Ohara Archaeological Society. It was destroyed by the World Government.",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [
         {
           "name": "Tree of Knowledge",
@@ -484,7 +484,7 @@
       "id": 32,
       "name": "Thriller Bark",
       "description": "Island located in the West Blue and where Gecko Moria resides. It is a massive ship that serves as an island.",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -495,7 +495,7 @@
       "id": 33,
       "name": "Toroa",
       "description": "Island located in the West Blue",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
@@ -504,7 +504,7 @@
       "id": 34,
       "name": "Las Camp",
       "description": "Sea in the West Blue, nothing more is known about it.",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
@@ -513,7 +513,7 @@
       "id": 35,
       "name": "80th Branch",
       "description": "Marine Base in the West Blue.",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
@@ -522,7 +522,7 @@
       "id": 35,
       "name": "Kano Country",
       "description": "Country in the West Blue where Chinjao Family came from",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -535,7 +535,7 @@
       "id": 36,
       "name": "Ballywood Kingdom",
       "description": "Kingdom ruled by King Ham Burger",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
@@ -544,7 +544,7 @@
       "id": 37,
       "name": "God Valley",
       "description": "It was and island unaffiliated with the World Government, where the so-called God Valley incident took place. The island has since disappeared.",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
@@ -553,7 +553,7 @@
       "id": 38,
       "name": "Soja Island",
       "description": "It is a World Government-affiliated island in the West Blue.",
-      "ocean": "West Blue",
+      "ocean": "West Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -564,7 +564,7 @@
       "id": 39,
       "name": "Briss Kingdom",
       "description": "Kingdom located in the South Blue and where St.Briss had come from. ",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -575,7 +575,7 @@
       "id": 40,
       "name": "Karate Island",
       "description": "Island where people can master many types of martial arts.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -585,7 +585,7 @@
       "id": 41,
       "name": "Centaurea",
       "description": "It is located in South Blue.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -595,7 +595,7 @@
       "id": 42,
       "name": "Torino Kingdom",
       "description": "It is an island that some call Treasure Island.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -605,7 +605,7 @@
       "id": 43,
       "name": "Baterilla",
       "description": "Island where Portgas D. Ace was born",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -617,7 +617,7 @@
       "id": 44,
       "name": "Evil Black Drum Kingdom",
       "description": "Kingdom where Wapol rules with his wife Kinderella and his dog Hakowan.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -630,7 +630,7 @@
       "id": 45,
       "name": "Sorbet Kingdom",
       "description": "Nation that was once ruled by the revolutionary turned Warlord, Bartholomew Kuma.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -643,7 +643,7 @@
       "id": 46,
       "name": "Samba Kingdom",
       "description": "Kingdom that takes part of the reverie.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -653,7 +653,7 @@
       "id": 47,
       "name": "Tumi",
       "description": "It was conquered by the Revolutionary Army.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -663,7 +663,7 @@
       "id": 48,
       "name": "kutsukku Island",
       "description": "Island unaffiliated with the World Goverment and where Eustass Kid, Killer and Heat came from.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -676,7 +676,7 @@
       "id": 49,
       "name": "Taya Kingdom",
       "description": "World Goverment-affiliated nation where Aramaki(Ryokugyu) was born.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
@@ -687,13 +687,126 @@
       "id": 50,
       "name": "Vespa Kingdom",
       "description": "Nation somewhere located in the South Blue.",
-      "ocean": "South Blue",
+      "ocean": "South Blue (Blue Sea)",
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
 
       ]
+    },
+    {
+      "id": 51,
+      "name": "Cactus Island",
+      "description": " It is the first island in the Grand Line visited by the Straw Hat Pirates and the setting of the Whisky Peak Arc.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [{
+        "name": "Whisky Peak",
+        "description": "The only city located on Cactus Island.",
+        "image": "http://imagenorigen.webp"
+      }],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 52,
+      "name": "Nanimonai Island",
+      "description": " Uninhabited island just before the Arabasta Kingdom. Nanimonai Island is only mentioned but never seen.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
     }
+    {
+      "id": 53,
+      "name": "Little Garden",
+      "description": " Due to the climate, dinosaurs are still alive there. This is the second island on the Grand Line that the Straw Hat Pirates visit and the setting of the Little Garden Arc.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Brogy",
+        "Dorry"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Kyuka Island",
+      "description": " It is where Mr. 3 and Miss Goldenweek took their days off when they were not on missions.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 55,
+      "name": "Drum Island",
+      "description": " The location of the Sakura Kingdom, the birthplace of Tony Tony Chopper and the setting of the Drum Island Arc. ",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [{
+        "name": "Sakura Kingdom",
+        "description": "This is where the Straw Hats' doctor came from. The Kingdom is well-known for its extraordinary and skilled doctors. ",
+        "image":"http://imagenorigen.webp"
+      },{
+        "name": "Drum Rockies",
+        "description": " The Drum Rockies are a chain of drum-shaped mountains on Drum Island ",
+        "image":"http://imagenorigen.webp"
+      },{
+        "name": "Robelle",
+        "description": " This is where Portgas D.Ace asked some of the villagers to tell Luffy that he was going to wait for him at Arabasta only for ten days. ",
+        "image":"http://imagenorigen.webp"
+      },
+      {
+        "name": "Gyasta",
+        "description": " Gyasta was the only mentioned as one of Kureha's stops, and a sign pointing to it was shown. ",
+        "image":"http://imagenorigen.webp"
+      },
+      {
+        "name": "Cocoa Weed",
+        "description": " Cocoa Weed's neighbors the village of Bighorn and is south of Gyasta.",
+        "image":"http://imagenorigen.webp"
+      },
+      {
+        "name": "Bighorn",
+        "description": " It is located near the river the Straw Hat Pirates docked in and also neighbors Cocoa Weed. Because it is so close to the Drum Rockies, it is susceptible to avalanches. Notable inhabitants include Dalton and Negikuma Maria. Domesticated goats and white walkies help out the population with general transportation.",
+        "image":"http://imagenorigen.webp"
+      }
+    ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "King Dalton",
+        "Kureha",
+        "Hiriluk"
+      ]
+    },{
+      "id": 56,
+      "name": "Arabasta",
+      "description": "  It was the fourth place that the Straw Hat Pirates visited on the Grand Line, the events here resulted in Luffy's bounty being raised to Beli 100,000,000, and Zoro acquiring a bounty of Beli 60,000,000. It is where the poneglyph showing the location of Pluton is located, and one of the twenty founding countries of the World Government. It is ruled by the Nefertari Family, who, unlike the other families of the First Twenty, did not leave their home country to live in Mary Geoise.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [{
+        "name": "Alubarna",
+        "description": "It is the capital of Arabasta.",
+        "image":  "http://imagenorigen.webp"
+      },{
+        "name": "Yuba",
+        "description": "Originally built with the purpose of acting as an intersection for the towns and villages of western Arabasta, Yuba was endlessly struck with sandstorms summoned by the leader of Baroque Works, Mr. 0, a.k.a Crocodile, as part of his plan to agitate the country's rebellion forces. It once served as the headquarters of the Arabastan rebel army until they moved to Katorea. Unaware of that, Nefertari Vivi and the Straw Hat Pirates came to this town thinking they could meet with the rebels and stop the civil war.",
+        "image":  "http://imagenorigen.webp"
+      },{
+        "name": "Rainbase",
+        "description": "It served as Baroque Works' main headquarters, operated by the organization's president Crocodile and his partner Miss All Sunday. Rainbase is one of the few cities within the country that continued thriving even during the drought orchestrated by Crocodile, mostly due to its gambling industry. Because of this, it has been referred to as the 'City of Dreams' .",
+        "image":  "http://imagenorigen.webp"
+      }
+        
+
+
+
+
+
+      ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    }
+
 
     
 
