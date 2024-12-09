@@ -715,7 +715,7 @@
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
-    }
+    },
     {
       "id": 53,
       "name": "Little Garden",
@@ -762,7 +762,7 @@
       },
       {
         "name": "Cocoa Weed",
-        "description": " Cocoa Weed's neighbors the village of Bighorn and is south of Gyasta.",
+        "description": "Cocoa Weed's neighbors the village of Bighorn and is south of Gyasta.",
         "image":"http://imagenorigen.webp"
       },
       {
@@ -777,38 +777,360 @@
         "Kureha",
         "Hiriluk"
       ]
-    },{
+    },
+    {
       "id": 56,
       "name": "Arabasta",
-      "description": "  It was the fourth place that the Straw Hat Pirates visited on the Grand Line, the events here resulted in Luffy's bounty being raised to Beli 100,000,000, and Zoro acquiring a bounty of Beli 60,000,000. It is where the poneglyph showing the location of Pluton is located, and one of the twenty founding countries of the World Government. It is ruled by the Nefertari Family, who, unlike the other families of the First Twenty, did not leave their home country to live in Mary Geoise.",
+      "description": "It was the fourth place that the Straw Hat Pirates visited on the Grand Line, the events here resulted in Luffy's bounty being raised to Beli 100,000,000, and Zoro acquiring a bounty of Beli 60,000,000. It is where the poneglyph showing the location of Pluton is located, and one of the twenty founding countries of the World Government. It is ruled by the Nefertari Family, who, unlike the other families of the First Twenty, did not leave their home country to live in Mary Geoise.",
       "ocean": "Paradise (Grand Line)",
       "locations": [{
-        "name": "Alubarna",
-        "description": "It is the capital of Arabasta.",
-        "image":  "http://imagenorigen.webp"
-      },{
-        "name": "Yuba",
-        "description": "Originally built with the purpose of acting as an intersection for the towns and villages of western Arabasta, Yuba was endlessly struck with sandstorms summoned by the leader of Baroque Works, Mr. 0, a.k.a Crocodile, as part of his plan to agitate the country's rebellion forces. It once served as the headquarters of the Arabastan rebel army until they moved to Katorea. Unaware of that, Nefertari Vivi and the Straw Hat Pirates came to this town thinking they could meet with the rebels and stop the civil war.",
-        "image":  "http://imagenorigen.webp"
-      },{
-        "name": "Rainbase",
-        "description": "It served as Baroque Works' main headquarters, operated by the organization's president Crocodile and his partner Miss All Sunday. Rainbase is one of the few cities within the country that continued thriving even during the drought orchestrated by Crocodile, mostly due to its gambling industry. Because of this, it has been referred to as the 'City of Dreams' .",
-        "image":  "http://imagenorigen.webp"
-      }
-        
-
-
-
-
-
+          "name": "Alubarna",
+          "description": "It is the capital of Arabasta.",
+          "image":  "http://imagenorigen.webp"
+        },{
+          "name": "Yuba",
+          "description": "Yuba is a small oasis town in Arabasta where Toto lives.",
+          "image":  "http://imagenorigen.webp"
+        },{
+          "name": "Rainbase",
+          "description": "It is a city located in Arabasta. It served as Baroque Works' main headquarters.",
+          "image":  "http://imagenorigen.webp"
+        },{
+          "name": "Nanohana",
+          "description": "It is a port town in Arabasta.",
+          "image":  "http://imagenorigen.webp"
+        },{
+          "name": "Erumalu",
+          "description": "Once called the Green City, it was a town in Arabasta destroyed by the use of Dance Powder.",
+          "image":  "http://imagenorigen.webp"
+        },{
+          "name": "Katorea",
+          "description": "It is a town in Arabasta.",
+          "image":  "http://imagenorigen.webp"
+        },{
+          "name": "Tamarisk",
+          "description": "It is a port town in Arabasta.",
+          "image":  "http://imagenorigen.webp"
+        },{
+          "name": "Suiren",
+          "description": "It is a town next to Erumalu.",
+          "image":  "http://imagenorigen.webp"
+        }
       ],
       "image": "http://imagenorigen.webp",
       "famousPeople": [
+        "Nerfertari Vivi",
+        "Nerfertari Cobra",
+        "Crocodile"
+      ]
+    },{
+      "id": 57,
+      "name": "Renaisse",
+      "description": "It is a location somewhere in Paradise, where Mr.11 was captured by Smoker.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 58,
+      "name": "Lulusia Kingdom",
+      "description": "It was a kingdom in Paradise, destoyed by the World Government using an Ancient Weapon.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 59,
+      "name": "Jaya",
+      "description": "It was the homeland of the Shandia.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [{
+        "name": "Mock town",
+        "description": "It is a town in Jaya where the Straw Hat Pirates visited.",
+        "image": "http://imagenorigen.webp"
+      },{
+        "name": "Shandora",
+        "description": "It was a city in Jaya where the Shandia lived.",
+        "image": "http://imagenorigen.webp"
+      }
+    ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Mont Blanc Cricket",
+        "Kalgara",
+        "Mousse"
+      ]
+    },{
+      "id": 60,
+      "name": "Long Ring Long Land",
+      "description": "It is an archipelago in Paradise.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Tonjit",
+        "Shelly"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Ukkari Hot-Spring Island",
+      "description": "It is an island in Paradise.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [
+    ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Goro",
+        "Dirt Boss"
+      ]
+    },{
+      "id": 62,
+      "name": "Water 7",
+      "description": "It is the seventh island that the Straw Hat Pirates visited on the Grand Line. It is a water metropolis that was built on top of a city that sank into the ocean.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [{
+        "name": "Tsui Village",
+        "description": "It is a village in Water 7.",
+        "image": "http://imagenorigen.webp"
+      }
+    ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Iceburg",
+        "Franky",
+        "Tom"
+      ]
+    },{
+      "id": 63,
+      "name": "Scrap Island",
+      "description": "It's made up of the wrecked remains of hundreds of abandoned ships. It is connected to Water 7 by a large stone bridge",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 64,
+      "name": "St. Poplar",
+      "description": "It is an island in Paradise connected to Water 7 and Eneis Lobby via the Sea Train.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    },
+    {
+      "id": 65,
+      "name": "San Faldo",
+      "description": "It is known as the Carnival Town, it's connected via Sea Train.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 66,
+      "name": "Pucci",
+      "description": "It is one of the island cities in Paradise connected via Sea Train, also known as 'The Gourmet City'",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [
+    ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+       
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Ennies Lobby",
+      "description": "It is the island that houses the World Government's judicial island, where criminals are tried and sentenced.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Chief Justice And",
+        "Judge Jorge",
+        "CP9"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Banaro Island",
+      "description": "It is an island that was ransacked by Blackbeard.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 69,
+      "name": "Florian Triangle",
+      "description": "It is a sea in Paradise where ships are said to disappear without a trace. Gecko Moria previously resided here.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [{
+        "name": "Thriller Bark",
+        "description": "It is a massive ship that serves as an island.",
+        "image": "http://imagenorigen.webp"
+      }
+    ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 70,
+      "name": "Sabaody Archipelago",
+      "description": "It is the final island in Paradise, close to the Red Line. Though it is called an archipelago, it is actually a massive mangrove",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Silvers Rayleigh",
+        "Shakuyaku",
+        "Disco"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "G-2",
+      "description": "It is a marine base located north-east of Lulusia Kingdom.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 72,
+      "name": "Karakuri Island",
+      "description": "It's an island somewhere in Paradise. Franky spent to years here after Kuma sent him here",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Kitton's Grandfather",
+        "Tsumiki",
+        "Kitton"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Momoiro Island",
+      "description": "Island located near Lulusia Kingdom. It is home to the Kamabakka Kingdom.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Emporio Ivankov",
+        "Inazuma",
+        "Tibany"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Boin Archipelago",
+      "description": "It is an archipelago in Paradise. Ussop was sent here by Kuma.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Heracles"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Namakaru Island",
+      "description": "It is an island in Paradise where Brook was sent by Kuma.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [{
+        "name": "Harahettania",
+        "description": "It is a town in Namakura Island.",
+        "image": "http://imagenorigen.webp"
+      }],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Kuraigana Island",
+      "description": "It is an island in Paradise where Zoro was sent by Kuma. It the former residence of Dracule Mihawk.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Dracule Mihawk",
+        "Humandrills",
+        "Perona"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Kenzan Island",
+      "description": "Is an island somewhere in Paradise.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Foolshout Island",
+      "description": "It is an island in Paradise where Koala's hometown is located.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [
+    ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Koala",
+        "Muti",
+        "Strawberry"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Guanhao",
+      "description": "Is an island in Paradise where the World Government organized a training camp for future Cipher Pol agents.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [{
+        "name": "Mock town",
+        "description": "It is a town in Jaya where the Straw Hat Pirates visited.",
+        "image": "http://imagenorigen.webp"
+      },{
+        "name": "Shandora",
+        "description": "It was a city in Jaya where the Shandia lived.",
+        "image": "http://imagenorigen.webp"
+      }
+    ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Rob Lucci",
+        "Kalifa",
+        "Kaku"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Marineford",
+      "description": "It was the headquarters of the Marines and the location of the Marine Headquarters. It was the location of the Battle of Marineford and where Ace died.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 81,
+      "name": "G-1",
+      "description": "It is a marine base located in Paradise.",
+      "ocean": "Paradise (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Vice Admiral Momonga",
+        "Zotto",
+        "Stalker"
       ]
     }
 
-
     
-
 
 ]
