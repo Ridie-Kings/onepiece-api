@@ -64,7 +64,7 @@ export const Card = ({ character }) => {
                     transform: "translateZ(75px)",
                     transformStyle: "preserve-3d",
                 }}
-                className="absolute inset-4 grid place-content-center justify-items-center	 rounded-xl shadow-lg"
+                className="absolute inset-4 grid place-content-center rounded-xl shadow-lg"
             >
                 <img
                     src="./images/poster.png"
@@ -92,10 +92,10 @@ export const Card = ({ character }) => {
                 />
                 <motion.div
                     style={{ transform: 'translateY(35px)' }}
-                    className='w-[90%] relative flex flex-col justify-center gap-2 text-[#4d2a24] z-10 opacity-85'
+                    className='w-full relative flex flex-col justify-center gap-2 text-[#4d2a24] z-10 opacity-85'
                 >
                     <h2
-                        className="text-2xl font-bold tracking-widest truncate text-center uppercase w-full"
+                        className="text-2xl tracking-wide font-bold text-center uppercase w-full"
                         style={{ transform: 'scaleY(3)' }}
                     >
                         {character.name.toUpperCase()}
