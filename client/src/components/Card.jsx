@@ -95,8 +95,8 @@ export const Card = ({ character }) => {
                     className='w-full relative flex flex-col justify-center gap-2 text-[#4d2a24] z-10 opacity-85'
                 >
                     <h2
-                        className="text-2xl tracking-wide font-bold text-center uppercase w-full"
-                        style={{ transform: 'scaleY(3)' }}
+                        className="text-2xl tracking-normal  font-bold text-center uppercase w-full"
+                        style={{ transform: 'scaleY(3)', letterSpacing: character.name.length >= 16 ? "-0.025em" : "0.025em", fontSize: character.name.length >= 16 ? "1.2rem" : "1.5rem" }}
                     >
                         {character.name.toUpperCase()}
                     </h2>
