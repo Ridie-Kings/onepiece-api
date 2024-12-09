@@ -64,7 +64,7 @@ export const Card = ({ character }) => {
                     transform: "translateZ(75px)",
                     transformStyle: "preserve-3d",
                 }}
-                className="absolute inset-4 grid place-content-center rounded-xl shadow-lg"
+                className="absolute inset-4 grid place-content-center justify-center rounded-xl shadow-lg"
             >
                 <img
                     src="./images/poster.png"
@@ -83,26 +83,25 @@ export const Card = ({ character }) => {
                     />
                 </div>
                 <motion.img
-
                     src={character.image}
                     alt={character.name}
                     style={{
                         opacity: isHover ? 1 : 0,
-                        transform: isHover ? 'scale(0.8) translateZ(50px)' : 'scale(0.7) translateZ(50px)',
+                        transform: isHover ? 'scale(0.8) translateZ(75px)' : 'scale(0.7) translateZ(75px)',
                     }}
                     className="w-full h-full object-contain absolute -top-10 left-0 transition-all  duration-500 z-20"
                 />
                 <motion.div
-                    style={{ transform: 'translateZ(75px) translateY(35px)' }}
-                    className='relative flex flex-col gap-2 text-[#4d2a24] z-10 opacity-85'
+                    style={{ transform: 'translateY(35px)' }}
+                    className='w-[90%] relative flex flex-col justify-center gap-2 text-[#4d2a24] z-10 opacity-85'
                 >
                     <h2
-                        className="text-2xl font-bold tracking-widest text-center uppercase"
+                        className="text-2xl font-bold tracking-widest truncate text-center uppercase w-full"
                         style={{ transform: 'scaleY(3)' }}
                     >
                         {character.name.toUpperCase()}
                     </h2>
-                    <p className="text-red-900 flex flex-row justify-center items-center text-3xl tracking-wider font-bold z-20">
+                    <p className="text-red-900 flex flex-row justify-center items-center text-3xl tracking-wider font-bold z-20 w-full">
                         {character.bounty}
                     </p>
                 </motion.div>
