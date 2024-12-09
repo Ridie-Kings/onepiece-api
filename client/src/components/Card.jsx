@@ -64,7 +64,7 @@ export const Card = ({ character }) => {
                     transform: "translateZ(75px)",
                     transformStyle: "preserve-3d",
                 }}
-                className="absolute inset-4 grid place-content-center justify-center rounded-xl shadow-lg"
+                className="absolute inset-4 grid place-content-center justify-items-center	 rounded-xl shadow-lg"
             >
                 <img
                     src="./images/poster.png"
@@ -72,7 +72,6 @@ export const Card = ({ character }) => {
                     className='absolute w-full h-auto top-0 left-0 object-cover rounded-lg z-10'
                 />
                 <div
-
                     className="flex items-center justify-center relative aspect-[4/3] transition-all duration-300 ease-in-out opacity-100 group-hover:opacity-30 group-hover:scale-110 w-64 h-full"
                 >
                     <img
