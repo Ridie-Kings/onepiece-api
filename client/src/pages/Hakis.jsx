@@ -36,7 +36,15 @@ export const HakisPage = () => {
             </h1>
             <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
                 {hakis.map((haki) => (
-                    <SecondCard item={haki} key={haki.id} height={true}>
+                    <SecondCard
+                        item={haki}
+                        key={haki.id}
+                        height={true}
+                        link={`/hakis/${haki.id}`}
+                        images={[
+                            "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+                            "https://res.cloudinary.com/dgyqcyqty/image/upload/v1731169277/luffy_g8orja.png"
+                        ]} >
                         <div className="space-y-3">
                             <div className="p-2 rounded-lg">
                                 <h3 className="text-lg font-semibold text-black mb-2">Description</h3>

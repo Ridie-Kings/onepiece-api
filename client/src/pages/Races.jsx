@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { LoaderSpinner } from "../components/Loader-Spinner";
-import { Swords } from 'lucide-react';
 import { Container } from "../components/Container";
 import { SecondCard } from "../components/SecondCard";
 
@@ -36,7 +35,10 @@ export const RacesPage = () => {
             </h1>
             <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl px-4 py-12">
                 {races.map((race) => (
-                    <SecondCard item={race} key={race.id} height={false}>
+                    <SecondCard item={race} key={race.id} link={`/races/${race.id}`} images={[
+                        "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+                        "https://images.unsplash.com/photo-1534447677768-be436bb09401"
+                    ]}>
                     </SecondCard>
                 ))}
             </section>
