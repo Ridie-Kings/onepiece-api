@@ -45,9 +45,6 @@ export const Card = ({ character }) => {
         y.set(0);
     };
 
-    // className = "relative  p-6  gap-14 group "
-
-
     return (
         <motion.a
             ref={ref}
@@ -67,7 +64,7 @@ export const Card = ({ character }) => {
                     transform: "translateZ(75px)",
                     transformStyle: "preserve-3d",
                 }}
-                className="absolute inset-4 grid place-content-center rounded-xl shadow-lg"
+                className="absolute inset-4 grid gap-[4.5rem] place-content-center rounded-xl shadow-lg"
             >
                 <img
                     src="./images/poster.png"
@@ -76,13 +73,13 @@ export const Card = ({ character }) => {
                 />
                 <div
 
-                    className="flex items-center justify-center relative aspect-[4/3] transition-all duration-300 ease-in-out opacity-100 group-hover:opacity-30 group-hover:scale-110 w-full h-full"
+                    className="flex items-center justify-center relative aspect-[4/3] transition-all duration-300 ease-in-out opacity-100 group-hover:opacity-30 group-hover:scale-110 w-64 h-full"
                 >
                     <img
 
                         src={character.imagebg}
                         alt={character.name}
-                        className="w-full h-full object-cover absolute "
+                        className="w-full h-full object-cover absolute top-0 left-0"
                     />
                 </div>
                 <motion.img
@@ -91,12 +88,18 @@ export const Card = ({ character }) => {
                     alt={character.name}
                     style={{
                         opacity: isHover ? 1 : 0,
-                        transform: isHover ? 'scale(0.8) translateZ(75px)' : 'scale(0.7) translateZ(75px)',
+                        transform: isHover ? 'scale(0.8) translateZ(50px)' : 'scale(0.7) translateZ(50px)',
                     }}
                     className="w-full h-full object-contain absolute -top-10 left-0 transition-all  duration-500 z-20"
                 />
-                <div className='relative flex flex-col text-[#4d2a24] z-10 opacity-85'>
-                    <h2 className="text-2xl font-bold tracking-widest text-center uppercase">
+                <div
+                    style={{ transform: 'translateZ(75px)' }}
+                    className='relative flex flex-col gap-2 text-[#4d2a24] z-10 opacity-85'
+                >
+                    <h2
+                        className="text-2xl font-bold tracking-widest text-center uppercase"
+                        style={{ transform: 'scaleY(3)' }}
+                    >
                         {character.name.toUpperCase()}
                     </h2>
                     <p className="text-red-900 flex flex-row justify-center items-center text-3xl tracking-wider font-bold z-20">
