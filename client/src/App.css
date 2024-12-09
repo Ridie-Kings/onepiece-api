@@ -6,7 +6,15 @@ body {
   min-height: 100vh;
 }
 
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../public/fonts/Sayyeda.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 #root {
+  font-family: "MyCustomFont";
   min-height: 100vh;
   display: flex;
   flex-direction: column;

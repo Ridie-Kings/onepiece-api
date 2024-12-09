@@ -1,52 +1,112 @@
 import { Link } from "react-router-dom";
+import { useRef } from "react";
+import {
+    motion,
+    useMotionTemplate,
+    useMotionValue,
+    useSpring,
+} from "motion/react";
+
+const ROTATION_RANGE = 32.5;
+const HALF_ROTATION_RANGE = 32.5 / 2;
 export const Card = ({ character }) => {
-    const [isHover, setIsHover] = useState(false);
+    const [isHover, setIsHover] = useState(false)
+    const ref = useRef(null);
+
+    const x = useMotionValue(0);
+    const y = useMotionValue(0);
+
+    const xSpring = useSpring(x);
+    const ySpring = useSpring(y);
+
+    const transform = useMotionTemplate`rotateX(${xSpring}deg) rotateY(${ySpring}deg)`;
+
+    const handleMouseMove = (e) => {
+        setIsHover(true)
+        if (!ref.current) return [0, 0];
+
+        const rect = ref.current.getBoundingClientRect();
+
+        const width = rect.width;
+        const height = rect.height;
+
+        const mouseX = (e.clientX - rect.left) * ROTATION_RANGE;
+        const mouseY = (e.clientY - rect.top) * ROTATION_RANGE;
+
+        const rX = (mouseY / height - HALF_ROTATION_RANGE) * -1;
+        const rY = mouseX / width - HALF_ROTATION_RANGE;
+
+        x.set(rX);
+        y.set(rY);
+    };
+
+    const handleMouseLeave = () => {
+        setIsHover(false)
+        x.set(0);
+        y.set(0);
+    };
+
+    // className = "relative  p-6  gap-14 group "
+
 
     return (
-        <Link
-            to={`/characters/${character.id}`}
+        <motion.a
+            ref={ref}
             relative="path"
-            state={{ character }}
-            className="relative w-[336px] h-[475px] p-6 flex flex-col place-content-evenly gap-14"
-            onMouseEnter={() => setIsHover(true)}
-            onMouseLeave={() => setIsHover(false)}
+
+            to={`/characters/${character.id}`}
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
+            style={{
+                transformStyle: "preserve-3d",
+                transform,
+            }}
+            className="relative w-[336px] h-[475px] group flex flex-col place-content-evenly"
         >
-            <img
-                src="./images/poster.png"
-                alt=""
-                className='absolute w-full h-auto top-0 left-0 object-cover rounded-lg z-10'
-            />
             <div
-                style={{ zIndex: isHover ? 20 : 0  }}
-                className="flex items-center justify-center relative aspect-[4/3]"
-                >
+                style={{
+                    transform: "translateZ(75px)",
+                    transformStyle: "preserve-3d",
+                }}
+                className="absolute inset-4 grid place-content-center rounded-xl shadow-lg"
+            >
                 <img
-                    src={
-                        "https://images.unsplash.com/photo-1534447677768-be436bb09401"
-                    }
-                    alt={character.name}
-                    style={{ opacity: isHover ? 0 : 1, zIndex: isHover ? -20 : 0  }}
-                    className="w-full h-full object-cover absolute top-12"
+                    src="./images/poster.png"
+                    alt=""
+                    className='absolute w-full h-auto top-0 left-0 object-cover rounded-lg z-10'
                 />
-                <img
+                <div
+
+                    className="flex items-center justify-center relative aspect-[4/3] transition-all duration-300 ease-in-out opacity-100 group-hover:opacity-30 group-hover:scale-110 w-full h-full"
+                >
+                    <img
+
+                        src={character.imagebg}
+                        alt={character.name}
+                        className="w-full h-full object-cover absolute "
+                    />
+                </div>
+                <motion.img
+
                     src={character.image}
                     alt={character.name}
-                    style={{ opacity: isHover ? 1 : 0, transform: isHover? 'scale(1.5)' : 'scale(0.8)'  }}
-                    className="w-full h-full object-contain absolute transition-all  duration-500"
+                    style={{
+                        opacity: isHover ? 1 : 0,
+                        transform: isHover ? 'scale(0.8) translateZ(75px)' : 'scale(0.7) translateZ(75px)',
+                    }}
+                    className="w-full h-full object-contain absolute -top-10 left-0 transition-all  duration-500 z-20"
                 />
+                <div className='relative flex flex-col text-[#4d2a24] z-10 opacity-85'>
+                    <h2 className="text-2xl font-bold tracking-widest text-center uppercase">
+                        {character.name.toUpperCase()}
+                    </h2>
+                    <p className="text-red-900 flex flex-row justify-center items-center text-3xl tracking-wider font-bold z-20">
+                        {character.bounty}
+                    </p>
+                </div>
             </div>
-            <div className='relative flex flex-col text-[#4d2a24] z-20 opacity-85'>
-                <p className="flex justify-center items-center text-sm gap-1">
-                    {character.crew?.name || 'No Crew'}
-                </p>
-                <h2 className="text-2xl font-bold tracking-widest text-center uppercase">
-                    {character.name.toUpperCase()}
-                </h2>
-                <p className="text-red-900 flex flex-row justify-center items-center text-3xl tracking-wider font-bold z-20">
-                    {character.bounty}
-                </p>
-            </div>
-        </Link>
+        </motion.a>
+
     );
 };
 
