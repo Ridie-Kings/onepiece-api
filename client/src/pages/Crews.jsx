@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 import { LoaderSpinner } from "../components/Loader-Spinner";
-import { Anchor, Users, Swords } from 'lucide-react';
 import { Container } from "../components/Container";
 import { SecondCard } from "../components/SecondCard";
 
@@ -37,25 +36,15 @@ export const CrewsPage = () => {
             </h1>
             <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 py-12">
                 {crews.map((crew) => (
-                    <SecondCard item={crew} key={crew.id} link={true}>
-                        <div className="p-6">
-                            <div className="flex items-center gap-3 mb-4">
-                                <Anchor className="w-5 h-5 text-red-800" />
-                                <span className="font-semibold">Ship:</span>
-                                <span>{crew.ship || "Unknown"}</span>
-                            </div>
-                            <div className="flex items-center gap-3 mb-4">
-                                <Users className="w-5 h-5 text-red-800" />
-                                <span className="font-semibold">Members:</span>
-                                <span>{crew.members ? crew.members.length : "Unknown"}</span>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <Swords className="w-5 h-5 text-red-800" />
-                                <span className="font-semibold">Total Bounty:</span>
-                                <span>{crew.totalBounty || "Unknown"}</span>
-                            </div>
-                        </div>
-
+                    <SecondCard
+                        item={crew}
+                        key={crew.id}
+                        link={`/crews/${crew.id}`}
+                        images={[
+                            "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+                            crew.flag
+                        ]}
+                    >
                     </SecondCard>
                 ))}
             </section>

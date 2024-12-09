@@ -37,7 +37,14 @@ export const DevilsFruitsPage = () => {
             </h1>
             <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl px-4 py-12">
                 {fruits.map((fruit) => (
-                    <SecondCard item={fruit} key={fruit.id} height={true}>
+                    <SecondCard
+                        item={fruit}
+                        key={fruit.id}
+                        height={true}
+                        images={[
+                            "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+                            "https://images.unsplash.com/photo-1534447677768-be436bb09401"
+                        ]}>
                         <div className="p-6">
                             <div className="flex items-center gap-3">
                                 <Star className="w-5 h-5 text-yellow-600" />
