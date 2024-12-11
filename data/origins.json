@@ -1116,8 +1116,7 @@
       "locations": [],
       "image": "http://imagenorigen.webp",
       "famousPeople": []
-    },
-    {
+    },{
       "id": 81,
       "name": "G-1",
       "description": "It is a marine base located in Paradise.",
@@ -1130,13 +1129,194 @@
         "Stalker"
       ]
     },
+    {
+      "id": 82,
+      "name": "Laugh Tale",
+      "description": "Laugh Tale is the island at the end of the New World which supposedly holds the treasure One Piece. It was named by Gol D. Roger after he and his crew arrived on the island and discovered the treasure left there by Joy Boy. There are four Poneglyphs known as Road Poneglyphs that, when read together, lead to four locations which, if aligned, will lead to Laugh Tale's location.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 83,
+      "name": "Elbaph",
+      "description": "Elbaph is a nation in the New World that is inhabited by giants. Officially, Elbaph Island contains the Warland Kingdom , but the nation is commonly referred to by the general term 'Elbaph'. It is considered to be the strongest country in the world due to its mighty warriors. It was first mentioned during the Little Garden Arc and was a desired destination of both Luffy and Usopp. It was shown for the first time in a flashback during the Whole Cake Island Arc.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "King Harald",
+        "Hajrudin",
+        "Prince Loki"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Hachinosu",
+      "description": "Hachinosu, also known as Pirate Island, is a New World island known to be a 'Pirate Paradise' that is currently occupied by the Blackbeard Pirates. It is said to be where the Davy Back Fight originatedand where the legendary Rocks Pirates were formed. Following the downfall of the Rocks Pirates during the God Valley Incident, the island was ruled by Ochoku until the Rocky Port Incident, where he was ousted by Blackbeard.Blackbeard intends to turn Hachinosu into a World Government-allied nation, under the preliminary name of Blackbeard Kingdom. The island's name comes from the notion that, being an island for pirates, it is so full of them that they may come swarming out like bees with no end.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Marshall D.Teach",
+        "Jesus Burgess",
+        "Avalo Pizarro"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Yukiryu Island",
+      "description": "The Yukiryu Island is a winter island located somewhere in the Grand Line.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 86,
+      "name": "Wano Country",
+      "description": "It was previously occupied by the Beasts Pirates as their territory, under Kaidou, one of the Four Emperors. For a long time it was ruled by the Kouzuki Family, however, the family's usurper, Kurozumi Orochi, conspired to overthrow and supersede their shogunate with the aid of the Beasts Pirates 26 years before the beginning of the story. Upon his betrayal of the Kurozumi Family, Kaidou dubbed the island New Onigashima, as part of his project to transform Wano into a lawless pirate paradise. Kaidou intended for his son Yamato to take over as its shogun, though Yamato had no desire to do so. However, Wano was liberated after the defeats of both Kaidou and Orochi, and the Kouzuki Family was returned to power with Kouzuki Momonosuke as the current shogun. Before departing Wano, Monkey D. Luffy, the man who dethroned Kaidou, gave a copy of his Jolly Roger to Momonosuke to hang somewhere in the country and announced that if big trouble came, to point to the flag, implying that Wano is allied with and under the protection of the Straw Hat Pirates. Hundreds of years ago, Wano was known as the Country of Gold, being once located at sea level. The Ancient Weapon Pluton is currently located under Mt. Fuji, beneath the old Wano Country. First mentioned by Hogback during the Thriller Bark Arc, Wano is the primary setting of the Wano Country Arc.",
+      "ocean": "New World (Grand Line)",
+      "locations": [{
+        "name": "Flower Capital",
+        "description": "Region of Wano Country under the rule of the shogun Kouzuki Momonosuke. It was formerly under the rules of shoguns Kurozumi Orochi and Kouzuki Sukiyaki.",
+        "image": "http://imagenorigen.webp"
+      }],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Kouzuki Sukiyaki",
+        "Kouzuki Oden",
+        "Kouzuki Toki"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Kuri",
+      "description": "It used to be under the rule of the daimyo Kouzuki Oden until the invasion of Beasts Pirates and Kurozumi Orochi. It was ruled by All-Star Jack of the Beasts Pirates until his crew's defeat at the hands of Ninja-Pirate-Mink-Samurai Alliance. It is currently ruled by Daimyo Inuarashi",
+      "ocean": "New world (Grand Line)",
+      "locations": [{
+        "name": "Amigasa Village",
+        "description": " The villagers suffered from starvation and were saved by the arrival of Portgas D. Ace and the Spade Pirates, who gave the villagers their food supply. Following that, Ace befriend the residents and learned from them how to make straw hats. A year ago, the village was destroyed by X Drake under Kaidou's order, taking down the five guardian samurai and leaving the houses in ruins. From the weapons factory built within the vicinity, the river's water was poisoned, and Tama became ill when she drank out of it. While preparing for the Raid on Onigashima, the Ninja-Pirate-Mink-Samurai Alliance would frequently use Amigasa Village as a hideout, and Kin'emon would ultimately make it the alliance's base of operations. Following Kaidou's defeat and Kouzuki Momonosuke's rise to power, Tama and Shinobu returned to Amigasa Village to undergo Tama's kunoichi training.",
+        "image": "http://imagenorigen.webp"
+      },{
+        "name": "Okobore Town",
+        "description": "is a town in Kuri's wasteland and where Tsuru's tea house is located. It is located at the foot of a large Torii opposite of the Bakura Town. It is a poor town, as everything made there is made from leftovers, as well as its residents are leftovers from other poor towns. The residents are also the workforce for the weapons factory in the region. Big Mom was brought here and served oshiruko before setting out to Udon. The town was burned down and destroyed after its citizens accepted the blame for the Nine Red Scabbards stealing more food.",
+        "image": "http://imagenorigen.webp"
+      },{
+        "name": "Bakura Town",
+        "description": "It was populated by many Wano residents; however, once Orochi came into power, he removed those he deemed worthless and only allowed those he deemed essential to remain. As such, the very few civilians left consist of only a few business owners allowed to remain as a means of keeping certain businesses available for the officials. It also has its own firefighter service equipped with a fire bell for quick response. A Great Sumo Wrestler Tournament was held here where the winner who defeats Urashima would be awarded 500 Gold.",
+        "image": "http://imagenorigen.webp"
+      }],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Daimyo Inuarashi",
+        "Daimyo Kouzuki Oden",
+        "Jack"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Udon",
+      "description": "Prior to Shogun Kurozumi Orochi's takeover, the region was ruled by the Uzuki Family, with Uzuki Tempura being its last daimyo. Once they were removed from power and the Beasts Pirates began their occupation, the All-Star Queen became Udon's ruler and transformed it into an industrialized region of weapon factories where the lower-class are forced to work to exhaustion and death.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Queen",
+        "Uzuki Tempura"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Ringo",
+      "description": " The former Daimyo was Shimotsuki Ushimaru of the Shimotsuki Family.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Shimotsuki Ryuma",
+        "Shimotsuki Ushimaru",
+        "Onimaru"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Hakumai",
+      "description": "The former Daimyo was Shimotsuki Yasuie of the Shimotsuki Family. Under Yasuie's leadership, Hakumai was a successful region with a strong armed forced, who protected Wano's only legal port.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Denjiro",
+        "Shimotsuki Yasuie",
+        "Kurozumi Orochi"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Onigashima",
+      "description": " It served as the official base of operations for the Beasts Pirates, including former Emperor Kaidou, the All-Stars, and the Numbers. The island was given its name upon being settled by the Beasts Pirates over 25 years ago. As part of the New Onigashima Project, the island was displaced from its spot at sea by Kaidou using his dragon powers, with the intention of moving it to the Flower Capital. However, thanks to the efforts of the Ninja-Pirate-Mink-Samurai Alliance, the island instead landed safely near the capital. Sometime later, it was moved back to Wano's sea, where it sank down to the sea floor.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Kaidou",
+        "King",
+        "Yamato"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Foodvalten",
+      "description": " Is an island of the New World, which was protected by Whitebeard. ",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 93,
+      "name": "New Marineford",
+      "description": "It formerly contained the Marine Base G-1 until after the Summit War of Marineford, when Fleet Admiral Sakazuki switched the bases' locations.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    {
+      "id": 94,
+      "name": "G-5",
+      "description": " It was first mentioned by Aokiji after the Summit War of Marineford and according to him, it is full of problems. Smoker requested a transfer to this branch in order to 'keep his targets close'.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Smoker",
+        "Vergo",
+        "Tashigi"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Marineford",
+      "description": ". It is where former Fleet Admiral Sengoku and the Admirals resided, along with many Vice Admirals and lower officers when they were not assigned to another base. The city surrounding Marineford was inhabited by the families of Marine soldiers. It is situated near the Sabaody Archipelago and directly next to Mary Geoise on the Red Line. The only safe way to reach Marineford is through the Gates of Justice. However, after the Summit War of Marineford, the location of the Marine Headquarters base of operations was exchanged with that of Marine Base G-1.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },
+    
+
+
+
 
 
 
 
     
     {
-      "id": 150,
+      "id": 120,
       "name": "Baltigo ",
       "description": "Also known as the 'Land/Island of White Soil'.  It was the Headquarters of the Revolutionary Army for years, and the island where Nico Robin spent two years honing her skills. The island's existence was long shrouded in mystery but finally became known to the whole world after its location was leaked. Baltigo was destroyed during an intense battle with the Blackbeard Pirates. Due to the island's destruction, The Revolutionary Army has relocated to Momoiro Island, which is now their new base of operations. ",
       "ocean": "Unkown (Grand Line)",
