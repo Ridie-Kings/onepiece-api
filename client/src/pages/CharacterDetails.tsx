@@ -11,7 +11,6 @@ export const CharacterDetails = () => {
 
   if (!character) return <NotFound />;
 
-
   const handleShowDetail = () => {
     setShowDetails((prev) => !prev);
     setTimeout(() => {
@@ -19,10 +18,8 @@ export const CharacterDetails = () => {
         top: document.body.scrollHeight,
         behavior: "smooth",
       });
-    }, 100)
-
+    }, 100);
   };
-
 
   return (
     <Container>
@@ -47,16 +44,14 @@ export const CharacterDetails = () => {
               Berry
             </p>
             <p>
-              <span className="font-bold">Crew :</span>{" "}
-              {character.crew.name}
+              <span className="font-bold">Crew :</span> {character.crew.name}
             </p>
             <p>
               <span className="font-bold">Capitan :</span>{" "}
               {character.crew.captain}
             </p>
             <p>
-              <span className="font-bold">Ship :</span>{" "}
-              {character.crew.ship}
+              <span className="font-bold">Ship :</span> {character.crew.ship}
             </p>
             <p>
               <span className="font-bold">Origin :</span>{" "}
@@ -73,11 +68,30 @@ export const CharacterDetails = () => {
             </p>
             <p>
               <span className="font-bold">Haki :</span>{" "}
-              {character.haki.map((h) => h.type).join(", ")}
+              {character.haki
+                .map(
+                  (h: {
+                    id: number;
+                    type: string;
+                    name: string;
+                    description: string;
+                    famousUsers: string[];
+                  }) => h.type
+                )
+                .join(", ")}
             </p>
             <p>
               <span className="font-bold">Weapons :</span>{" "}
-              {character.weapons.map((w) => w.name).join(", ")}
+              {character.weapons
+                .map(
+                  (w: {
+                    id: number;
+                    name: string;
+                    description: string;
+                    image: string;
+                  }) => w.name
+                )
+                .join(", ")}
             </p>
           </div>
         </div>
@@ -108,6 +122,3 @@ export const CharacterDetails = () => {
     </Container>
   );
 };
-
-//<main className="w-full flex-1 flex items-center justify-center p-10"></main>
-//<div className="relative w-full max-w-4xl mx-auto"></div>

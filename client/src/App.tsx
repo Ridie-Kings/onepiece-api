@@ -1,16 +1,16 @@
-import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import CharactersPage from './pages/Characters'
-import { CrewsPage } from './pages/Crews'
-import { RacesPage } from './pages/Races'
-import { DevilsFruitsPage } from './pages/DevilsFruits'
-import { HakisPage } from './pages/Hakis'
-import { OriginsPage } from './pages/Origins'
-import { CharacterDetails } from './pages/CharacterDetails'
-import { DocumentationPage } from './pages/Documentation'
-import { CrewDetails } from './pages/CrewDetails'
-import { HomePage } from './pages/HomePage'
-import { NotFound } from './pages/NotFound'
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import CharactersPage from "./pages/Characters";
+import { CrewsPage } from "./pages/Crews";
+import { RacesPage } from "./pages/Races";
+import { DevilsFruitsPage } from "./pages/DevilsFruits";
+import { HakisPage } from "./pages/Hakis";
+import { OriginsPage } from "./pages/Origins";
+import { CharacterDetails } from "./pages/CharacterDetails";
+import { DocumentationPage } from "./pages/Documentation";
+import { CrewDetails } from "./pages/CrewDetails";
+import { HomePage } from "./pages/HomePage";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
@@ -27,10 +27,9 @@ function App() {
         <Route path="/origins" element={<OriginsPage />} />
         <Route path="/documentation" element={<DocumentationPage />} />
         <Route path="*" element={<NotFound />} />
-
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
