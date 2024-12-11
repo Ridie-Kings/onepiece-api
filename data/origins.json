@@ -1129,8 +1129,110 @@
         "Zotto",
         "Stalker"
       ]
-    }
+    },
+
+
+
 
     
-
+    {
+      "id": 150,
+      "name": "Baltigo ",
+      "description": "Also known as the 'Land/Island of White Soil'.  It was the Headquarters of the Revolutionary Army for years, and the island where Nico Robin spent two years honing her skills. The island's existence was long shrouded in mystery but finally became known to the whole world after its location was leaked. Baltigo was destroyed during an intense battle with the Blackbeard Pirates. Due to the island's destruction, The Revolutionary Army has relocated to Momoiro Island, which is now their new base of operations. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Monkey D.Dragon",
+        "Koala",
+        "Hack"
+      ]
+    },{
+      "id": 151,
+      "name": " Vira ",
+      "description": "The government was eventually overthrown by the Revolutionary Army. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 152,
+      "name": " G-3 ",
+      "description": "G-3 is a Marine Base in the Grand Line. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 153,
+      "name": " Bourgeois Kingdom ",
+      "description": "The Bourgeois Kingdom is a kingdom located somewhere in the Grand Line from which Cavendish hails. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 154,
+      "name": " Standing Kingdom ",
+      "description": "The Standing Kingdom is Orlumbus' home nation. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "King of Standing",
+        "Orlumbus",
+        "Columbus"
+      ]
+    },{
+      "id": 155,
+      "name": " Eigis Kingdom  ",
+      "description": "The Eigis Kingdom is a nation somewhere on the Grand Line that is ruled by King Tea IV. The citizens of the kingdom participated in the Eight-Nation Revolution, rebelling against their monarchs. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 156,
+      "name": " Vodka Kingdom ",
+      "description": "The Vodka Kingdom is a World Government affiliated kingdom located in the Grand Line. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "King of Vodka",
+        "Kaidou"
+      ]
+    },{
+      "id": 157,
+      "name": " Aoi Kingdom ",
+      "description": "The Aoi Kingdom was a nation somewhere in the Grand Line where Issho acted as the defensive military chief. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 158,
+      "name": " Shade Port ",
+      "description": "Shade Port is a port on an island located somewhere in the Grand Line. It is where Marshall D. Teach, later the Emperor Blackbeard, was born. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 159,
+      "name": " Porco Kingdom ",
+      "description": "The Porco Kingdom is a nation somewhere in the Grand Line. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 160,
+      "name": " Mt. Kintoki ",
+      "description": "Mt. Kintoki is a mountain on an island somewhere in the Grand Line. It is Sentomaru's place of origin. ",
+      "ocean": "Unkown (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    }
 ]
