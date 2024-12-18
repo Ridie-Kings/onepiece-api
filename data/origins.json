@@ -1465,8 +1465,91 @@
       "famousPeople": [
         "Charlotte Linlin"
       ]
+    },{
+      "id": 97,
+      "name": "Punk Hazard ",
+      "description": "It is the first island the Straw Hat Pirates disembark on (after receiving a distress call from someone on the island) after arriving in the New World. It is the main setting of the Punk Hazard Arc.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Vegapunk",
+        "Caesar Clown",
+        "Monet"
+      ]
+    },{
+      "id": 98,
+      "name": "Raijing Island",
+      "description": "Raijin Island is one of the three islands in the New World which someone has to travel to if they are following their Log Pose after passing through the Red Line via Fish-Man Island.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Kasa"
+      ]
+    },{
+      "id": 99,
+      "name": "Risky Red Island ",
+      "description": "The Risky Red Island is one of the three islands to which one of the needles on the New World Log Pose points after coming from Fish-Man Island, making it one of the first islands in the New World. It was first mentioned by Vice Admiral Smoker.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 100,
+      "name": "Mystoria Island ",
+      "description": "The Mystoria Island is one of the three islands to which one of the needles on the New World Log Pose points after coming from Fish-Man Island, making it one of the first islands in the New World. It was first mentioned by Vice Admiral Smoker. Although it hasn't made an entry to the anime or manga, it has been briefly introduced.",
+      "ocean": "New World (Grand Line)",
+      "locations": [],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": []
+    },{
+      "id": 101,
+      "name": "Dressrosa",
+      "description": "It is one of the twenty kingdoms that founded the World Government.[3] It was first mentioned by Vergo. Dressrosa is the second island visited by the Straw Hat Pirates in the New World and the primary setting of the Dressrosa Arc. Dressrosa is also known as the Land of Love and Passion.",
+      "ocean": "New World (Grand Line)",
+      "locations": [
+        {
+          "name": "Acacia",
+          "description": "Acacia is a port town of Dressrosa.",
+          "image": "http://imagenorigen.webp"
+        },{
+          "name": "Sebio",
+          "description": "It is where Riku Doldo III attacked his own people as he was controlled by Donquixote Doflamingo.",
+          "image": "http://imagenorigen.webp"
+        },{
+          "name": "Carta",
+          "description":"Carta is a port town located at the eastern part of Dressrosa. Kyros's house, where he once lived with Scarlett and a young Rebecca, is located here, atop a flowered hill.",
+          "image": "http://imagenorigen.webp"
+        },{
+          "name": "Primula",
+          "description": "Primula is a town located at the northwestern part of Dressrosa.",
+          "image": "http://imagenorigen.webp"
+        }
+      ],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Riku Doldo III",
+        "Rebecca",
+        "Kiros"
+      ]
+    },{
+      "id": 102,
+      "name": "Green Bit",
+      "description": "Law first mentioned the island when he was speaking to Smoker on Punk Hazard. Its underground is home to the Tontatta Kingdom.",
+      "ocean": "New World (Grand Line)",
+      "locations": [{
+        "name": "Tontatta Kingdom",
+        "description": "The Tontatta Kingdom is a kingdom underneath Green Bit, and home to the Tontatta Tribe, a tribe of dwarves ruled by king Gancho.",
+        "image": "http://imagenorigen.webp"
+      }],
+      "image": "http://imagenorigen.webp",
+      "famousPeople": [
+        "Tonta-Chief Gancho",
+        "Princess Mansherry",
+        "Tonta-Troop Leader Leo"
+      ]
     },
-    
 
 
 
@@ -1474,7 +1557,6 @@
 
 
 
-    
     {
       "id": 120,
       "name": "Baltigo ",
