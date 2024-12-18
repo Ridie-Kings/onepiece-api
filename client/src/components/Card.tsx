@@ -9,6 +9,7 @@ import {
 
 const ROTATION_RANGE = 32.5;
 const HALF_ROTATION_RANGE = 32.5 / 2;
+
 export const Card = ({ character }: { character: CharacterType }) => {
   const [isHover, setIsHover] = useState(false);
   const ref = useRef<HTMLAnchorElement>(null);

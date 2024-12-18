@@ -3,15 +3,20 @@ import { Card } from "../components/Card";
 import { LoaderSpinner } from "../components/Loader-Spinner";
 import { Container } from "../components/Container";
 import { CharacterType } from "../types/interfaces";
+import { useInView } from "react-intersection-observer";
 
 const CharactersPage = () => {
   const [characters, setCharacters] = useState([]);
+  const [limit, setLimit] = useState(6);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [key, isVisible] = useInView();
 
   const fetchCharacters = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/characters");
+      const response = await fetch(
+        `http://localhost:3000/api/characters?limit=${limit}`
+      );
       if (!response.ok) throw new Error("Error al obtener los personajes");
       const data = await response.json();
       setCharacters(data);
@@ -21,10 +26,13 @@ const CharactersPage = () => {
       setLoading(false);
     }
   };
+  useEffect(() => {
+    setLimit((prevLimit) => prevLimit + 3);
+  }, [isVisible]);
 
   useEffect(() => {
     fetchCharacters();
-  }, []);
+  }, [isVisible]);
 
   if (loading) return <LoaderSpinner />;
   if (error) return <div>Error: {error}</div>;
@@ -39,6 +47,9 @@ const CharactersPage = () => {
           <Card key={character.id} character={character} />
         ))}
       </section>
+      <p ref={key} className="text-gray-700 text-center">
+        Loading...
+      </p>
     </Container>
   );
 };
